@@ -1,37 +1,24 @@
 #coding:utf8
 
 import pandas as pd
-import matplotlib.pyplot as plt
 import time,datetime
 import os
+import ssa
 
-import matplotlib as mpl
-mpl.rcParams['font.sans-serif'] = ['SimHei']
-mpl.rcParams['font.serif'] = ['SimHei']
-mpl.rcParams['axes.unicode_minus']=False
+def GetAssets(stockcode):
+    stockname=ssa.get_stockname(stockcode)
+    file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'balancesheet.csv'
+    print (file)
+    df=pd.read_csv(file,index_col=0)
+    s_zzc=df.loc['资产总计'].str.replace(',','').fillna('0').astype(float)/100000000#总资产
+    s_jzc=df.loc['所有者权益(或股东权益)合计'].str.replace(',','').fillna('0').astype(float)/100000000#净资产
+    #print(s_zzc.index.values)
+    #print(s_zzc.values)
+    l_index=list(s_zzc.index.values) #报告期列表
+    l_zzc=list(s_zzc.values) #总资产列表
+    l_jzc=list(s_jzc.values) #净资产列表
+    return l_index,l_zzc,l_jzc
 
-#用于将dataframe的数字型字符串转换成浮点数
-def str_to_float(str):
-    if type(str)==type('ok'):
-        return float(str.replace(',',''))
-    else:
-        return str
-
-
-stockcode=input('请输入股票代码：')
-
-#从stocks.txt中查询股票简称
-stockname=''
-f=open('stocks.txt','r')
-lines=f.readlines()
-for line in lines:
-    if line[-8:-2]==stockcode:
-        stockname=line[:-9].replace('*','')
-        break
-f.close()
-
-#打开利润表和现金流量表
-df_lrb=pd.read_csv(os.getcwd()+'\stock_financial\\'+stockcode+stockname+'incomestatements.csv',index_col=0).fillna('0').applymap(str_to_float)
-df_xjllb=pd.read_csv(os.getcwd()+'\stock_financial\\'+stockcode+stockname+'cashflow.csv',index_col=0).fillna('0').applymap(str_to_float)
-
-print(df_lrb.columns[3])
+if __name__=='__main__':
+    stockcode=input('请输入股票代码:')
+    GetAssets(stockcode)

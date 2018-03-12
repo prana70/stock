@@ -143,7 +143,7 @@ def graduation(OldGraduation):
     elif OldGraduation<=100:
         NewGraduation=OldGraduation/25
     else:
-        NewGraduation=100/25+(OldGraduation-100)/500
+        NewGraduation=100/25+(OldGraduation-100)/10000
     return NewGraduation
 
 #获取供应链地位
