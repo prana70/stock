@@ -1,4 +1,4 @@
-$def with (stockcode,title,labels,data,legend,info0,info1,info2,info3,info4,info5,menu1)
+$def with (stockcode,title,labels,data,legend,info0,info1,info2,info3,info4,info5,menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8)
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -51,7 +51,15 @@ var myChart = new Chart(ctx, {
 </ul>
 <ol>
 <li><a href="/showassets/$stockcode" target="_blank">$menu1</a></li>
-<li><a href="http://www.bing.com" target="_blank">bing</a></li>
+<li><a href="/showassetsstructure/$stockcode" target="_blank">$menu2</a></li>
+<li><a href="/showassetssource/$stockcode" target="_blank">$menu3</a></li>
+<li><a href="/showposition/$stockcode" target="_blank">$menu4</a></li>
+<li><a href="/showreceivablesrate/$stockcode" target="_blank">$menu5</a></li>
+<li><a href="/showinventoryrate/$stockcode" target="_blank">$menu6</a></li>
+<li><a href="/showincomeprofit/$stockcode" target="_blank">$menu7</a></li>
+<li><a href="/showroe/$stockcode" target="_blank">$menu8</a></li>
+
+
 <ol>
 </div>
 </body>

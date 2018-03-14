@@ -10,6 +10,7 @@ import numpy as np
 from intervalue import InterValue as iv
 import matplotlib.pyplot as plt
 import tushare as ts
+import math
 
 
 
@@ -138,12 +139,15 @@ def GetNetInvestmentCashSum(stockcode):
 
 #刻度转换
 def graduation(OldGraduation):
-    if OldGraduation<0:
-        NewGraduation=0
-    elif OldGraduation<=100:
-        NewGraduation=OldGraduation/25
+    if math.isnan(OldGraduation): #判断是否是nan值
+        NewGraduation=5
     else:
-        NewGraduation=100/25+(OldGraduation-100)/10000
+        if OldGraduation<0:
+            NewGraduation=0
+        elif OldGraduation<=100:
+            NewGraduation=OldGraduation/25
+        else:
+            NewGraduation=100/25+(OldGraduation-100)/10000
     return NewGraduation
 
 #获取供应链地位

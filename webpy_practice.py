@@ -10,6 +10,13 @@ type=sys.getdefaultencoding()
 
 urls=(
     '/showassets/(.*)','ShowAssets',
+    '/showassetsstructure/(.*)','ShowAssetsStructure',
+    '/showassetssource/(.*)','ShowAssetsSource',
+    '/showposition/(.*)','ShowPosition',
+    '/showreceivablesrate/(.*)','ShowReceivablesRate',
+    '/showinventoryrate/(.*)','ShowInventoryRate',
+    '/showincomeprofit/(.*)','ShowIncomeProfit',
+    '/showroe/(.*)','ShowROE',
     '/','index',
     )
 
@@ -47,20 +54,103 @@ class index:
         info5='估值：'+str('{:.2f}'.format(InterValue))+'元'
 
         menu1='资产负债情况'
+        menu2='资产结构'
+        menu3='资产来源'
+        menu4='供应链地位'
+        menu5='应收账款比率'
+        menu6='存货比率'
+        menu7='营收情况'
+        menu8='资产收益率'
         
-        return render.stockeval(stockcode,title,labels,data,legend,info0,info1,info2,info3,info4,info5,menu1)
+        return render.stockeval(stockcode,title,labels,data,legend,
+                                info0,info1,info2,info3,info4,info5,
+                                menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8)
 
-class ShowAssets: #显示资产情况
+class ShowAssets: #显示资产负债情况
     def GET(self,stockcode):
         labels,data1,data2=sn.GetAssets(stockcode)
         title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-资产负债情况'
         legend1='总资产'
         legend2='净资产'
-        yAxesLabel='亿元'
+        yAxesLabel='（亿元）'
         render=web.template.render('templates')
         return render.showassets(title,labels,data1,data2,legend1,legend2,yAxesLabel)
         
 
+class ShowAssetsStructure: #显示资产结构
+    def GET(self,stockcode):
+        labels,data=sn.GetAssetsStructure(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-资产结构'
+        print(labels,data)
+        #legend=''
+        yAxesLabel='（亿元）'
+        render=web.template.render('templates')
+        return render.ShowAssetsStructure(title,labels,data,yAxesLabel)
+        
+class ShowAssetsSource: #显示资产来源
+    def GET(self,stockcode):
+        labels,data=sn.GetAssetsSource(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-资产来源'
+        print(labels,data)
+        #legend=''
+        yAxesLabel='（亿元）'
+        render=web.template.render('templates')
+        return render.ShowAssetsSource(title,labels,data,yAxesLabel)
+
+class ShowPosition: #显示供应链地位
+    def GET(self,stockcode):
+        labels,data1,data2=sn.GetPosition(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-供应链地位'
+        legend1='经营性资产'
+        legend2='经营性负债'
+        yAxesLabel='（亿元）'
+        render=web.template.render('templates')
+        return render.ShowPosition(title,labels,data1,data2,legend1,legend2,yAxesLabel)
+
+class ShowReceivablesRate: #显示应收账款比率
+    def GET(self,stockcode):
+        labels,data=sn.GetReceivablesRate(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-应收账款比率'
+        #print(labels,data)
+        #legend=''
+        yAxesLabel='（%）'
+        render=web.template.render('templates')
+        return render.ShowReceivablesRate(title,labels,data,yAxesLabel)
+
+class ShowInventoryRate: #显示存货比率
+    def GET(self,stockcode):
+        labels,data=sn.GetInventoryRate(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-存货比率'
+        #print(labels,data)
+        #legend=''
+        yAxesLabel='（%）'
+        render=web.template.render('templates')
+        if labels==None:
+            return '金融类企业，无法计算存货比率!'
+        else:
+            return render.ShowInventoryRate(title,labels,data,yAxesLabel)
+
+class ShowIncomeProfit: #显示营收情况
+    def GET(self,stockcode):
+        labels,data1,data2=sn.GetIncomeProfit(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-营收情况'
+        legend1='营业收入'
+        legend2='净利润'
+        yAxesLabel='（亿元）'
+        render=web.template.render('templates')
+        return render.ShowIncomeProfit(title,labels,data1,data2,legend1,legend2,yAxesLabel)
+
+class ShowROE: #显示资产收益率
+    def GET(self,stockcode):
+        labels,data1,data2=sn.GetROE(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-资产收益率'
+        legend1='总资产收益率'
+        legend2='净资产收益率'
+        yAxesLabel='（%）'
+        render=web.template.render('templates')
+        return render.ShowROE(title,labels,data1,data2,legend1,legend2,yAxesLabel)
+
+       
 if __name__=='__main__':
     print(type)
     app.run()
