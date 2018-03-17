@@ -1,4 +1,4 @@
-$def with (title,labels,data,yAxesLabel)
+$def with (title,labels,data1,data2,data3,legend1,legend2,legend3,yAxesLabel)
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -11,23 +11,37 @@ $def with (title,labels,data,yAxesLabel)
 <script>
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
-    type: 'line',
+    type: 'bar',
     data: {
         labels:$:labels,
         datasets: [{
-            label: '',
-            data:$data,
-            backgroundColor:'',
-            borderColor:'blue',
+            label: '$legend1',
+            data:$data1,
+            backgroundColor:'red',
+            borderColor:'red',
             borderWidth: 1,
             pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
-        }]
+        },{
+            label: '$legend2',
+            data:$data2,
+            backgroundColor:'green',
+            borderColor:'green',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
+        },{
+            label: '$legend3',
+            data:$data3,
+            backgroundColor:'blue',
+            borderColor:'blue',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
+            }]
     },
     options: {
-        legend: {
-            display: false,
-            },
         scales: {
+            xAxes: [{
+                stacked: false,
+                }],
             yAxes: [{
                 scaleLabel: {
                     display: true,

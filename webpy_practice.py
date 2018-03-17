@@ -17,6 +17,7 @@ urls=(
     '/showinventoryrate/(.*)','ShowInventoryRate',
     '/showincomeprofit/(.*)','ShowIncomeProfit',
     '/showroe/(.*)','ShowROE',
+    '/shownetcashflowsum/(.*)','ShowNetCashFlowSum',
     '/','index',
     )
 
@@ -61,10 +62,11 @@ class index:
         menu6='存货比率'
         menu7='营收情况'
         menu8='资产收益率'
+        menu9='现金流对比'
         
         return render.stockeval(stockcode,title,labels,data,legend,
                                 info0,info1,info2,info3,info4,info5,
-                                menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8)
+                                menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9)
 
 class ShowAssets: #显示资产负债情况
     def GET(self,stockcode):
@@ -150,6 +152,17 @@ class ShowROE: #显示资产收益率
         render=web.template.render('templates')
         return render.ShowROE(title,labels,data1,data2,legend1,legend2,yAxesLabel)
 
+
+class ShowNetCashFlowSum: #显示现金流对比
+    def GET(self,stockcode):
+        labels,data1,data2,data3=sn.GetNetCashFlowSum(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-资产收益率'
+        legend1='经营性现金净额'
+        legend2='筹资性现金净额'
+        legend3='投资性现金净额'
+        yAxesLabel='（亿元）'
+        render=web.template.render('templates')
+        return render.ShowNetCashFlowSum(title,labels,data1,data2,data3,legend1,legend2,legend3,yAxesLabel)
        
 if __name__=='__main__':
     print(type)

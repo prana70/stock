@@ -41,7 +41,7 @@ def get_dataframe(url):
     
 
 filelist=os.listdir(os.getcwd()+'\stock_financial')
-end_period='2017-09-30'
+end_period='2018-03-31'
 i=0
 append_num=0
 not_append_num=0
