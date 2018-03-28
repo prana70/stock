@@ -260,7 +260,7 @@ def ordinary_stock_analyze(stockcode,stockname):
     plt.legend(loc='upper left',frameon=True)
     plt.show()
 
-    #流金流对比
+    #现金流对比
     #print(df6.data)
     s_tzxjje=df6.loc['投资活动产生的现金流量净额']/100000000#投资现金净额
     #以下换算成季度数据
@@ -358,8 +358,8 @@ def ordinary_stock_analyze(stockcode,stockname):
     plt.show()
 
     #投资活动
-    s_tzzfxj=df6.loc['投资支付的现金']/100000000#投资现金净额
-    #投资现金净额换算成季度数据
+    s_tzzfxj=df6.loc['投资支付的现金']/100000000#投资支付的现金
+    #投资支付的现金换算成季度数据
     s_tzzfxj_value=[]
     s_tzzfxj_index=[]
     for i in range(len(s_tzzfxj)):

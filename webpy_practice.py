@@ -18,6 +18,9 @@ urls=(
     '/showincomeprofit/(.*)','ShowIncomeProfit',
     '/showroe/(.*)','ShowROE',
     '/shownetcashflowsum/(.*)','ShowNetCashFlowSum',
+    '/showinvestmentcash/(.*)','ShowInvestmentCash',
+    '/showraisecash/(.*)','ShowRaiseCash',
+    '/showfundholding/(.*)','ShowFundHolding',
     '/','index',
     )
 
@@ -63,10 +66,13 @@ class index:
         menu7='营收情况'
         menu8='资产收益率'
         menu9='现金流对比'
+        menu10='投资活动'
+        menu11='融资活动'
+        menu12='基金持股'
         
         return render.stockeval(stockcode,title,labels,data,legend,
                                 info0,info1,info2,info3,info4,info5,
-                                menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9)
+                                menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9,menu10,menu11,menu12)
 
 class ShowAssets: #显示资产负债情况
     def GET(self,stockcode):
@@ -156,13 +162,43 @@ class ShowROE: #显示资产收益率
 class ShowNetCashFlowSum: #显示现金流对比
     def GET(self,stockcode):
         labels,data1,data2,data3=sn.GetNetCashFlowSum(stockcode)
-        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-资产收益率'
-        legend1='经营性现金净额'
-        legend2='筹资性现金净额'
-        legend3='投资性现金净额'
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-现金流对比'
+        legend1='累积经营性现金净额'
+        legend2='累积筹资性现金净额'
+        legend3='累积投资性现金净额'
         yAxesLabel='（亿元）'
         render=web.template.render('templates')
         return render.ShowNetCashFlowSum(title,labels,data1,data2,data3,legend1,legend2,legend3,yAxesLabel)
+
+class ShowInvestmentCash: #显示投资活动
+    def GET(self,stockcode):
+        labels,data1,data2=sn.GetInvestmentCash(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-投资活动'
+        legend1='投资支付的现金'
+        legend2='购建固定资产、无形资产和其他长期资产支付的现金'
+        yAxesLabel='（亿元）'
+        render=web.template.render('templates')
+        return render.ShowInvestmentCash(title,labels,data1,data2,legend1,legend2,yAxesLabel)
+
+
+class ShowRaiseCash: #显示融资活动
+    def GET(self,stockcode):
+        labels,data1,data2=sn.GetRaiseCash(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-融资活动'
+        legend1='吸收投资收到的现金'
+        legend2='吸收借款收到的现金'
+        yAxesLabel='（亿元）'
+        render=web.template.render('templates')
+        return render.ShowRaiseCash(title,labels,data1,data2,legend1,legend2,yAxesLabel)
+
+class ShowFundHolding: #显示基金持股
+    def GET(self,stockcode):
+        labels,data=sn.GetFundHolding(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-基金持股'
+        yAxesLabel='（家数）'
+        render=web.template.render('templates')
+        return render.ShowFundHolding(title,labels,data,yAxesLabel)
+
        
 if __name__=='__main__':
     print(type)

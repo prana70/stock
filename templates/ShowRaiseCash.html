@@ -1,4 +1,4 @@
-$def with (title,labels,data1,data2,data3,legend1,legend2,legend3,yAxesLabel)
+$def with (title,labels,data1,data2,legend1,legend2,yAxesLabel)
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -17,25 +17,18 @@ var myChart = new Chart(ctx, {
         datasets: [{
             label: '$legend1',
             data:$data1,
-            backgroundColor:'red',
-            borderColor:'red',
+            backgroundColor:'orange',
+            borderColor:'orange',
             borderWidth: 1,
             pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
         },{
             label: '$legend2',
             data:$data2,
-            backgroundColor:'green',
-            borderColor:'green',
-            borderWidth: 1,
-            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
-        },{
-            label: '$legend3',
-            data:$data3,
             backgroundColor:'blue',
             borderColor:'blue',
             borderWidth: 1,
             pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
-            }]
+        }]
     },
     options: {
         scales: {

@@ -402,7 +402,123 @@ def GetNetCashFlowSum(stockcode): #获取累计经营、投资和筹资累计现
     
     return labels,data1,data2,data3
 
+
+def GetInvestmentCash(stockcode): #获取投资、经营性投资支付的现金
+    stockname=ssa.get_stockname(stockcode)
+    file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'cashflow.csv'
+    df6=pd.read_csv(file,index_col=0).fillna('0').applymap(ssa.str_to_float) #之所以是df6,是因为从ssa中复制的代码，为尽量偷懒，故延用
+
+    s_tzzfxj=df6.loc['投资支付的现金']/100000000#投资现金净额
+    #投资现金净额换算成季度数据
+    s_tzzfxj_value=[]
+    s_tzzfxj_index=[]
+    for i in range(len(s_tzzfxj)):
+        if i>0 and  '年度' in s_tzzfxj.index[i] and '1-9月' in s_tzzfxj.index[i-1] and s_tzzfxj.index[i][:5]==s_tzzfxj.index[i-1][:5]:
+            s_tzzfxj_value.append(s_tzzfxj[i]-s_tzzfxj[i-1])
+            s_tzzfxj_index.append(s_tzzfxj.index[i][:5]+'10-12月')
+        elif '1-9月' in s_tzzfxj.index[i] and '1-6月' in s_tzzfxj.index[i-1] and s_tzzfxj.index[i][:5]==s_tzzfxj.index[i-1][:5]:
+            s_tzzfxj_value.append(s_tzzfxj[i]-s_tzzfxj[i-1])
+            s_tzzfxj_index.append(s_tzzfxj.index[i][:5]+'7-9月')
+        elif '1-6月' in s_tzzfxj.index[i] and '1-3月' in s_tzzfxj.index[i-1] and s_tzzfxj.index[i][:5]==s_tzzfxj.index[i-1][:5]:
+            s_tzzfxj_value.append(s_tzzfxj[i]-s_tzzfxj[i-1])
+            s_tzzfxj_index.append(s_tzzfxj.index[i][:5]+'4-6月')
+        else:
+            s_tzzfxj_value.append(s_tzzfxj[i])
+            s_tzzfxj_index.append(s_tzzfxj.index[i])
+    s_tzzfxj_new=pd.Series(s_tzzfxj_value,index=s_tzzfxj_index)
+    s_tzzfxj_new.name=s_tzzfxj.name
+
+    s_jytzxj=df6.loc['购建固定资产、无形资产和其他长期资产支付的现金']/100000000#经营投资现金
+    s_jytzxj_value=[]
+    s_jytzxj_index=[]
+    for i in range(len(s_jytzxj)):
+        if i>0 and  '年度' in s_jytzxj.index[i] and '1-9月' in s_jytzxj.index[i-1] and s_jytzxj.index[i][:5]==s_jytzxj.index[i-1][:5]:
+            s_jytzxj_value.append(s_jytzxj[i]-s_jytzxj[i-1])
+            s_jytzxj_index.append(s_jytzxj.index[i][:5]+'10-12月')
+        elif '1-9月' in s_jytzxj.index[i] and '1-6月' in s_jytzxj.index[i-1] and s_jytzxj.index[i][:5]==s_jytzxj.index[i-1][:5]:
+            s_jytzxj_value.append(s_jytzxj[i]-s_jytzxj[i-1])
+            s_jytzxj_index.append(s_jytzxj.index[i][:5]+'7-9月')
+        elif '1-6月' in s_jytzxj.index[i] and '1-3月' in s_jytzxj.index[i-1] and s_jytzxj.index[i][:5]==s_jytzxj.index[i-1][:5]:
+            s_jytzxj_value.append(s_jytzxj[i]-s_jytzxj[i-1])
+            s_jytzxj_index.append(s_jytzxj.index[i][:5]+'4-6月')
+        else:
+            s_jytzxj_value.append(s_jytzxj[i])
+            s_jytzxj_index.append(s_jytzxj.index[i])
+    s_jytzxj_new=pd.Series(s_jytzxj_value,index=s_jytzxj_index)
+    s_jytzxj_new.name=s_jytzxj.name
+
+    #数据整理
+    labels=list(s_jytzxj_new.index.values) #x轴标签
+    data1=list(s_tzzfxj_new.values) #投资支付的现金
+    data2=list(s_jytzxj_new.values) #购建固定资产、无形资产和其他长期资产支付的现金
+    
+    return labels,data1,data2
+    
+
+def GetRaiseCash(stockcode): #获取筹资、借款收到的现金
+    stockname=ssa.get_stockname(stockcode)
+    file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'cashflow.csv'
+    df6=pd.read_csv(file,index_col=0).fillna('0').applymap(ssa.str_to_float) #之所以是df6,是因为从ssa中复制的代码，为尽量偷懒，故延用
+
+    s_xstzsdxj=df6.loc['吸收投资收到的现金']/100000000#吸收投资收到的现金
+    #吸收投资收到的现金换算成季度数据
+    s_xstzsdxj_value=[]
+    s_xstzsdxj_index=[]
+    for i in range(len(s_xstzsdxj)):
+        if i>0 and  '年度' in s_xstzsdxj.index[i] and '1-9月' in s_xstzsdxj.index[i-1] and s_xstzsdxj.index[i][:5]==s_xstzsdxj.index[i-1][:5]:
+            s_xstzsdxj_value.append(s_xstzsdxj[i]-s_xstzsdxj[i-1])
+            s_xstzsdxj_index.append(s_xstzsdxj.index[i][:5]+'10-12月')
+        elif '1-9月' in s_xstzsdxj.index[i] and '1-6月' in s_xstzsdxj.index[i-1] and s_xstzsdxj.index[i][:5]==s_xstzsdxj.index[i-1][:5]:
+            s_xstzsdxj_value.append(s_xstzsdxj[i]-s_xstzsdxj[i-1])
+            s_xstzsdxj_index.append(s_xstzsdxj.index[i][:5]+'7-9月')
+        elif '1-6月' in s_xstzsdxj.index[i] and '1-3月' in s_xstzsdxj.index[i-1] and s_xstzsdxj.index[i][:5]==s_xstzsdxj.index[i-1][:5]:
+            s_xstzsdxj_value.append(s_xstzsdxj[i]-s_xstzsdxj[i-1])
+            s_xstzsdxj_index.append(s_xstzsdxj.index[i][:5]+'4-6月')
+        else:
+            s_xstzsdxj_value.append(s_xstzsdxj[i])
+            s_xstzsdxj_index.append(s_xstzsdxj.index[i])
+    s_xstzsdxj_new=pd.Series(s_xstzsdxj_value,index=s_xstzsdxj_index)
+    s_xstzsdxj_new.name=s_xstzsdxj.name
+
+    s_qdjksdxj=df6.loc['取得借款收到的现金']/100000000#吸收借款收到的现金
+    #吸收借款收到的现金换算成季度数据
+    s_qdjksdxj_value=[]
+    s_qdjksdxj_index=[]
+    for i in range(len(s_qdjksdxj)):
+        if i>0 and  '年度' in s_qdjksdxj.index[i] and '1-9月' in s_qdjksdxj.index[i-1] and s_qdjksdxj.index[i][:5]==s_qdjksdxj.index[i-1][:5]:
+            s_qdjksdxj_value.append(s_qdjksdxj[i]-s_qdjksdxj[i-1])
+            s_qdjksdxj_index.append(s_qdjksdxj.index[i][:5]+'10-12月')
+        elif '1-9月' in s_qdjksdxj.index[i] and '1-6月' in s_qdjksdxj.index[i-1] and s_qdjksdxj.index[i][:5]==s_qdjksdxj.index[i-1][:5]:
+            s_qdjksdxj_value.append(s_qdjksdxj[i]-s_qdjksdxj[i-1])
+            s_qdjksdxj_index.append(s_qdjksdxj.index[i][:5]+'7-9月')
+        elif '1-6月' in s_qdjksdxj.index[i] and '1-3月' in s_qdjksdxj.index[i-1] and s_qdjksdxj.index[i][:5]==s_qdjksdxj.index[i-1][:5]:
+            s_qdjksdxj_value.append(s_qdjksdxj[i]-s_qdjksdxj[i-1])
+            s_qdjksdxj_index.append(s_qdjksdxj.index[i][:5]+'4-6月')
+        else:
+            s_qdjksdxj_value.append(s_qdjksdxj[i])
+            s_qdjksdxj_index.append(s_qdjksdxj.index[i])
+    s_qdjksdxj_new=pd.Series(s_qdjksdxj_value,index=s_qdjksdxj_index)
+    s_qdjksdxj_new.name=s_qdjksdxj.name
+
+    #整理数据
+    labels=list(s_xstzsdxj_new.index.values)
+    data1=list(s_xstzsdxj_new.values) #吸收投资收到的现金
+    data2=list(s_qdjksdxj_new.values) #吸收借款收到的现金
+    
+    return labels,data1,data2
+
+
+def GetFundHolding(stockcode): #获取基金持股
+    stockname=ssa.get_stockname(stockcode)
+    df7=pd.read_csv(os.getcwd()+'\\fund_holdings\\'+stockcode+stockname+'.csv',index_col=1).fillna('0').applymap(ssa.str_to_float) #因尽量偷懒，df7延用复制代码
+    df8=df7.sort_index()
+    s_cgjs=df8['持股基金家数'] #持股家数
+    labels=list(s_cgjs.index.values) #x轴标签
+    data=list(s_cgjs.values) #基金持股
+    return labels,data
+
+
     
 if __name__=='__main__':
     stockcode=input('请输入股票代码:')
-    print(GetNetCashFlowSum(stockcode))
+    print(GetFundHolding(stockcode))
