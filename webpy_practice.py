@@ -5,6 +5,7 @@ import stockeval as se
 import ssa
 import ssa_new as sn
 import sys
+import InstitutionalPerspective as ip
 type=sys.getdefaultencoding()
 
 
@@ -21,6 +22,7 @@ urls=(
     '/showinvestmentcash/(.*)','ShowInvestmentCash',
     '/showraisecash/(.*)','ShowRaiseCash',
     '/showfundholding/(.*)','ShowFundHolding',
+    '/showinstitutionalperspective/(.*)','ShowInstitutionalPerspective',
     '/','index',
     )
 
@@ -69,10 +71,11 @@ class index:
         menu10='投资活动'
         menu11='融资活动'
         menu12='基金持股'
+        menu13='机构评分'
         
         return render.stockeval(stockcode,title,labels,data,legend,
                                 info0,info1,info2,info3,info4,info5,
-                                menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9,menu10,menu11,menu12)
+                                menu1,menu2,menu3,menu4,menu5,menu6,menu7,menu8,menu9,menu10,menu11,menu12,menu13)
 
 class ShowAssets: #显示资产负债情况
     def GET(self,stockcode):
@@ -198,6 +201,15 @@ class ShowFundHolding: #显示基金持股
         yAxesLabel='（家数）'
         render=web.template.render('templates')
         return render.ShowFundHolding(title,labels,data,yAxesLabel)
+
+class ShowInstitutionalPerspective: #显示月度机构对股票的评分
+    def GET(self,stockcode):
+        labels,data=ip.GetInstitutionalPerspective(stockcode)
+        title=ssa.get_stockname(stockcode)+'（%s）'%stockcode+'-机构评分'
+        yAxesLabel='（得分）'
+        render=web.template.render('templates')
+        return render.ShowInstitutionalPerspective(title,labels,data,yAxesLabel)
+        
 
        
 if __name__=='__main__':
