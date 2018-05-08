@@ -1,4 +1,4 @@
-#coding:utf8
+# coding:utf8
 
 from bs4 import BeautifulSoup as bs
 import pandas as pd
@@ -7,151 +7,148 @@ import os
 import requests as rq
 
 
-
-#调取指定巨潮信息网页的数据，调取成功则整理加入一个dataframe返回，不成功返回None.
+# 调取指定巨潮信息网页的数据，调取成功则整理加入一个dataframe返回，不成功返回None.
 def get_dataframe(url):
     try:
-        hd={'User-Agent':'Mozilla/5.0'}
-        resp=rq.post(url,headers=hd,timeout=9)
-        soup=bs(resp.text,'html.parser')
-        main_div=soup.find('div',class_='clear')
+        hd = {'User-Agent': 'Mozilla/5.0'}
+        resp = rq.post(url, headers=hd, timeout=9)
+        soup = bs(resp.text, 'html.parser')
+        main_div = soup.find('div', class_='clear')
         if 'balancesheet' in url:
-            sub_tags=main_div.find_all('div')
+            sub_tags = main_div.find_all('div')
         else:
-            sub_tags=main_div.find_all('td')
-        item=[]
-        data=[]
-        i=0
+            sub_tags = main_div.find_all('td')
+        item = []
+        data = []
+        i = 0
         for sub_tag in sub_tags:
-            if i>1:
-                if i%2==0:
+            if i > 1:
+                if i % 2 == 0:
                     item.append(sub_tag.string.strip())
                 else:
                     data.append(sub_tag.string.strip())
-            i+=1
-        dataset=list(zip(item,data))
-        df=pd.DataFrame(data=dataset)
-        df.to_csv('ls.csv',index=False,header=False,encoding='utf8')
-        new_df=pd.read_csv('ls.csv')
+            i += 1
+        dataset = list(zip(item, data))
+        df = pd.DataFrame(data=dataset)
+        df.to_csv('ls.csv', index=False, header=False, encoding='utf8')
+        new_df = pd.read_csv('ls.csv')
         os.remove('ls.csv')
         return new_df
     except:
         return None
 
-    
 
-filelist=os.listdir(os.getcwd()+'\stock_financial')
-end_period='2018-03-31'
-i=0
-append_num=0
-not_append_num=0
-fail_get_num=0
+filelist = os.listdir(os.getcwd() + '\\stock_financial')
+end_period = '2018-12-31'
+i = 0
+append_num = 0
+not_append_num = 0
+not_append_num = 0
+fail_get_num = 0
 for file in filelist:
-    i+=1
-    stockcode=file[0:6]
-    print(i,stockcode)
-    df1=pd.read_csv(os.getcwd()+'\stock_financial\\'+file)
-    #获取应添加的下一期的年月日
+    i += 1
+    stockcode = file[0:6]
+    print(i, stockcode)
+    df1 = pd.read_csv(os.getcwd() + '\stock_financial\\' + file)
+    # 获取应添加的下一期的年月日
     if 'balancesheet' in file:
         if '-12-31' in df1.columns[-1]:
-            yyyy=str(int(df1.columns[-1][0:4])+1)
-            mm='-03-31'
+            yyyy = str(int(df1.columns[-1][0:4]) + 1)
+            mm = '-03-31'
         elif '-03-31' in df1.columns[-1]:
-            yyyy=df1.columns[-1][0:4]
-            mm='-06-30'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-06-30'
         elif '-06-30' in df1.columns[-1]:
-            yyyy=df1.columns[-1][0:4]
-            mm='-09-30'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-09-30'
         else:
-            yyyy=df1.columns[-1][0:4]
-            mm='-12-31'
-        start_period=yyyy+mm
-        cwzb='balancesheet'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-12-31'
+        start_period = yyyy + mm
+        cwzb = 'balancesheet'
     elif 'incomestatements' in file:
         if '年度' in df1.columns[-1]:
-            yyyy=str(int(df1.columns[-1][0:4])+1)
-            mm='-03-31'
+            yyyy = str(int(df1.columns[-1][0:4]) + 1)
+            mm = '-03-31'
         elif '1-3月' in df1.columns[-1]:
-            yyyy=df1.columns[-1][0:4]
-            mm='-06-30'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-06-30'
         elif '1-6月' in df1.columns[-1]:
-            yyyy=df1.columns[-1][0:4]
-            mm='-09-30'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-09-30'
         else:
-            yyyy=df1.columns[-1][0:4]
-            mm='-12-31'
-        start_period=yyyy+mm
-        cwzb='incomestatements'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-12-31'
+        start_period = yyyy + mm
+        cwzb = 'incomestatements'
     else:
         if '年度' in df1.columns[-1]:
-            yyyy=str(int(df1.columns[-1][0:4])+1)
-            mm='-03-31'
+            yyyy = str(int(df1.columns[-1][0:4]) + 1)
+            mm = '-03-31'
         elif '1-3月' in df1.columns[-1]:
-            yyyy=df1.columns[-1][0:4]
-            mm='-06-30'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-06-30'
         elif '1-6月' in df1.columns[-1]:
-            yyyy=df1.columns[-1][0:4]
-            mm='-09-30'
+            yyyy = df1.columns[-1][0:4]
+            mm = '-09-30'
         else:
-            yyyy=df1.columns[-1][0:4]
-            mm='-12-31'
-        start_period=yyyy+mm
-        cwzb='cashflow'
-    print('本地数据截止：',df1.columns[-1],cwzb)
-    print('拟添加：',start_period,cwzb)
-    if start_period<=end_period and start_period>='2016-03-31':#如果应添加的下一期小于或等于截止期，大于等于'2016-03-31'，则添加数据
-        url='http://www.cninfo.com.cn/information/stock/'+cwzb+'_.jsp?stockCode='+stockcode+'&yyyy='+str(yyyy)+'&mm='+mm
+            yyyy = df1.columns[-1][0:4]
+            mm = '-12-31'
+        start_period = yyyy + mm
+        cwzb = 'cashflow'
+    print('本地数据截止：', df1.columns[-1], cwzb)
+    print('拟添加：', start_period, cwzb)
+    if start_period <= end_period and start_period >= '2016-03-31':  # 如果应添加的下一期小于或等于截止期，大于等于'2016-03-31'，则添加数据
+        url = 'http://www.cninfo.com.cn/information/stock/' + cwzb + '_.jsp?stockCode=' + stockcode + '&yyyy=' + str(
+            yyyy) + '&mm=' + mm
         print(url)
-        df2=get_dataframe(url)
-        if type(df2)!=type(None):
-            df3=pd.merge(df1,df2)
-            df3.to_csv(os.getcwd()+'\stock_financial\\'+file,encoding='utf8',index=False)
-            append_num+=1
+        df2 = get_dataframe(url)
+        if type(df2) != type(None):
+            df3 = pd.merge(df1, df2)
+            df3.to_csv(os.getcwd() + '\stock_financial\\' + file, encoding='utf8', index=False)
+            append_num += 1
             print('添加数据成功！')
         else:
-            url='http://www.cninfo.com.cn/information/stock/'+cwzb+'_.jsp?stockCode='+stockcode
+            url = 'http://www.cninfo.com.cn/information/stock/' + cwzb + '_.jsp?stockCode=' + stockcode
             print(url)
-            df2=get_dataframe(url)
-            if type(df2)!=type(None):
-                if cwzb=='balancesheet':
-                    current_period=df2.columns[-1]
+            df2 = get_dataframe(url)
+            if type(df2) != type(None):
+                if cwzb == 'balancesheet':
+                    current_period = df2.columns[-1]
                 else:
                     if '年度' in df2.columns[-1]:
-                        yyyy=df2.columns[-1][0:4]
-                        mm='-12-31'
+                        yyyy = df2.columns[-1][0:4]
+                        mm = '-12-31'
                     elif '1-3月' in df2.columns[-1]:
-                        yyyy=df2.columns[-1][0:4]
-                        mm='-03-31'
+                        yyyy = df2.columns[-1][0:4]
+                        mm = '-03-31'
                     elif '1-6月' in df2.columns[-1]:
-                        yyyy=df2.columns[-1][0:4]
-                        mm='-06-30'
+                        yyyy = df2.columns[-1][0:4]
+                        mm = '-06-30'
                     else:
-                        yyyy=df2.columns[-1][0:4]
-                        mm='-09-30'
-                    current_period=yyyy+mm
-                print ('当前期数据期间：',current_period)
-                if current_period==start_period:
-                    df3=pd.merge(df1,df2)
-                    df3.to_csv(os.getcwd()+'\stock_financial\\'+file,encoding='utf8',index=False)
-                    append_num+=1
+                        yyyy = df2.columns[-1][0:4]
+                        mm = '-09-30'
+                    current_period = yyyy + mm
+                print('当前期数据期间：', current_period)
+                if current_period == start_period:
+                    df3 = pd.merge(df1, df2)
+                    df3.to_csv(os.getcwd() + '\stock_financial\\' + file, encoding='utf8', index=False)
+                    append_num += 1
                     print('添加数据成功！')
-            else:                
-                fail_get_num+=1
+            else:
+                fail_get_num += 1
                 print('调取巨潮数据失败，请查找原因!')
-    else:#如果应添加的下一期大于截止期，则勿须添加！
-        not_append_num+=1
+    else:  # 如果应添加的下一期大于截止期，则勿须添加！
+        not_append_num += 1
         print('本地数据已是最新，勿须添加！')
-    if i>100000:
+    if i > 100000:
         break
-print('-'*60)
-print('本次添加：',append_num)
-print('本次未添加：',not_append_num)
-print('调取数据失败：',fail_get_num)
+print('-' * 60)
+print('本次添加：', append_num)
+print('本次未添加：', not_append_num)
+print('调取数据失败：', fail_get_num)
 
-
-
-
-#思路：
+# 思路：
 '''
 1、调取文件列表
 2、编历文件列表：
