@@ -163,6 +163,17 @@ def GetTradePosition(stockcode):
     #print (s_jyxfz)
     return s_jyxfz/s_jyxzc
 
+
+#从雪球调取主营业务
+def GetBusiness(stockcode):
+    #stockcode='002456'
+    MarketCode={'600':'SH','601':'SH','603':'SH','000':'SZ','002':'SZ','300':'SZ'}
+    url='https://xueqiu.com/S/'+MarketCode[stockcode[:3]]+stockcode
+    headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'}
+    resp=rq.get(url,headers=headers)
+    soup=bs(resp.text,'html.parser')
+    return soup.find_all('div',attrs={'class':'widget-content'})[1].string
+
 #主程序的copy，方便选股调用
 def GetTotalLevel(stockcode):
     try:
@@ -257,7 +268,7 @@ if __name__=='__main__':
 
 
     #标签及数据
-    labels=np.array(['营收增长','利润成长','股价安全度','运营现金','供应链地位'])
+    labels=np.array(['营收增长','利润成长','安全边际','运营现金','供应链地位'])
     dataLenth=5
     data=np.array([IncomeLevel,GrowthLevel,SecurityLevel,CashLevel,TradePositionLevel])
 

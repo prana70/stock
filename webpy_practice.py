@@ -43,7 +43,7 @@ class index:
         stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(
             web.input().get('stockcode'))
         title = stockname + '（' + stockcode + '）-评估总览'
-        labels = ['营收增长', '利润成长', '股价安全度', '运营现金', '供应链地位']
+        labels = ['营收增长', '利润成长', '安全边际', '运营现金', '供应链地位']
         data = [IncomeLevel, GrowthLevel, SecurityLevel, CashLevel, TradePositionLevel]
         legend = '评分'
 
@@ -60,6 +60,7 @@ class index:
         info4 = '营业收入增长率：' + str('{:.2f}'.format(IncomeGrowth * 100)) + '%'
         InterValue = se.iv(NetProfitGrowth, EPS, 0.07, 15)
         info5 = '估值：' + str('{:.2f}'.format(InterValue)) + '元'
+        info6='业务：'+se.GetBusiness(stockcode)
 
         menu1 = '资产负债情况'
         menu2 = '资产结构'
@@ -76,7 +77,7 @@ class index:
         menu13 = '机构评分'
 
         return render.stockeval(stockcode, title, labels, data, legend,
-                                info0, info1, info2, info3, info4, info5,
+                                info0, info1, info2, info3, info4, info5,info6,
                                 menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12,
                                 menu13)
 
