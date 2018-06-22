@@ -24,11 +24,15 @@ urls = (
     '/showfundholding/(.*)', 'ShowFundHolding',
     '/showinstitutionalperspective/(.*)', 'ShowInstitutionalPerspective',
     '/', 'index',
+    '/hk/','HkIndex',
 )
 
 app = web.application(urls, globals())
 
 
+
+
+#国内股票分析首页
 class index:
     def GET(self):  # 首页
         render = web.template.render('templates')
@@ -225,6 +229,19 @@ class ShowInstitutionalPerspective:  # 显示月度机构对股票的评分
         yAxesLabel = '（得分）'
         render = web.template.render('templates')
         return render.ShowInstitutionalPerspective(title, labels, data, yAxesLabel)
+
+#香港股票分析首页
+class HkIndex:
+    def GET(self):
+        render = web.template.render('templates')
+        title = '数简财经-港股'
+        tip = '请输入股票代码：'
+        button_value = '获取评估'
+        return render.index(title, tip, button_value)
+    def POST(self):
+        return web.input().get('stockcode')+' is ok!'
+
+
 
 
 if __name__ == '__main__':

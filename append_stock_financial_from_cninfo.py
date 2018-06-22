@@ -5,7 +5,23 @@ import pandas as pd
 from pandas import DataFrame
 import os
 import requests as rq
+from datetime import datetime
 
+
+def GetEndPeriod():
+    today = datetime.now().strftime('%Y-%m-%d')
+    # print('today is',today)
+    period0 = str(int(today[:4]) - 1) + '-12-31'
+    period1 = today[:4] + '-03-31'
+    period2 = today[:4] + '-06-30'
+    period3 = today[:4] + '-09-30'
+    EndPeriod = today
+    periods = [period0, period1, period2, period3]
+    for period in periods:
+        if today > period:
+            EndPeriod = period
+    # print('EndPeriod is',EndPeriod)
+    return EndPeriod
 
 # 调取指定巨潮信息网页的数据，调取成功则整理加入一个dataframe返回，不成功返回None.
 def get_dataframe(url):
@@ -39,7 +55,7 @@ def get_dataframe(url):
 
 
 filelist = os.listdir(os.getcwd() + '\\stock_financial')
-end_period = '2018-12-31'
+end_period = GetEndPeriod()
 i = 0
 append_num = 0
 not_append_num = 0
