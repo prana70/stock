@@ -35,7 +35,7 @@ def jyxjje_analyze(file):
         # 计算累计经营现金净额
         s_jyxjje = df.loc['经营活动产生的现金流量净额']
         if len(s_jyxjje) < 5:
-            return None, None, None
+            return None, None
 
         s_jyxjje_value = []
         s_jyxjje_index = []
@@ -67,8 +67,8 @@ def jyxjje_analyze(file):
         s_jyxjje_lj_new.name = s_jyxjje.name
         # print(s_jyxjje_lj_new[-1])
 
-        # 计算累计投资现金净额
-        s_tzxjje = df.loc['投资活动产生的现金流量净额']
+        # 计算累计经营性投资现金净额
+        s_tzxjje = df.loc['购建固定资产、无形资产和其他长期资产支付的现金']
         if len(s_tzxjje) < 5:
             return None, None
 
@@ -100,18 +100,15 @@ def jyxjje_analyze(file):
         s_tzxjje_new.name = s_tzxjje.name
         s_tzxjje_lj_new = pd.Series(s_tzxjje_lj_value, index=s_tzxjje_lj_index)
         s_tzxjje_lj_new.name = s_tzxjje.name
-        # print(s_tzxjje_lj_new[-1])
-        # print(abs(s_jyxjje_lj_new[-1]/s_tzxjje_lj_new[-1]))
 
-        # 计算累计经营现金净额与累计投资现金净额之比（营投比）
-        ytb = abs(s_jyxjje_lj_new[-1] / s_tzxjje_lj_new[-1])
+        # 计算累计自由现金净额
+        s_zyxjje_lj = s_jyxjje_lj_new - s_tzxjje_lj_new
 
-        # 分析累计经营现金净额
-        # print(s_jyxjje_lj_new/max(s_jyxjje_lj_new))
+        # 分析累计自由现金净额
 
-        x = [a for a in range(len(s_jyxjje_lj_new))]
+        x = [a for a in range(len(s_zyxjje_lj))]
         # y=[b for b in s_jyxjje_lj_new]
-        y = s_jyxjje_lj_new / max(abs(s_jyxjje_lj_new)) * 100
+        y = s_zyxjje_lj / max(abs(s_zyxjje_lj)) * 100
 
         # plt.scatter(x,y)
 
@@ -124,32 +121,31 @@ def jyxjje_analyze(file):
         # plt.plot(fx,f1(fx))
 
         # plt.show()
-        return fp1[0], ytb, error(f1, x, y)
+        return fp1[0], error(f1, x, y)
     except:
-        return None, None, None
+        return None, None
 
 
 if __name__ == '__main__':
     filelist = os.listdir(os.getcwd() + '\\stock_financial')
     # print(filelist)
-    f = open(os.getcwd()+'\\stock_pickup\\pickup_stock_by_jyxjje.csv', 'w')
-    f.write('股票代码,股票简称,现金成长系数,营投比,误差,股价安全水平\n')
+    f = open(os.getcwd() + '\\stock_pickup\\pickup_stock_by_zyxjje.csv', 'w')
+    f.write('股票代码,股票简称,现金成长系数,误差,股价安全水平\n')
     i = 0
     for file in filelist:
         if 'cashflow' in file:
             stockcode = file[:6]
             stockname = file[6:-12]
-            xl, ytb, error_ = jyxjje_analyze(file)
+            xl, error_ = jyxjje_analyze(file)
             print(i, stockcode, stockname, xl, error_)
             print('*' * 50)
-            if xl != None: # and xl>0 and ytb>1 and SecurityLevel>=4:
-                if xl>2:
+            if xl != None:
+                if xl > 2:
                     stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(
                         stockcode)  # 取得股价安全水平，超过4为安全
                     if SecurityLevel!=None:
-                        f.write(
-                            str(stockcode) + ',' + stockname + ',' + str(xl) + ',' + str(ytb) + ',' + str(error_) + ',' + str(
-                                SecurityLevel) + '\n')
+                        if SecurityLevel > 4:
+                            f.write(str(stockcode) + ',' + stockname + ',' + str(xl) + ',' + str(error_) + ',' + str(SecurityLevel) + '\n')
             i += 1
         if i > 10000:
             break

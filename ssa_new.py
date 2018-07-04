@@ -9,6 +9,7 @@ from pandas.io.parsers import TextFileReader
 import numpy as np
 #
 import ssa
+import stockeval as se
 
 
 def GetAssets(stockcode):  # 获取历年总资产与净资产
@@ -624,6 +625,126 @@ def GetFundHolding(stockcode):  # 获取基金持股
     return labels, data
 
 
+def GetFreeCashFlowSum(stockcode):  # 获取累计自由现金流
+    stockname = ssa.get_stockname(stockcode)
+    file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'cashflow.csv'
+    df6 = pd.read_csv(file, index_col=0).fillna('0').applymap(ssa.str_to_float)  # 之所以是df6,是因为从ssa中复制的代码，为尽量偷懒，故延用
+
+    s_tzxjje = df6.loc['购建固定资产、无形资产和其他长期资产支付的现金'] / 100000000  # 经营性投资现金支出
+    # 以下换算成季度数据
+    s_tzxjje_value = []
+    s_tzxjje_index = []
+    s_tzxjje_lj_value = []  # 计算累计额
+    s_tzxjje_lj_index = []
+    for i in range(len(s_tzxjje)):
+        if i > 0 and '年度' in s_tzxjje.index[i] and '1-9月' in s_tzxjje.index[i - 1] and s_tzxjje.index[i][:5] == \
+                s_tzxjje.index[i - 1][:5]:
+            s_tzxjje_value.append(s_tzxjje[i] - s_tzxjje[i - 1])
+            s_tzxjje_index.append(s_tzxjje.index[i][:4] + '-12-31')
+        elif '1-9月' in s_tzxjje.index[i] and '1-6月' in s_tzxjje.index[i - 1] and s_tzxjje.index[i][:5] == \
+                s_tzxjje.index[i - 1][:5]:
+            s_tzxjje_value.append(s_tzxjje[i] - s_tzxjje[i - 1])
+            s_tzxjje_index.append(s_tzxjje.index[i][:4] + '-09-30')
+        elif '1-6月' in s_tzxjje.index[i] and '1-3月' in s_tzxjje.index[i - 1] and s_tzxjje.index[i][:5] == \
+                s_tzxjje.index[i - 1][:5]:
+            s_tzxjje_value.append(s_tzxjje[i] - s_tzxjje[i - 1])
+            s_tzxjje_index.append(s_tzxjje.index[i][:4] + '-06-30')
+        else:
+            s_tzxjje_value.append(s_tzxjje[i])
+            s_tzxjje_index.append(s_tzxjje.index[i][:4] + '-03-31')
+        s_tzxjje_lj_value.append(sum(s_tzxjje_value))  # 计算累计额
+        s_tzxjje_lj_index.append(s_tzxjje_index[i])
+    s_tzxjje_new = pd.Series(s_tzxjje_value, index=s_tzxjje_index)
+    s_tzxjje_new.name = s_tzxjje.name
+    s_tzxjje_lj_new = pd.Series(s_tzxjje_lj_value, index=s_tzxjje_lj_index)
+    s_tzxjje_lj_new.name = s_tzxjje.name
+
+
+    s_jyxjje_0 = df6.loc['经营活动产生的现金流量净额'] / 100000000  # 未经年度换算的经营现金净额,因尽量偷懒，复制的ssa中的代码
+    # 以下换算成季度数据
+    s_jyxjje_0_value = []
+    s_jyxjje_0_index = []
+    s_jyxjje_0_lj_value = []  # 计算累计额
+    s_jyxjje_0_lj_index = []
+
+    for i in range(len(s_jyxjje_0)):
+        if i > 0 and '年度' in s_jyxjje_0.index[i] and '1-9月' in s_jyxjje_0.index[i - 1] and s_jyxjje_0.index[i][:5] == \
+                s_jyxjje_0.index[i - 1][:5]:
+            s_jyxjje_0_value.append(s_jyxjje_0[i] - s_jyxjje_0[i - 1])
+            s_jyxjje_0_index.append(s_jyxjje_0.index[i][:4] + '-12-31')
+        elif '1-9月' in s_jyxjje_0.index[i] and '1-6月' in s_jyxjje_0.index[i - 1] and s_jyxjje_0.index[i][:5] == \
+                s_jyxjje_0.index[i - 1][:5]:
+            s_jyxjje_0_value.append(s_jyxjje_0[i] - s_jyxjje_0[i - 1])
+            s_jyxjje_0_index.append(s_jyxjje_0.index[i][:4] + '-09-30')
+        elif '1-6月' in s_jyxjje_0.index[i] and '1-3月' in s_jyxjje_0.index[i - 1] and s_jyxjje_0.index[i][:5] == \
+                s_jyxjje_0.index[i - 1][:5]:
+            s_jyxjje_0_value.append(s_jyxjje_0[i] - s_jyxjje_0[i - 1])
+            s_jyxjje_0_index.append(s_jyxjje_0.index[i][:4] + '-06-30')
+        else:
+            s_jyxjje_0_value.append(s_jyxjje_0[i])
+            s_jyxjje_0_index.append(s_jyxjje_0.index[i][:4] + '-03-31')
+        s_jyxjje_0_lj_value.append(sum(s_jyxjje_0_value))  # 计算累计额
+        s_jyxjje_0_lj_index.append(s_jyxjje_0_index[i])
+
+    s_jyxjje_0_new = pd.Series(s_jyxjje_0_value, index=s_jyxjje_0_index)
+    s_jyxjje_0_new.name = s_jyxjje_0.name
+    s_jyxjje_0_lj_new = pd.Series(s_jyxjje_0_lj_value, index=s_jyxjje_0_lj_index)
+    s_jyxjje_0_lj_new.name = s_jyxjje_0.name
+
+    s_zyxjl_lj=s_jyxjje_0_lj_new-s_tzxjje_lj_new #累计自由现金流
+
+    # 整理数据以便输出
+    labels = list(s_jyxjje_0_lj_new.index.values)  # x刻度
+    data1 = list(s_jyxjje_0_lj_new.values)  # 累计经营性现金净额
+    data2 = list(s_zyxjl_lj.values)  # 累计自由现金流
+
+    return labels, data1, data2
+
+def GetMarketCode(StockCode): #根据股票代码前三位，返回市场代码SH，或者SZ
+    MarketCode = {'600': 'SH', '601': 'SH', '603': 'SH', '000': 'SZ', '002': 'SZ', '300': 'SZ'}
+    return MarketCode[StockCode[:3]]
+
+def GetAveragePE(StockCode): #根据股票代码到亿牛网获取过去10年的平均市盈率
+    url='https://eniu.com/gu/'+GetMarketCode(StockCode)+StockCode
+    dfs=pd.read_html(url)
+    AveragePE=dfs[0]['平均'].mean()
+
+    return AveragePE
+
+def GetProfitCAGR(StockCode): #获取历史净利润(归属于母公司所有者的净利润)复合增长率CAGR
+    stockname = ssa.get_stockname(StockCode)
+    df=pd.read_csv(os.getcwd()+'\\stock_financial\\'+StockCode+stockname+'incomestatements.csv',index_col=0)
+    if '（一）归属于母公司所有者的净利润' in df.index.values:
+        profits=df.loc['（一）归属于母公司所有者的净利润']
+    else:
+        profits=df.loc['归属于母公司所有者的净利润']
+    profits=profits[profits.index.str[-2:]=='年度'].fillna('0').apply(ssa.str_to_float)
+    n=len(profits)-1
+    CAGR=(profits[-1]/profits[0])**(1/n)-1
+    return CAGR
+
+def GetEPS(StockCode): #获取最近一年度的每股收益
+    stockname = ssa.get_stockname(StockCode)
+    df=pd.read_csv(os.getcwd()+'\\stock_financial\\'+StockCode+stockname+'incomestatements.csv',index_col=0)
+    if '（一）归属于母公司所有者的净利润' in df.index.values:
+        profits=df.loc['（一）归属于母公司所有者的净利润']
+    else:
+        profits=df.loc['归属于母公司所有者的净利润']
+    profits=profits[profits.index.str[-2:]=='年度'].fillna('0').apply(ssa.str_to_float)
+    shares = se.GetShares(StockCode)
+    EPS=profits[-1]/shares
+
+    return EPS
+
+
+def GetFutureROI(StockCode): #根据历史平均市盈率、历史净利润复合增长率、当前股价，测算将来10年投资复合收益率
+    FutureEPS=GetEPS(StockCode)*(1+GetProfitCAGR(StockCode))**10
+    FuturePrice=GetAveragePE(StockCode)*FutureEPS
+    FutureROI=(FuturePrice/se.GetStockPrice(StockCode))**(1/10)-1
+
+    return FutureROI
+
+
 if __name__ == '__main__':
     stockcode = input('请输入股票代码:')
-    GetIncomeProfit(stockcode)
+    print(GetFutureROI(stockcode))

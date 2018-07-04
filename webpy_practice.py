@@ -1,11 +1,13 @@
 # coding:utf-8
-
+import pandas as pd
+import os
 import web
 import stockeval as se
 import ssa
 import ssa_new as sn
 import sys
 import InstitutionalPerspective as ip
+import HkStockAnalysis as hsa
 
 type = sys.getdefaultencoding()
 
@@ -19,20 +21,19 @@ urls = (
     '/showincomeprofit/(.*)', 'ShowIncomeProfit',
     '/showroe/(.*)', 'ShowROE',
     '/shownetcashflowsum/(.*)', 'ShowNetCashFlowSum',
+    '/showfreecashflowsum/(.*)', 'ShowFreeCashFlowSum',
     '/showinvestmentcash/(.*)', 'ShowInvestmentCash',
     '/showraisecash/(.*)', 'ShowRaiseCash',
     '/showfundholding/(.*)', 'ShowFundHolding',
     '/showinstitutionalperspective/(.*)', 'ShowInstitutionalPerspective',
     '/', 'index',
-    '/hk/','HkIndex',
+    '/hk/', 'HkIndex',
 )
 
 app = web.application(urls, globals())
 
 
-
-
-#国内股票分析首页
+# 国内股票分析首页
 class index:
     def GET(self):  # 首页
         render = web.template.render('templates')
@@ -64,7 +65,9 @@ class index:
         info4 = '营业收入增长率：' + str('{:.2f}'.format(IncomeGrowth * 100)) + '%'
         InterValue = se.iv(NetProfitGrowth, EPS, 0.07, 15)
         info5 = '估值：' + str('{:.2f}'.format(InterValue)) + '元'
-        info6='业务：'+se.GetBusiness(stockcode)
+        FutureROI=sn.GetFutureROI(stockcode)
+        info6='预期复合投资收益率：'+str('{:.2f}'.format(FutureROI * 100)) + '%'
+        info7 = '业务：' + se.GetBusiness(stockcode)
 
         menu1 = '资产负债情况'
         menu2 = '资产结构'
@@ -79,11 +82,12 @@ class index:
         menu11 = '融资活动'
         menu12 = '基金持股'
         menu13 = '机构评分'
+        menu14='自由现金流对比'
 
         return render.stockeval(stockcode, title, labels, data, legend,
-                                info0, info1, info2, info3, info4, info5,info6,
+                                info0, info1, info2, info3, info4, info5, info6,info7,
                                 menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12,
-                                menu13)
+                                menu13,menu14)
 
 
 class ShowAssets:  # 显示资产负债情况
@@ -160,7 +164,7 @@ class ShowIncomeProfit:  # 显示营收情况
         labels, data1, data2, data3 = sn.GetIncomeProfit(stockcode)
         title = ssa.get_stockname(stockcode) + '（%s）' % stockcode + '-营收情况'
         legend1 = '营业收入'
-        legend2='核心利润'
+        legend2 = '核心利润'
         legend3 = '净利润'
         yAxesLabel = '（亿元）'
         render = web.template.render('templates')
@@ -189,6 +193,16 @@ class ShowNetCashFlowSum:  # 显示现金流对比
         yAxesLabel = '（亿元）'
         render = web.template.render('templates')
         return render.ShowNetCashFlowSum(title, labels, data1, data2, data3, legend1, legend2, legend3, yAxesLabel)
+
+class ShowFreeCashFlowSum:  # 显示自由现金流对比
+    def GET(self, stockcode):
+        labels, data1, data2 = sn.GetFreeCashFlowSum(stockcode)
+        title = ssa.get_stockname(stockcode) + '（%s）' % stockcode + '-自由现金流对比'
+        legend1 = '累积经营性现金净额'
+        legend2 = '累积自由现金流'
+        yAxesLabel = '（亿元）'
+        render = web.template.render('templates')
+        return render.ShowFreeCashFlowSum(title, labels, data1, data2, legend1, legend2, yAxesLabel)
 
 
 class ShowInvestmentCash:  # 显示投资活动
@@ -230,18 +244,39 @@ class ShowInstitutionalPerspective:  # 显示月度机构对股票的评分
         render = web.template.render('templates')
         return render.ShowInstitutionalPerspective(title, labels, data, yAxesLabel)
 
-#香港股票分析首页
+
+# 香港股票分析首页
 class HkIndex:
+    def GetHkStockName(self, StockCode):
+        df = pd.read_csv(os.getcwd() + '\\market_data\\HkStockList.csv', index_col=0)
+        if StockCode in list(df.index.values):
+            return df.loc[StockCode]['股票名称']
+        else:
+            return 'it not work!'
+
     def GET(self):
         render = web.template.render('templates')
         title = '数简财经-港股'
         tip = '请输入股票代码：'
         button_value = '获取评估'
         return render.index(title, tip, button_value)
+
     def POST(self):
-        return web.input().get('stockcode')+' is ok!'
-
-
+        StockCode = web.input().get('stockcode')
+        df, Terms, TotalAsset, NetAsset = hsa.GetHkStockFinancial(StockCode)
+        if Terms != None:
+            StockName= self.GetHkStockName(StockCode)
+            title = StockName+'('+StockCode + ')-分析'
+            legend1 = '总资产'
+            legend2 = '净资产'
+            yAxesLabel = '（亿元）'
+            labels = Terms
+            data1 = TotalAsset
+            data2 = NetAsset
+            render = web.template.render('templates')
+            return render.hkstockanalysis(title, labels, data1, data2, legend1, legend2, yAxesLabel)
+        else:
+            return 'stock data not exist!'
 
 
 if __name__ == '__main__':

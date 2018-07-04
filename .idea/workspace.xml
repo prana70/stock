@@ -2,413 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="368039f4-98a5-4ba9-a882-cd300a19817a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/GetHkStockList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HkStockClassify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StockClassify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HkStockAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pickup_stock_by_zyxjje.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/ShowFreeCashFlowSum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/hkstockanalysis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/append_stock_financial_from_cninfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/append_stock_financial_from_cninfo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/market_data/业绩预测.csv" beforeDir="false" afterPath="$PROJECT_DIR$/market_data/业绩预测.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/300216千山药机balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/300216千山药机balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/300216千山药机cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/300216千山药机cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/300216千山药机incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/300216千山药机incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/300533冰川网络balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/300533冰川网络balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/300561汇金科技incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/300561汇金科技incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/300566激智科技balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/300566激智科技balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600007中国国贸balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600007中国国贸balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600007中国国贸cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600007中国国贸cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600007中国国贸incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600007中国国贸incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600016民生银行balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600016民生银行balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600016民生银行cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600016民生银行cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600016民生银行incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600016民生银行incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600021上海电力balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600021上海电力balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600021上海电力cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600021上海电力cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600021上海电力incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600021上海电力incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600036招商银行balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600036招商银行balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600036招商银行cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600036招商银行cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600036招商银行incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600036招商银行incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600052浙江广厦balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600052浙江广厦balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600052浙江广厦cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600052浙江广厦cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600052浙江广厦incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600052浙江广厦incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600055万东医疗cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600055万东医疗cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600074保千里balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600074保千里balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600074保千里cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600074保千里cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600074保千里incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600074保千里incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600077宋都股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600077宋都股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600077宋都股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600077宋都股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600077宋都股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600077宋都股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600081东风科技balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600081东风科技balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600081东风科技cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600081东风科技cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600081东风科技incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600081东风科技incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600088中视传媒balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600088中视传媒balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600088中视传媒cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600088中视传媒cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600088中视传媒incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600088中视传媒incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600098广州发展balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600098广州发展balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600098广州发展cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600098广州发展cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600098广州发展incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600098广州发展incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600117西宁特钢balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600117西宁特钢balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600117西宁特钢cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600117西宁特钢cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600117西宁特钢incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600117西宁特钢incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600120浙江东方balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600120浙江东方balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600120浙江东方cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600120浙江东方cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600120浙江东方incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600120浙江东方incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600133东湖高新balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600133东湖高新balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600133东湖高新cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600133东湖高新cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600133东湖高新incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600133东湖高新incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600139西部资源balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600139西部资源balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600139西部资源cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600139西部资源cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600139西部资源incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600139西部资源incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600145ST新亿balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600145ST新亿balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600145ST新亿cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600145ST新亿cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600145ST新亿incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600145ST新亿incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600149廊坊发展balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600149廊坊发展balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600149廊坊发展cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600149廊坊发展cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600149廊坊发展incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600149廊坊发展incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600153建发股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600153建发股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600153建发股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600153建发股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600153建发股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600153建发股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600157永泰能源balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600157永泰能源balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600157永泰能源cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600157永泰能源cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600157永泰能源incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600157永泰能源incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600161天坛生物balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600161天坛生物balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600161天坛生物cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600161天坛生物cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600161天坛生物incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600161天坛生物incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600166福田汽车balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600166福田汽车balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600166福田汽车cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600166福田汽车cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600166福田汽车incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600166福田汽车incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600172黄河旋风balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600172黄河旋风balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600172黄河旋风cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600172黄河旋风cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600172黄河旋风incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600172黄河旋风incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600175美都能源balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600175美都能源balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600175美都能源cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600175美都能源cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600175美都能源incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600175美都能源incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600177雅戈尔balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600177雅戈尔balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600177雅戈尔cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600177雅戈尔cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600177雅戈尔incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600177雅戈尔incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600185格力地产balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600185格力地产balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600185格力地产cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600185格力地产cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600185格力地产incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600185格力地产incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600186莲花健康cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600186莲花健康cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600189吉林森工cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600189吉林森工cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600191华资实业balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600191华资实业balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600191华资实业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600191华资实业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600191华资实业incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600191华资实业incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600193创兴资源balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600193创兴资源balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600193创兴资源cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600193创兴资源cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600193创兴资源incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600193创兴资源incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600198大唐电信balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600198大唐电信balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600198大唐电信cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600198大唐电信cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600198大唐电信incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600198大唐电信incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600201生物股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600201生物股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600201生物股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600201生物股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600201生物股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600201生物股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600208新湖中宝cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600208新湖中宝cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600221海航控股balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600221海航控股balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600221海航控股cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600221海航控股cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600221海航控股incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600221海航控股incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600228昌九生化balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600228昌九生化balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600228昌九生化cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600228昌九生化cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600228昌九生化incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600228昌九生化incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600234ST山水balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600234ST山水balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600234ST山水cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600234ST山水cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600234ST山水incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600234ST山水incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600237铜峰电子cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600237铜峰电子cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600241时代万恒balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600241时代万恒balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600241时代万恒cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600241时代万恒cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600241时代万恒incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600241时代万恒incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600246万通地产balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600246万通地产balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600246万通地产cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600246万通地产cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600246万通地产incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600246万通地产incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600247ST成城cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600247ST成城cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600250南纺股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600250南纺股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600250南纺股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600250南纺股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600250南纺股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600250南纺股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600255鑫科材料cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600255鑫科材料cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600257大湖股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600257大湖股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600271航天信息balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600271航天信息balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600271航天信息cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600271航天信息cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600271航天信息incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600271航天信息incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600277亿利洁能balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600277亿利洁能balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600277亿利洁能cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600277亿利洁能cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600277亿利洁能incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600277亿利洁能incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600290华仪电气balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600290华仪电气balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600290华仪电气cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600290华仪电气cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600290华仪电气incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600290华仪电气incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600291西水股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600291西水股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600291西水股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600291西水股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600291西水股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600291西水股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600297广汇汽车balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600297广汇汽车balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600297广汇汽车cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600297广汇汽车cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600297广汇汽车incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600297广汇汽车incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600302标准股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600302标准股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600320振华重工balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600320振华重工balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600320振华重工cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600320振华重工cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600320振华重工incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600320振华重工incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600325华发股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600325华发股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600325华发股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600325华发股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600325华发股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600325华发股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600327大东方balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600327大东方balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600327大东方cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600327大东方cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600327大东方incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600327大东方incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600339ST油工balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600339ST油工balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600339ST油工cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600339ST油工cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600339ST油工incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600339ST油工incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600346恒力股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600346恒力股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600346恒力股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600346恒力股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600346恒力股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600346恒力股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600348阳泉煤业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600348阳泉煤业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600351亚宝药业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600351亚宝药业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600356恒丰纸业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600356恒丰纸业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600382广东明珠balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600382广东明珠balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600382广东明珠cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600382广东明珠cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600382广东明珠incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600382广东明珠incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600383金地集团balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600383金地集团balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600383金地集团cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600383金地集团cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600383金地集团incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600383金地集团incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600387海越股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600387海越股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600387海越股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600387海越股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600387海越股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600387海越股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600390ST金瑞cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600390ST金瑞cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600393粤泰股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600393粤泰股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600401海润光伏balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600401海润光伏balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600401海润光伏cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600401海润光伏cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600401海润光伏incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600401海润光伏incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600421仰帆控股cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600421仰帆控股cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600423柳化股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600423柳化股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600423柳化股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600423柳化股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600423柳化股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600423柳化股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600429三元股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600429三元股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600432ST吉恩balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600432ST吉恩balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600432ST吉恩cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600432ST吉恩cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600432ST吉恩incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600432ST吉恩incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600466蓝光发展balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600466蓝光发展balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600466蓝光发展cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600466蓝光发展cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600466蓝光发展incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600466蓝光发展incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600469风神股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600469风神股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600469风神股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600469风神股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600469风神股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600469风神股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600485信威集团balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600485信威集团balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600485信威集团cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600485信威集团cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600485信威集团incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600485信威集团incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600487亨通光电balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600487亨通光电balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600487亨通光电cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600487亨通光电cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600487亨通光电incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600487亨通光电incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600491龙元建设balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600491龙元建设balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600491龙元建设cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600491龙元建设cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600491龙元建设incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600491龙元建设incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600496精工钢构balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600496精工钢构balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600496精工钢构cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600496精工钢构cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600496精工钢构incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600496精工钢构incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600500中化国际balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600500中化国际balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600500中化国际cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600500中化国际cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600500中化国际incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600500中化国际incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600502安徽水利balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600502安徽水利balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600502安徽水利cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600502安徽水利cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600502安徽水利incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600502安徽水利incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600509天富能源balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600509天富能源balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600509天富能源cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600509天富能源cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600509天富能源incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600509天富能源incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600515海航基础balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600515海航基础balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600515海航基础cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600515海航基础cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600515海航基础incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600515海航基础incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600519贵州茅台balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600519贵州茅台balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600519贵州茅台cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600519贵州茅台cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600519贵州茅台incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600519贵州茅台incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600532宏达矿业balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600532宏达矿业balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600532宏达矿业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600532宏达矿业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600532宏达矿业incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600532宏达矿业incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600543莫高股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600543莫高股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600546ST山煤balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600546ST山煤balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600546ST山煤cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600546ST山煤cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600546ST山煤incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600546ST山煤incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600555海航创新balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600555海航创新balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600555海航创新cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600555海航创新cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600555海航创新incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600555海航创新incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600559老白干酒cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600559老白干酒cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600568中珠医疗balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600568中珠医疗balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600568中珠医疗cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600568中珠医疗cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600568中珠医疗incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600568中珠医疗incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600580卧龙电气balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600580卧龙电气balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600580卧龙电气cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600580卧龙电气cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600580卧龙电气incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600580卧龙电气incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600584长电科技balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600584长电科技balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600584长电科技cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600584长电科技cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600584长电科技incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600584长电科技incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600587新华医疗cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600587新华医疗cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600594益佰制药balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600594益佰制药balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600594益佰制药cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600594益佰制药cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600594益佰制药incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600594益佰制药incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600601方正科技balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600601方正科技balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600601方正科技cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600601方正科技cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600601方正科技incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600601方正科技incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600612老凤祥cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600612老凤祥cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600613神奇制药balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600613神奇制药balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600613神奇制药cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600613神奇制药cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600613神奇制药incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600613神奇制药incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600617国新能源balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600617国新能源balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600617国新能源cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600617国新能源cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600617国新能源incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600617国新能源incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600622嘉宝集团cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600622嘉宝集团cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600626申达股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600626申达股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600626申达股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600626申达股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600626申达股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600626申达股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600629华建集团cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600629华建集团cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600630龙头股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600630龙头股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600630龙头股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600630龙头股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600630龙头股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600630龙头股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600634中技控股balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600634中技控股balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600634中技控股cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600634中技控股cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600634中技控股incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600634中技控股incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600640号百控股cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600640号百控股cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600641万业企业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600641万业企业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600642申能股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600642申能股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600642申能股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600642申能股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600642申能股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600642申能股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600650锦江投资balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600650锦江投资balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600650锦江投资cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600650锦江投资cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600650锦江投资incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600650锦江投资incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600651飞乐音响balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600651飞乐音响balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600651飞乐音响cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600651飞乐音响cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600651飞乐音响incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600651飞乐音响incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600652游久游戏balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600652游久游戏balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600652游久游戏cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600652游久游戏cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600652游久游戏incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600652游久游戏incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600653申华控股cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600653申华控股cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600654ST中安balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600654ST中安balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600654ST中安cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600654ST中安cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600654ST中安incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600654ST中安incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600654中安消balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600654中安消balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600654中安消cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600654中安消cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600654中安消incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600654中安消incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600661新南洋balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600661新南洋balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600661新南洋cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600661新南洋cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600661新南洋incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600661新南洋incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600666奥瑞德balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600666奥瑞德balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600666奥瑞德cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600666奥瑞德cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600666奥瑞德incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600666奥瑞德incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600671天目药业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600671天目药业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600674川投能源cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600674川投能源cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600680上海普天balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600680上海普天balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600680上海普天cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600680上海普天cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600680上海普天incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600680上海普天incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600686金龙汽车balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600686金龙汽车balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600686金龙汽车cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600686金龙汽车cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600686金龙汽车incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600686金龙汽车incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600699均胜电子balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600699均胜电子balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600699均胜电子cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600699均胜电子cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600699均胜电子incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600699均胜电子incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600701工大高新balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600701工大高新balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600701工大高新cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600701工大高新cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600701工大高新incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600701工大高新incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600747大连控股balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600747大连控股balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600747大连控股cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600747大连控股cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600747大连控股incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600747大连控股incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600751天海投资balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600751天海投资balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600751天海投资cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600751天海投资cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600751天海投资incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600751天海投资incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600755厦门国贸balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600755厦门国贸balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600755厦门国贸cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600755厦门国贸cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600755厦门国贸incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600755厦门国贸incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600759洲际油气balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600759洲际油气balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600759洲际油气cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600759洲际油气cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600759洲际油气incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600759洲际油气incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600779水井坊cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600779水井坊cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600783鲁信创投balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600783鲁信创投balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600783鲁信创投cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600783鲁信创投cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600783鲁信创投incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600783鲁信创投incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600791京能置业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600791京能置业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600806ST昆机balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600806ST昆机balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600806ST昆机cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600806ST昆机cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600806ST昆机incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600806ST昆机incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600807天业股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600807天业股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600807天业股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600807天业股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600807天业股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600807天业股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600811东方集团balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600811东方集团balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600811东方集团cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600811东方集团cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600811东方集团incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600811东方集团incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600818中路股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600818中路股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600821津劝业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600821津劝业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600825新华传媒cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600825新华传媒cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600827百联股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600827百联股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600827百联股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600827百联股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600827百联股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600827百联股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600834申通地铁cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600834申通地铁cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600850华东电脑cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600850华东电脑cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600854春兰股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600854春兰股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600891秋林集团balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600891秋林集团balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600891秋林集团cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600891秋林集团cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600891秋林集团incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600891秋林集团incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600894广日股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600894广日股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600895张江高科cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600895张江高科cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600896览海投资cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600896览海投资cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600900长江电力cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600900长江电力cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600936广西广电balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600936广西广电balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600936广西广电cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600936广西广电cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600936广西广电incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600936广西广电incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600960渤海活塞balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600960渤海活塞balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600960渤海活塞cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600960渤海活塞cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600960渤海活塞incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600960渤海活塞incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600967北方创业cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600967北方创业cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600978宜华生活cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600978宜华生活cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600983惠而浦cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600983惠而浦cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600984建设机械cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600984建设机械cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600988赤峰黄金balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600988赤峰黄金balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600988赤峰黄金cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600988赤峰黄金cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/600988赤峰黄金incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/600988赤峰黄金incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601006大秦铁路cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601006大秦铁路cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601021春秋航空cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601021春秋航空cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601058赛轮金宇cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601058赛轮金宇cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601118海南橡胶cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601118海南橡胶cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601139深圳燃气cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601139深圳燃气cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601229上海银行balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601229上海银行balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601229上海银行cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601229上海银行cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601229上海银行incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601229上海银行incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601258庞大集团balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601258庞大集团balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601258庞大集团cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601258庞大集团cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601258庞大集团incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601258庞大集团incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601328交通银行balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601328交通银行balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601328交通银行cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601328交通银行cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601328交通银行incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601328交通银行incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601519大智慧balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601519大智慧balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601519大智慧cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601519大智慧cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601519大智慧incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601519大智慧incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601616广电电气cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601616广电电气cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601666平煤股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601666平煤股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601668中国建筑balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601668中国建筑balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601668中国建筑cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601668中国建筑cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601668中国建筑incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601668中国建筑incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601700风范股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601700风范股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601799星宇股份balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601799星宇股份balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601799星宇股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601799星宇股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601799星宇股份incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601799星宇股份incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601818光大银行balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601818光大银行balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601818光大银行cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601818光大银行cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601818光大银行incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601818光大银行incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601866中远海发balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601866中远海发balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601888中国国旅cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601888中国国旅cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601928凤凰传媒cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601928凤凰传媒cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601997贵阳银行balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601997贵阳银行balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601997贵阳银行cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601997贵阳银行cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/601997贵阳银行incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/601997贵阳银行incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603009北特科技cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603009北特科技cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603015弘讯科技cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603015弘讯科技cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603177德创环保cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603177德创环保cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603203快克股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603203快克股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603358华达科技cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603358华达科技cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603519立霸股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603519立霸股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603555贵人鸟cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603555贵人鸟cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603566普莱柯cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603566普莱柯cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603603博天环境balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603603博天环境balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603603博天环境cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603603博天环境cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603603博天环境incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603603博天环境incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603616韩建河山balancesheet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603616韩建河山balancesheet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603616韩建河山cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603616韩建河山cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603616韩建河山incomestatements.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603616韩建河山incomestatements.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603633徕木股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603633徕木股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603858步长制药cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603858步长制药cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603861白云电器cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603861白云电器cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603958哈森股份cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603958哈森股份cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_financial/603998方盛制药cashflow.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_financial/603998方盛制药cashflow.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/ShowPosition.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ShowPosition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pickup_stock_by_jyxjje.py" beforeDir="false" afterPath="$PROJECT_DIR$/pickup_stock_by_jyxjje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssa_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/ssa_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_pickup/pickup_stock_by_stockeval.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stock_pickup/pickup_stock_by_stockeval.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/stockeval.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/stockeval.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpy_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpy_practice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -420,13 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="webpy_practice.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ssa_new.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ssa_new.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="519">
+              <caret line="724" lean-forward="true" selection-start-line="724" selection-end-line="724" />
+              <folding>
+                <element signature="e#15#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpy_practice.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpy_practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="243" selection-start-line="243" selection-end-line="243" />
+            <state relative-caret-position="1501">
+              <caret line="87" column="86" selection-start-line="87" selection-start-column="86" selection-end-line="87" selection-end-column="86" />
               <folding>
-                <element signature="e#16#26#0" expanded="true" />
+                <element signature="e#15#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -435,17 +50,35 @@
       <file leaf-file-name="stockeval.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stockeval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5339">
-              <caret line="291" selection-start-line="291" selection-end-line="291" />
+            <state relative-caret-position="2717">
+              <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="stockeval.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/stockeval.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state>
+              <caret column="94" selection-start-column="94" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstitutionalPerspective.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InstitutionalPerspective.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ssa.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ssa.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1501">
+              <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -461,21 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ShowROE</find>
-      <find>sn</find>
-      <find>str_to_float</find>
-      <find>ssa</find>
-      <find>roe</find>
-      <find>indx</find>
-      <find>getincom</find>
-      <find>str</find>
-      <find>getincome</find>
-      <find>GetRaiseCash</find>
-      <find>rename</find>
-      <find>showinc</find>
-      <find>inplace</find>
-      <find>stocke</find>
-      <find>jyxjje_analyze</find>
       <find>getcos</find>
       <find>end_period</find>
       <find>start_period</find>
@@ -490,6 +108,22 @@
       <find>se</find>
       <find>hki</find>
       <find>input</find>
+      <find>shares</find>
+      <find>Hk</find>
+      <find>showasse</find>
+      <find>hk</find>
+      <find>pd</find>
+      <find>os</find>
+      <find>flows</find>
+      <find>total</find>
+      <find>sz</find>
+      <find>get_stockname</find>
+      <find>ssa.get_stockname(stockcode)</find>
+      <find>eps</find>
+      <find>GetNetProfit</find>
+      <find>gettra</find>
+      <find>inst</find>
+      <find>str</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -501,11 +135,7 @@
         <option value="$PROJECT_DIR$/templates/ShowROE.html" />
         <option value="$PROJECT_DIR$/clip" />
         <option value="$PROJECT_DIR$/templates/ShowIncomeProfit.html" />
-        <option value="$PROJECT_DIR$/ssa_new.py" />
-        <option value="$PROJECT_DIR$/pickup_stock_by_jyxjje.py" />
         <option value="$PROJECT_DIR$/GetBusiness.py" />
-        <option value="$PROJECT_DIR$/stockeval.py" />
-        <option value="$PROJECT_DIR$/templates/stockeval.html" />
         <option value="$PROJECT_DIR$/templates/ShowPosition.html" />
         <option value="$PROJECT_DIR$/get_end_period.py" />
         <option value="$PROJECT_DIR$/append_stock_financial_from_cninfo.py" />
@@ -514,7 +144,15 @@
         <option value="$PROJECT_DIR$/GetTableFromWeb.py" />
         <option value="$PROJECT_DIR$/GetHkStockList.py" />
         <option value="$PROJECT_DIR$/GetHkStockFinancialFromXueqiu.py" />
+        <option value="$PROJECT_DIR$/HkStockAnalysis.py" />
+        <option value="$PROJECT_DIR$/templates/ShowFreeCashFlowSum.html" />
+        <option value="$PROJECT_DIR$/pickup_stock_by_zyxjje.py" />
+        <option value="$PROJECT_DIR$/pickup_stock_by_jyxjje.py" />
+        <option value="$PROJECT_DIR$/InstitutionalPerspective.py" />
+        <option value="$PROJECT_DIR$/stockeval.py" />
+        <option value="$PROJECT_DIR$/templates/stockeval.html" />
         <option value="$PROJECT_DIR$/webpy_practice.py" />
+        <option value="$PROJECT_DIR$/ssa_new.py" />
       </list>
     </option>
   </component>
@@ -528,31 +166,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock" type="462c0819:PsiDirectoryNode" />
-              <item name="market_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stock" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <expand>
@@ -563,14 +180,49 @@
           </expand>
           <select />
         </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="stock" type="cbb8eebc:String" user="stock" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="stock" type="cbb8eebc:String" user="stock" />
+              <item name="templates" type="cbb8eebc:String" user="templates" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stock" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stock" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\stock" />
+      <recent name="D:\stock\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\stock" />
     </key>
@@ -587,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GetHkStockFinancialFromXueqiu">
-    <configuration name="GetHkStockFinancialFromXueqiu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ssa_new">
+    <configuration name="HkStockAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="stock" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -600,79 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GetHkStockFinancialFromXueqiu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="GetHkStockList" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="stock" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GetHkStockList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="GetTableFromWeb" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="stock" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GetTableFromWeb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="HkStockClassify" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="stock" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HkStockClassify.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="StockClassify" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="stock" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StockClassify.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HkStockAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -696,20 +276,92 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="pickup_stock_by_jyxjje" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickup_stock_by_jyxjje.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="pickup_stock_by_stockeval" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickup_stock_by_stockeval.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="pickup_stock_by_zyxjje" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickup_stock_by_zyxjje.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ssa_new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stock" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ssa_new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.StockClassify" />
-      <item itemvalue="Python.HkStockClassify" />
-      <item itemvalue="Python.GetHkStockList" />
-      <item itemvalue="Python.GetTableFromWeb" />
-      <item itemvalue="Python.GetHkStockFinancialFromXueqiu" />
+      <item itemvalue="Python.HkStockAnalysis" />
+      <item itemvalue="Python.pickup_stock_by_zyxjje" />
+      <item itemvalue="Python.pickup_stock_by_jyxjje" />
+      <item itemvalue="Python.pickup_stock_by_stockeval" />
+      <item itemvalue="Python.ssa_new" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.GetHkStockFinancialFromXueqiu" />
-        <item itemvalue="Python.GetTableFromWeb" />
-        <item itemvalue="Python.GetHkStockList" />
-        <item itemvalue="Python.HkStockClassify" />
-        <item itemvalue="Python.StockClassify" />
+        <item itemvalue="Python.ssa_new" />
+        <item itemvalue="Python.pickup_stock_by_stockeval" />
+        <item itemvalue="Python.pickup_stock_by_jyxjje" />
+        <item itemvalue="Python.pickup_stock_by_zyxjje" />
+        <item itemvalue="Python.HkStockAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -728,13 +380,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24627976" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50073206" side_tool="true" weight="0.5294118" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290938" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" x="0" y="22" width="1366" height="706" id="Run" order="2" type="WINDOWED" weight="0.5294118" />
+      <window_info anchor="bottom" x="0" y="22" width="1366" height="706" id="Python Console" order="7" sideWeight="0.49926794" type="WINDOWED" weight="0.3290938" />
+      <window_info anchor="bottom" auto_hide="true" x="0" y="22" width="1366" height="706" id="Run" order="2" sideWeight="0.49926794" weight="0.5858086" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -753,65 +406,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/webpy_practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InstitutionalPerspective.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockClassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpy_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InstitutionalPerspective.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StockClassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpy_practice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="8964">
+          <caret line="249" column="19" lean-forward="true" selection-start-line="249" selection-start-column="19" selection-end-line="249" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -928,20 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Python34/Lib/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="1405" selection-start-line="1405" selection-end-line="1405" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="117" column="33" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/ShowROE.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -950,28 +538,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clip" />
-    <entry file="file://$PROJECT_DIR$/pickup_stock_by_jyxjje.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="151" column="19" selection-start-line="151" selection-start-column="19" selection-end-line="151" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pickup_stock_by_stockeval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GetBusiness.py" />
-    <entry file="file://$PROJECT_DIR$/templates/stockeval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/ShowPosition.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -1004,13 +571,6 @@
         <state relative-caret-position="-57" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InstitutionalPerspective.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stock_classify.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1022,20 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HkStockClassify.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" selection-start-line="11" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ssa_new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="281" lean-forward="true" selection-start-line="281" selection-end-line="281" />
         </state>
       </provider>
     </entry>
@@ -1066,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stockeval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5339">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1080,12 +619,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/getForecast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HkStockFinancial/00001Balance.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python34/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26562">
+          <caret line="1418" selection-start-line="1418" selection-end-line="1418" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HkStockClassify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="13" selection-start-line="11" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/hkstockanalysis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HkStockAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ShowFreeCashFlowSum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickup_stock_by_zyxjje.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="142" column="25" selection-start-line="142" selection-start-column="25" selection-end-line="142" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickup_stock_by_jyxjje.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="139" column="32" selection-start-line="139" selection-start-column="32" selection-end-line="139" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pickup_stock_by_stockeval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstitutionalPerspective.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stockeval.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="94" selection-start-column="94" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockeval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2717">
+          <caret line="153" column="32" selection-start-line="153" selection-start-column="32" selection-end-line="153" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpy_practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="243" selection-start-line="243" selection-end-line="243" />
+        <state relative-caret-position="1501">
+          <caret line="87" column="86" selection-start-line="87" selection-start-column="86" selection-end-line="87" selection-end-column="86" />
           <folding>
-            <element signature="e#16#26#0" expanded="true" />
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssa_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="724" lean-forward="true" selection-start-line="724" selection-end-line="724" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
