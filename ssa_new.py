@@ -32,7 +32,7 @@ def GetAssets(stockcode):  # 获取历年总资产与净资产
 def GetAssetsStructure(stockcode):  # 获取最近一期的资产结构
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
-    print(file)
+    #print(file)
     df = pd.read_csv(file, index_col=0)
     if '现金及存放同业款项' in df.index.values:  # 对金融类和非金融类要作区分
         df2 = df.loc[['现金及存放同业款项',
@@ -87,7 +87,7 @@ def GetAssetsStructure(stockcode):  # 获取最近一期的资产结构
 def GetAssetsSource(stockcode):  # 获取最近一期的资产来源
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
-    print(file)
+    #print(file)
     df = pd.read_csv(file, index_col=0)
     if '现金及存放同业款项' in df.index.values:  # 对金融类和非金融类要作区分
         df2 = df.loc[['向中央银行借款',
@@ -146,7 +146,7 @@ def GetAssetsSource(stockcode):  # 获取最近一期的资产来源
 def GetPosition(stockcode):  # 获取供应链地位
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
-    print(file)
+    # print(file)
     df = pd.read_csv(file, index_col=0)
     if '现金及存放同业款项' in df.index.values:  # 对金融类和非金融类要作区分
         df2 = df.loc[['吸收存款', '发放贷款及垫款']].fillna('0').applymap(ssa.str_to_float) / 100000000
@@ -706,10 +706,12 @@ def GetMarketCode(StockCode): #根据股票代码前三位，返回市场代码S
 
 def GetAveragePE(StockCode): #根据股票代码到亿牛网获取过去10年的平均市盈率
     url='https://eniu.com/gu/'+GetMarketCode(StockCode)+StockCode
-    dfs=pd.read_html(url)
-    AveragePE=dfs[0]['平均'].mean()
-
-    return AveragePE
+    try:
+        dfs=pd.read_html(url)
+        AveragePE=dfs[0]['平均'].mean()
+        return AveragePE
+    except:
+        return 15
 
 def GetProfitCAGR(StockCode): #获取历史净利润(归属于母公司所有者的净利润)复合增长率CAGR
     stockname = ssa.get_stockname(StockCode)
@@ -719,6 +721,12 @@ def GetProfitCAGR(StockCode): #获取历史净利润(归属于母公司所有者
     else:
         profits=df.loc['归属于母公司所有者的净利润']
     profits=profits[profits.index.str[-2:]=='年度'].fillna('0').apply(ssa.str_to_float)
+
+    for term in profits.index: #去除净利润为零或负数的初始年度
+        if profits[term]<=0:
+            profits=profits.drop(term)
+        else:
+            break
     n=len(profits)-1
     CAGR=(profits[-1]/profits[0])**(1/n)-1
     return CAGR
@@ -747,4 +755,4 @@ def GetFutureROI(StockCode): #根据历史平均市盈率、历史净利润复�
 
 if __name__ == '__main__':
     stockcode = input('请输入股票代码:')
-    print(GetFutureROI(stockcode))
+    print(GetProfitCAGR(stockcode))

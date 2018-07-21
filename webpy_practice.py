@@ -65,8 +65,8 @@ class index:
         info4 = '营业收入增长率：' + str('{:.2f}'.format(IncomeGrowth * 100)) + '%'
         InterValue = se.iv(NetProfitGrowth, EPS, 0.07, 15)
         info5 = '估值：' + str('{:.2f}'.format(InterValue)) + '元'
-        FutureROI=sn.GetFutureROI(stockcode)
-        info6='预期复合投资收益率：'+str('{:.2f}'.format(FutureROI * 100)) + '%'
+        FutureROI = sn.GetFutureROI(stockcode)
+        info6 = '预期复合投资收益率：' + str('{:.2f}'.format(FutureROI * 100)) + '%'
         info7 = '业务：' + se.GetBusiness(stockcode)
 
         menu1 = '资产负债情况'
@@ -82,12 +82,12 @@ class index:
         menu11 = '融资活动'
         menu12 = '基金持股'
         menu13 = '机构评分'
-        menu14='自由现金流对比'
+        menu14 = '自由现金流对比'
 
         return render.stockeval(stockcode, title, labels, data, legend,
-                                info0, info1, info2, info3, info4, info5, info6,info7,
+                                info0, info1, info2, info3, info4, info5, info6, info7,
                                 menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12,
-                                menu13,menu14)
+                                menu13, menu14)
 
 
 class ShowAssets:  # 显示资产负债情况
@@ -105,7 +105,7 @@ class ShowAssetsStructure:  # 显示资产结构
     def GET(self, stockcode):
         labels, data = sn.GetAssetsStructure(stockcode)
         title = ssa.get_stockname(stockcode) + '（%s）' % stockcode + '-资产结构'
-        print(labels, data)
+        # print(labels, data)
         # legend=''
         yAxesLabel = '（亿元）'
         render = web.template.render('templates')
@@ -116,7 +116,7 @@ class ShowAssetsSource:  # 显示资产来源
     def GET(self, stockcode):
         labels, data = sn.GetAssetsSource(stockcode)
         title = ssa.get_stockname(stockcode) + '（%s）' % stockcode + '-资产来源'
-        print(labels, data)
+        # print(labels, data)
         # legend=''
         yAxesLabel = '（亿元）'
         render = web.template.render('templates')
@@ -194,6 +194,7 @@ class ShowNetCashFlowSum:  # 显示现金流对比
         render = web.template.render('templates')
         return render.ShowNetCashFlowSum(title, labels, data1, data2, data3, legend1, legend2, legend3, yAxesLabel)
 
+
 class ShowFreeCashFlowSum:  # 显示自由现金流对比
     def GET(self, stockcode):
         labels, data1, data2 = sn.GetFreeCashFlowSum(stockcode)
@@ -263,18 +264,52 @@ class HkIndex:
 
     def POST(self):
         StockCode = web.input().get('stockcode')
-        df, Terms, TotalAsset, NetAsset = hsa.GetHkStockFinancial(StockCode)
+        df, Terms, TotalAsset, NetAsset, AssetItem, AssetData, DebtItem, DebtData, Receivables, Payables, Incomes, OperatingProfit, NetProfit, CashFlowTerms, OperatingCashFlowSum, InvestingCashFlowSum, RaisingCashFlowSum = hsa.GetHkStockFinancial(
+            StockCode)
         if Terms != None:
-            StockName= self.GetHkStockName(StockCode)
-            title = StockName+'('+StockCode + ')-分析'
-            legend1 = '总资产'
-            legend2 = '净资产'
-            yAxesLabel = '（亿元）'
-            labels = Terms
-            data1 = TotalAsset
-            data2 = NetAsset
+            StockName = self.GetHkStockName(StockCode)
+            title = StockName + '(' + StockCode + ')-财务分析'
+
+            heading1 = '资产总览'
+            legend11 = '总资产'
+            legend12 = '净资产'
+            yAxesLabel1 = '（亿元）'
+            Terms
+            TotalAsset
+            NetAsset
+
+            heading2 = '资产结构'
+            yAxesLabel2 = '（亿元）'
+
+            heading3 = '负债结构'
+            yAxesLabel3 = '（亿元）'
+
+            heading4 = '供应链地位'
+            yAxesLabel4 = '（亿元）'
+            legend41 = '应收账款'
+            legend42 = '应付账款'
+
+            heading5 = '营业情况'
+            yAxesLabel5 = '（亿元）'
+            legend51 = '营业额'
+            legend52 = '经营盈利'
+            legend53 = '税后盈利'
+
+            heading6 = '现金流情况'
+            yAxesLabel6 = '（亿元）'
+            legend61 = '累计经营现金流'
+            legend62 = '累计投资现金流'
+            legend63 = '累计融资现金流'
+
             render = web.template.render('templates')
-            return render.hkstockanalysis(title, labels, data1, data2, legend1, legend2, yAxesLabel)
+            return render.hkstockanalysis(title, heading1, Terms, TotalAsset, NetAsset, legend11, legend12, yAxesLabel1,
+                                          heading2, AssetItem, AssetData, yAxesLabel2,
+                                          heading3, DebtItem, DebtData, yAxesLabel3,
+                                          heading4, legend41, Receivables, legend42, Payables, yAxesLabel4,
+                                          heading5, legend51, Incomes, legend52, OperatingProfit, legend53, NetProfit,
+                                          yAxesLabel5,
+                                          heading6, CashFlowTerms, legend61, OperatingCashFlowSum, legend62,
+                                          InvestingCashFlowSum, legend63, RaisingCashFlowSum, yAxesLabel6)
         else:
             return 'stock data not exist!'
 

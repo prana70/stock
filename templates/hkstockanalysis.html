@@ -1,29 +1,30 @@
-$def with (title,labels,data1,data2,legend1,legend2,yAxesLabel)
+$def with (title, heading1,Terms, TotalAsset, NetAsset, legend11, legend12, yAxesLabel1, heading2,AssetItem,AssetData, yAxesLabel2, heading3, DebtItem, DebtData, yAxesLabel3,heading4, legend41, Receivables, legend42, Payables, yAxesLabel4, heading5, legend51, Incomes, legend52, OperatingProfit, legend53, NetProfit, yAxesLabel5, heading6, CashFlowTerms, legend61, OperatingCashFlowSum, legend62, InvestingCashFlowSum, legend63, RaisingCashFlowSum, yAxesLabel6)
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <title>$title</title>
 </head>
 <body>
-<h2>$title</h2>
+<h1>$title</h1>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
-<div class="cities" style="width:70%"><canvas id="myChart"></canvas></div>
+<div class="cities" style="width:50%;float:left"><h3>$heading1</h3><canvas id="myChart"></canvas></div>
 <script>
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels:$:labels,
+        labels:$:Terms,
         datasets: [{
-            label: '$legend2',
-            data:$data2,
+            label: '$legend12',
+            data:$NetAsset,
             backgroundColor:'green',
             borderColor:'rgba(255,99,132,1)',
             borderWidth: 1,
             pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
         },{
-            label: '$legend1',
-            data:$data1,
+            label: '$legend11',
+            data:$TotalAsset,
             backgroundColor:'orange',
             borderColor:'rgba(255,199,199,1)',
             borderWidth: 1,
@@ -38,12 +39,228 @@ var myChart = new Chart(ctx, {
             yAxes: [{
                 scaleLabel: {
                     display: true,
-                    labelString: '$yAxesLabel'
+                    labelString: '$yAxesLabel1'
+                    },
+                 ticks: {
+                    min: 0
+                  }
+                }]
+            },
+        }
+});
+</script>
+
+
+<div class="cities" style="width:50%;float:left"><h3>$heading2</h3><canvas id="myChart01"></canvas></div>
+<script>
+var ctx = document.getElementById("myChart01").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels:$:AssetItem,
+        datasets: [{
+            label: '',
+            data:$AssetData,
+            backgroundColor:'green',
+            borderColor:'rgba(255,99,132,1)',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
+        }]
+    },
+    options: {
+        legend: {
+            display: false
+         },
+        scales: {
+            xAxes: [{
+                stacked: true
+                }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: '$yAxesLabel2'
                     },
                 }]
             },
         }
 });
 </script>
+
+<div class="cities" style="width:50%;float:left"><h3>$heading3</h3><canvas id="myChart02"></canvas></div>
+<script>
+var ctx = document.getElementById("myChart02").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels:$:DebtItem,
+        datasets: [{
+            label: '',
+            data:$DebtData,
+            backgroundColor:'orange',
+            borderColor:'rgba(255,99,132,1)',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
+        }]
+    },
+    options: {
+        legend: {
+            display: false
+         },
+        scales: {
+            xAxes: [{
+                stacked: true
+                }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: '$yAxesLabel3'
+                    },
+                }]
+            },
+        }
+});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+<div class="cities" style="width:50%;float:left"><h3>$heading4</h3><canvas id="myChart03"></canvas></div>
+<script>
+var ctx = document.getElementById("myChart03").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels:$:Terms,
+        datasets: [{
+            label: '$legend41',
+            data:$Receivables,
+            backgroundColor:'green',
+            borderColor:'rgba(255,99,132,1)',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
+        },{
+            label: '$legend42',
+            data:$Payables,
+            backgroundColor:'orange',
+            borderColor:'rgba(255,199,199,1)',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
+        }]
+    },
+    options: {
+        scales: {
+            xAxes: [{
+                stacked: false
+                }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: '$yAxesLabel1'
+                    },
+                }]
+            },
+        }
+});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+<div class="cities" style="width:50%;float:left"><h3>$heading5</h3><canvas id="myChart04"></canvas></div>
+<script>
+var ctx = document.getElementById("myChart04").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels:$:Terms,
+        datasets: [{
+            label: '$legend51',
+            data:$Incomes,
+            backgroundColor:'orange',
+            borderColor:'orange',
+            fill:false,
+            borderWidth:2,
+            pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
+        },{
+            label: '$legend52',
+            data:$OperatingProfit,
+            backgroundColor:'green',
+            fill:false,
+            borderColor:'green',
+            borderWidth: 2,
+            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
+        },{
+            label: '$legend53',
+            data:$NetProfit,
+            backgroundColor:'blue',
+            fill:false,
+            borderColor:'blue',
+            borderWidth: 2,
+            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
+        }]
+    },
+    options: {
+        scales: {
+            xAxes: [{
+                stacked: false,
+                }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: '$yAxesLabel5'
+                    },
+                }]
+            },
+        }
+});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+<div class="cities" style="width:50%;float:left"><h3>$heading6</h3><canvas id="myChart05"></canvas></div>
+<script>
+var ctx = document.getElementById("myChart05").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels:$:CashFlowTerms,
+        datasets: [{
+            label: '$legend61',
+            data:$OperatingCashFlowSum,
+            backgroundColor:'red',
+            borderColor:'red',
+            fill:false,
+            borderWidth:1,
+            pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
+        },{
+            label: '$legend62',
+            data:$InvestingCashFlowSum,
+            backgroundColor:'blue',
+            fill:false,
+            borderColor:'blue',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
+        },{
+            label: '$legend63',
+            data:$RaisingCashFlowSum,
+            backgroundColor:'green',
+            fill:false,
+            borderColor:'green',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 199, 199, 0.2)'
+        }]
+    },
+    options: {
+        scales: {
+            xAxes: [{
+                stacked: false,
+                }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: '$yAxesLabel6'
+                    },
+                }]
+            },
+        }
+});
+</script>
+
+
 </body>
 </html>
