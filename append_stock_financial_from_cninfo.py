@@ -54,18 +54,11 @@ def get_dataframe(url):
         return None
 
 
-filelist = os.listdir(os.getcwd() + '\\stock_financial')
-end_period = GetEndPeriod()
-i = 0
-append_num = 0
-not_append_num = 0
-not_append_num = 0
-fail_get_num = 0
-for file in filelist:
-    i += 1
-    stockcode = file[0:6]
-    print(i, stockcode)
+
+def append_stock_financial(file):
     df1 = pd.read_csv(os.getcwd() + '\stock_financial\\' + file)
+    stockcode = file[0:6]
+    end_period = GetEndPeriod()
     # 获取应添加的下一期的年月日
     if 'balancesheet' in file:
         if '-12-31' in df1.columns[-1]:
@@ -122,8 +115,8 @@ for file in filelist:
         if type(df2) != type(None):
             df3 = pd.merge(df1, df2)
             df3.to_csv(os.getcwd() + '\stock_financial\\' + file, encoding='utf8', index=False)
-            append_num += 1
             print('添加数据成功！')
+            return 1
         else:
             url = 'http://www.cninfo.com.cn/information/stock/' + cwzb + '_.jsp?stockCode=' + stockcode
             print(url)
@@ -149,20 +142,49 @@ for file in filelist:
                 if current_period == start_period:
                     df3 = pd.merge(df1, df2)
                     df3.to_csv(os.getcwd() + '\stock_financial\\' + file, encoding='utf8', index=False)
-                    append_num += 1
                     print('添加数据成功！')
+                    return 1
             else:
-                fail_get_num += 1
                 print('调取巨潮数据失败，请查找原因!')
+                return 2
+            print('原因不明，数据调取失败！')
+            return 2
     else:  # 如果应添加的下一期大于截止期，则勿须添加！
-        not_append_num += 1
         print('本地数据已是最新，勿须添加！')
-    if i > 100000:
-        break
-print('-' * 60)
-print('本次添加：', append_num)
-print('本次未添加：', not_append_num)
-print('调取数据失败：', fail_get_num)
+        return 3
+
+def append_stock_financial_by_stockcode(stockcode):
+    filelist = os.listdir(os.getcwd() + '\\stock_financial')
+    for file in filelist:
+        if stockcode==file[0:6]:
+            append_stock_financial(file)
+            
+
+if __name__=='__main__':
+    filelist = os.listdir(os.getcwd() + '\\stock_financial')
+    i = 0
+    append_num = 0
+    not_append_num = 0
+    #not_append_num = 0
+    fail_get_num = 0
+    for file in filelist:
+        i += 1
+        stockcode = file[0:6]
+        print(i, stockcode)
+        append_result=append_stock_financial(file)
+        if append_result==1:
+            append_num+=1
+        elif append_result==2:
+            fail_get_num+=1
+        elif append_result==3:
+            not_append_num+=1
+            
+        if i > 15:
+            break
+    print('-' * 60)
+    print('本次添加：', append_num)
+    print('本次未添加：', not_append_num)
+    print('调取数据失败：', fail_get_num)
 
 # 思路：
 '''

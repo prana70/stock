@@ -8,6 +8,7 @@ import ssa_new as sn
 import sys
 import InstitutionalPerspective as ip
 import HkStockAnalysis as hsa
+import append_stock_financial_from_cninfo as asf
 
 type = sys.getdefaultencoding()
 
@@ -43,10 +44,10 @@ class index:
         return render.index(title, tip, button_value)
 
     def POST(self):  # 评估总览页
-        # stockcode=web.input().get('stockcode')
+        stockcode=web.input().get('stockcode')
+        asf.append_stock_financial_by_stockcode(stockcode)
         render = web.template.render('templates')
-        stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(
-            web.input().get('stockcode'))
+        stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(stockcode)
         title = stockname + '（' + stockcode + '）-评估总览'
         labels = ['营收增长', '利润成长', '安全边际', '运营现金', '供应链地位']
         data = [IncomeLevel, GrowthLevel, SecurityLevel, CashLevel, TradePositionLevel]
