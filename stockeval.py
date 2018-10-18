@@ -161,7 +161,7 @@ def GetTradePosition(stockcode):
     #print(s_jyxzc)
     s_jyxfz=sum(df1[df1.columns[-1]][['应付票据','应付账款','预收款项']])#经营性负债
     #print (s_jyxfz)
-    return s_jyxfz/s_jyxzc
+    return (s_jyxfz-s_jyxzc)/s_jyxzc
 
 
 #从雪球调取主营业务
@@ -193,7 +193,7 @@ def GetTotalLevel(stockcode):
         InterValue=iv(NetProfitGrowth,EPS,0.07,15)
         #print('估值：',InterValue)
         #计算安全边际
-        SecurityLevel=graduation(InterValue/StockPrice*100)
+        SecurityLevel=graduation((InterValue/StockPrice-1)*100)
         #print('股价安全度：',SecurityLevel)
         #计算成长性
         GrowthLevel=graduation(NetProfitGrowth*100)
@@ -206,7 +206,7 @@ def GetTotalLevel(stockcode):
         #print('累计经营现金净额：',NetIncomeCashSum)
         NetInvestmentCashSum=GetNetInvestmentCashSum(stockcode)
         #print('累计投资现金净额：',NetInvestmentCashSum)
-        CashLevel=graduation(NetIncomeCashSum/abs(NetInvestmentCashSum)*100)
+        CashLevel=graduation((NetIncomeCashSum/abs(NetInvestmentCashSum)-1)*100)
         #print('运营现金：',CashLevel)
         #计算供应链地位
         TradePosition=GetTradePosition(stockcode)

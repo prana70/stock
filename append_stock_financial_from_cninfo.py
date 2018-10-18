@@ -179,7 +179,7 @@ if __name__=='__main__':
         elif append_result==3:
             not_append_num+=1
             
-        if i > 15:
+        if i > 100000:
             break
     print('-' * 60)
     print('本次添加：', append_num)
