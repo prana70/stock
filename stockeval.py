@@ -11,6 +11,8 @@ from intervalue import InterValue as iv
 import matplotlib.pyplot as plt
 import tushare as ts
 import math
+import re
+import json
 
 
 
@@ -23,6 +25,8 @@ def GetStockPrice(stockcode):
 
 #获取最新股本
 def GetShares(stockcode):
+    '''
+    ##通过巨潮信息网获取总股本
     header={'User-Agent':'Mozilla/5.0'}
     MarketType={'600':'shmb','601':'shmb','603':'shmb','000':'szmb','002':'szsme','300':'szcn'} #根据股票代码确定市场类型
     url='http://www.cninfo.com.cn/information/lastest/'+MarketType[stockcode[0:3]]+stockcode+'.html'
@@ -32,6 +36,54 @@ def GetShares(stockcode):
     soup=bs(resp.text,'html.parser')
     shares=float(soup.find_all('table')[1].find_all('td')[1].string.replace(',',''))
     return shares
+    '''
+    '''
+    ##通过上交所或深交所网站获取总股本
+    MarketType={'600':'shmb','601':'shmb','603':'shmb','000':'szmb','002':'szsme','300':'szcn'} #根据股票代码确定市场类型
+
+    #stockcode=input('请输入股票代码：')
+
+    if stockcode[0:3] in ('000','002','300'):
+
+        
+        url='http://www.szse.cn/api/report/index/companyGeneralization?random=0.9215521283280892&secCode='+stockcode
+        headers={'User-Agent':'Mozilla/5.0'}
+        resp=rq.get(url,headers=headers,timeout=9)
+        return float(resp.json()['data']['agzgb'].replace(',',''))*10000
+        
+    elif stockcode[0:3] in ('600','601','603'):
+        url='http://query.sse.com.cn/security/stock/queryCompanyStockStruct.do?jsonCallBack=jsonpCallback55789&isPagination=false&companyCode='+stockcode+'&_=1560706165309'
+
+        headers={'Referer': 'http://www.sse.com.cn/assortment/stock/list/info/capital/index.shtml?COMPANY_CODE=600398',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36'
+                 }
+
+        resp=rq.get(url,headers=headers,timeout=9)
+        resp.encoding='utf8'
+        str=resp.text
+        reg=re.compile(r".*\((.*)\)")
+        m=re.match(reg,str)
+        m=m.groups(1)[0]
+        n=json.loads(m)
+        return float(n['result']['totalShares'])*10000
+    else:
+        print('股票代码不是深交所或上交所的！！！')
+        return None
+    '''
+    #通过新浪网站获取总股本
+    MarketType={'600':'sh','601':'sh','603':'sh','000':'sz','002':'sz','300':'sz'} #根据股票代码确定市场类型
+    url='http://finance.sina.com.cn/realstock/company/'+MarketType[stockcode[0:3]]+stockcode+'/nc.shtml'
+    resp=rq.get(url)
+    print(resp.status_code)
+    resp.encoding='gb2312'
+    reg=re.compile(r'var totalcapital = ([\d.]*)')
+    text=resp.text
+    #print(text)
+    r=reg.findall(text)
+    return float(r[0])*10000
+
+
+    
     
 #获取最近年度的净利润（亦可采用“归属于母公司所有者的净利润”）
 def GetNetProfit(stockcode):
@@ -176,45 +228,45 @@ def GetBusiness(stockcode):
 
 #主程序的copy，方便选股调用
 def GetTotalLevel(stockcode):
-    try:
-        stockname=ssa.get_stockname(stockcode)
-        #print(stockcode,stockname)
-        StockPrice=GetStockPrice(stockcode)
-        #print('股价：',StockPrice)
-        shares=GetShares(stockcode)
-        #print('总股本：',shares)
-        NetProfit=GetNetProfit(stockcode)
-        EPS=NetProfit/shares
-        #print('每股收益：',EPS)
-        NetProfitGrowth=GetNetProfitGrowth(stockcode)
-        #print('净利润增长率：',NetProfitGrowth*100)
-        IncomeGrowth=GetIncomeGrowth(stockcode)
-        #print('营业收入增长率：',IncomeGrowth*100)
-        InterValue=iv(NetProfitGrowth,EPS,0.07,15)
-        #print('估值：',InterValue)
-        #计算安全边际
-        SecurityLevel=graduation((InterValue/StockPrice-1)*100)
-        #print('股价安全度：',SecurityLevel)
-        #计算成长性
-        GrowthLevel=graduation(NetProfitGrowth*100)
-        #print('利润成长：',GrowthLevel)
-        #计算营业能力
-        IncomeLevel=graduation(IncomeGrowth*100)
-        #print('营收增长：',IncomeLevel)
-        #计算现金能力
-        NetIncomeCashSum=GetNetIncomeCashSum(stockcode)
-        #print('累计经营现金净额：',NetIncomeCashSum)
-        NetInvestmentCashSum=GetNetInvestmentCashSum(stockcode)
-        #print('累计投资现金净额：',NetInvestmentCashSum)
-        CashLevel=graduation((NetIncomeCashSum/abs(NetInvestmentCashSum)-1)*100)
-        #print('运营现金：',CashLevel)
-        #计算供应链地位
-        TradePosition=GetTradePosition(stockcode)
-        TradePositionLevel=graduation(TradePosition*100)
-        #print('供应链地位：',TradePositionLevel)
-        return stockcode,stockname,SecurityLevel,GrowthLevel,IncomeLevel,CashLevel,TradePositionLevel
-    except:
-        return None,None,None,None,None,None,None
+    #try:
+    stockname=ssa.get_stockname(stockcode)
+    #print(stockcode,stockname)
+    StockPrice=GetStockPrice(stockcode)
+    #print('股价：',StockPrice)
+    shares=GetShares(stockcode)
+    #print('总股本：',shares)
+    NetProfit=GetNetProfit(stockcode)
+    EPS=NetProfit/shares
+    #print('每股收益：',EPS)
+    NetProfitGrowth=GetNetProfitGrowth(stockcode)
+    #print('净利润增长率：',NetProfitGrowth*100)
+    IncomeGrowth=GetIncomeGrowth(stockcode)
+    #print('营业收入增长率：',IncomeGrowth*100)
+    InterValue=iv(NetProfitGrowth,EPS,0.07,15)
+    #print('估值：',InterValue)
+    #计算安全边际
+    SecurityLevel=graduation((InterValue/StockPrice-1)*100)
+    #print('股价安全度：',SecurityLevel)
+    #计算成长性
+    GrowthLevel=graduation(NetProfitGrowth*100)
+    #print('利润成长：',GrowthLevel)
+    #计算营业能力
+    IncomeLevel=graduation(IncomeGrowth*100)
+    #print('营收增长：',IncomeLevel)
+    #计算现金能力
+    NetIncomeCashSum=GetNetIncomeCashSum(stockcode)
+    #print('累计经营现金净额：',NetIncomeCashSum)
+    NetInvestmentCashSum=GetNetInvestmentCashSum(stockcode)
+    #print('累计投资现金净额：',NetInvestmentCashSum)
+    CashLevel=graduation((NetIncomeCashSum/abs(NetInvestmentCashSum)-1)*100)
+    #print('运营现金：',CashLevel)
+    #计算供应链地位
+    TradePosition=GetTradePosition(stockcode)
+    TradePositionLevel=graduation(TradePosition*100)
+    #print('供应链地位：',TradePositionLevel)
+    return stockcode,stockname,SecurityLevel,GrowthLevel,IncomeLevel,CashLevel,TradePositionLevel
+    #except:
+        #return None,None,None,None,None,None,None
 
 
     

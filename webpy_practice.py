@@ -48,6 +48,10 @@ class index:
         asf.append_stock_financial_by_stockcode(stockcode)
         render = web.template.render('templates')
         stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(stockcode)
+        print('stockname:',stockname)
+        print('stockcode:',stockcode)
+        print(se.GetTotalLevel(stockcode))
+
         title = stockname + '（' + stockcode + '）-评估总览'
         labels = ['营收增长', '利润成长', '安全边际', '运营现金', '供应链地位']
         data = [IncomeLevel, GrowthLevel, SecurityLevel, CashLevel, TradePositionLevel]
