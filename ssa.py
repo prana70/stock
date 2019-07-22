@@ -21,16 +21,11 @@ def get_stock_type(stockcode):
     f0.close
     return stock_type
 
-#从stocks.txt中查询股票简称
+#从stock_list.csv中查询股票名称
 def get_stockname(stockcode):
-    stockname=''
-    f=open('stocks.txt','r')
-    lines=f.readlines()
-    for line in lines:
-        if line[-8:-2]==stockcode:
-            stockname=line[:-9].replace('*','')
-            break
-    f.close()
+    df=pd.read_csv(os.getcwd()+'\\market_data\\stock_list.csv',index_col=0)
+    stockname=df.loc[int(stockcode)]['股票名称']
+
     return stockname
 
 

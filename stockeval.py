@@ -1,7 +1,7 @@
 #coding:utf-8
 
 import pandas as pd
-import get_stockprice_from_hexun as gsfh
+#import get_stockprice_from_hexun as gsfh
 from bs4 import BeautifulSoup as bs
 import requests as rq
 import os,time

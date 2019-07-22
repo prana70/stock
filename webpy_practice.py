@@ -9,6 +9,7 @@ import sys
 import InstitutionalPerspective as ip
 import HkStockAnalysis as hsa
 import append_stock_financial_from_cninfo as asf
+import append_stock_financial_from_sina as asffs
 
 type = sys.getdefaultencoding()
 
@@ -45,7 +46,13 @@ class index:
 
     def POST(self):  # 评估总览页
         stockcode=web.input().get('stockcode')
-        asf.append_stock_financial_by_stockcode(stockcode)
+
+        #更新财务数据
+        #asf.append_stock_financial_by_stockcode(stockcode)
+        asffs.get_balancesheet(stockcode)
+        asffs.get_profitstatement(stockcode)
+        asffs.get_cashflow(stockcode)
+
         render = web.template.render('templates')
         stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(stockcode)
         print('stockname:',stockname)

@@ -1,0 +1,4 @@
+600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml
+600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml
+2019-07-22 14:14:08.426537 600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml
+2019-07-22 14:15:09.396051 | 600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml

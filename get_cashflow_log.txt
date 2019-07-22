@@ -1,0 +1,13 @@
+2019-07-22 14:42:38.120382 | 600036 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2019/displaytype/4.phtml
+2019-07-22 14:42:38.484452 | 600036 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2018/displaytype/4.phtml
+2019-07-22 14:42:38.876067 | 600036 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2017/displaytype/4.phtml
+2019-07-22 14:42:39.144244 | 600036 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2016/displaytype/4.phtml
+2019-07-22 14:42:39.563029 | 600036 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2015/displaytype/4.phtml
+2019-07-22 14:42:39.879073 | 600036 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2014/displaytype/4.phtml
+2019-07-22 14:42:40.302412 | 600036 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2013/displaytype/4.phtml
+2019-07-22 14:42:40.885901 | 600036 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2012/displaytype/4.phtml
+2019-07-22 14:42:41.338024 | 600036 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2011/displaytype/4.phtml
+2019-07-22 14:42:41.613649 | 600036 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2010/displaytype/4.phtml
+2019-07-22 14:42:42.041666 | 600036 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2009/displaytype/4.phtml
+2019-07-22 14:42:42.400458 | 600036 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2008/displaytype/4.phtml
+2019-07-22 14:42:42.765157 | 600036 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2007/displaytype/4.phtml
