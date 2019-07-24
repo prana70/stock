@@ -25,51 +25,6 @@ def GetStockPrice(stockcode):
 
 #获取最新股本
 def GetShares(stockcode):
-    '''
-    ##通过巨潮信息网获取总股本
-    header={'User-Agent':'Mozilla/5.0'}
-    MarketType={'600':'shmb','601':'shmb','603':'shmb','000':'szmb','002':'szsme','300':'szcn'} #根据股票代码确定市场类型
-    url='http://www.cninfo.com.cn/information/lastest/'+MarketType[stockcode[0:3]]+stockcode+'.html'
-    #print(url)
-    resp=rq.get(url,headers=header,timeout=9)
-    resp.encoding='gbk'
-    soup=bs(resp.text,'html.parser')
-    shares=float(soup.find_all('table')[1].find_all('td')[1].string.replace(',',''))
-    return shares
-    '''
-    '''
-    ##通过上交所或深交所网站获取总股本
-    MarketType={'600':'shmb','601':'shmb','603':'shmb','000':'szmb','002':'szsme','300':'szcn'} #根据股票代码确定市场类型
-
-    #stockcode=input('请输入股票代码：')
-
-    if stockcode[0:3] in ('000','002','300'):
-
-        
-        url='http://www.szse.cn/api/report/index/companyGeneralization?random=0.9215521283280892&secCode='+stockcode
-        headers={'User-Agent':'Mozilla/5.0'}
-        resp=rq.get(url,headers=headers,timeout=9)
-        return float(resp.json()['data']['agzgb'].replace(',',''))*10000
-        
-    elif stockcode[0:3] in ('600','601','603'):
-        url='http://query.sse.com.cn/security/stock/queryCompanyStockStruct.do?jsonCallBack=jsonpCallback55789&isPagination=false&companyCode='+stockcode+'&_=1560706165309'
-
-        headers={'Referer': 'http://www.sse.com.cn/assortment/stock/list/info/capital/index.shtml?COMPANY_CODE=600398',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36'
-                 }
-
-        resp=rq.get(url,headers=headers,timeout=9)
-        resp.encoding='utf8'
-        str=resp.text
-        reg=re.compile(r".*\((.*)\)")
-        m=re.match(reg,str)
-        m=m.groups(1)[0]
-        n=json.loads(m)
-        return float(n['result']['totalShares'])*10000
-    else:
-        print('股票代码不是深交所或上交所的！！！')
-        return None
-    '''
     #通过新浪网站获取总股本
     MarketType={'600':'sh','601':'sh','603':'sh','000':'sz','002':'sz','300':'sz'} #根据股票代码确定市场类型
     url='http://finance.sina.com.cn/realstock/company/'+MarketType[stockcode[0:3]]+stockcode+'/nc.shtml'
@@ -82,32 +37,32 @@ def GetShares(stockcode):
     r=reg.findall(text)
     return float(r[0])*10000
 
-
-    
     
 #获取最近年度的净利润（亦可采用“归属于母公司所有者的净利润”）
 def GetNetProfit(stockcode):
     stockname=ssa.get_stockname(stockcode)
-    file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'incomestatements.csv'
+    file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'profitstatement.csv'
     df=pd.read_csv(file,index_col=0)    
     #print(df)
     i=len(df.columns)-1
     while i>=0:
-        if '年度' in df.columns[i]:
+        if '-12-31' in df.columns[i]:
             LastYear=df.columns[i]
             #print(LastYear)
             break
         i-=1
     if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的净利润项目名称不同，故要作区别对待。
-        NetProfitName='（一）归属于母公司所有者的净利润'#'五、净利润'
+        NetProfitName='归属于母公司的净利润'#'五、净利润'
     else:
         NetProfitName='归属于母公司所有者的净利润'#'四、净利润'
     #print(df.loc[NetProfitName])
-    NetProfit=float(df.at[NetProfitName,LastYear].replace(',',''))
+    NetProfit=df.at[NetProfitName,LastYear]*10000
     return NetProfit
+
 
 #获取净利润增长率
 def GetNetProfitGrowth(stockcode):
+    '''
     file=os.getcwd()+'\\market_data\\'+'业绩预测.csv'
     #print(file)
     df=pd.read_csv(file,index_col=0)
@@ -142,9 +97,44 @@ def GetNetProfitGrowth(stockcode):
         #print(LastTerm,LastProfit)
         #print(CurrentProfit/LastProfit-1)
         return CurrentProfit/LastProfit-1
+        '''
+    file=os.getcwd()+'\\market_data\\'+'业绩预测.csv'
+    df=pd.read_csv(file,index_col=0)
+    df['growth']=df['range'].str.extract('(\d+|-\d+)',expand=True).astype('float')
+    if int(stockcode) in list(df.index.values):
+        growth=df.at[int(stockcode),'growth']
+        if type(growth)==np.float64:
+            #print(growth/100)
+            return growth/100
+        else:
+            #print(growth[0]/100)
+            return growth[0]/100
+    else:
+        stockname=ssa.get_stockname(stockcode)
+        file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'profitstatement.csv'
+        df=pd.read_csv(file,index_col=0)
+        TermType={'03-31':1,'06-30':2,'09-30':3,'12-31':4}
+        i=len(df.columns)-1
+        CurrentTerm=df.columns[i]
+        LastTerm=str(int(CurrentTerm[:4])-1)+CurrentTerm[4:]
+        if LastTerm not in df.columns:
+            LastTerm=str(int(CurrentTerm[:4])-1)+'-12-31'
+        if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的净利润项目名称不同，故要作区别对待。
+            NetProfitName='归属于母公司的净利润'#'五、净利润'
+        else:
+            NetProfitName='归属于母公司所有者的净利润'#'四、净利润'
+        CurrentProfit=df.at[NetProfitName,CurrentTerm]/TermType[CurrentTerm[5:]]*4
+        LastProfit=df.at[NetProfitName,LastTerm]/TermType[LastTerm[5:]]*4
+
+        if CurrentProfit<=0 or LastProfit<=0:
+            return -1
+        else:
+            return CurrentProfit/LastProfit-1
+
         
 #获取营业收入增长率
 def GetIncomeGrowth(stockcode):
+    '''
     stockname=ssa.get_stockname(stockcode)
     file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'incomestatements.csv'
     df=pd.read_csv(file,index_col=0)
@@ -160,9 +150,32 @@ def GetIncomeGrowth(stockcode):
     #print(CurrentTerm,CurrentProfit)
     LastIncome=float(df.at[IncomeName,LastTerm].replace(',',''))/TermType[LastTerm[5:]]*4
     return CurrentIncome/LastIncome-1
+    '''
+    stockname=ssa.get_stockname(stockcode)
+    file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'profitstatement.csv'
+    df=pd.read_csv(file,index_col=0)
+    TermType={'03-31':1,'06-30':2,'09-30':3,'12-31':4}
+    i=len(df.columns)-1
+    CurrentTerm=df.columns[i]
+    LastTerm=str(int(CurrentTerm[:4])-1)+CurrentTerm[4:]
+    if LastTerm not in df.columns:
+        LastTerm=str(int(CurrentTerm[:4])-1)+'-12-31'
+    if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的营业收入项目名称不同，故要作区别对待。
+        IncomeName='一、营业收入'
+    else:
+        IncomeName='一、营业总收入'
+    CurrentIncome=df.at[IncomeName,CurrentTerm]/TermType[CurrentTerm[5:]]*4
+    LastIncome=df.at[IncomeName,LastTerm]/TermType[LastTerm[5:]]*4
+
+    if CurrentIncome<=0 or LastIncome<=0:
+        return -1
+    else:
+        return CurrentIncome/LastIncome-1
+
 
 #获取累计经营现金净额
 def GetNetIncomeCashSum(stockcode):
+    '''
     stockname=ssa.get_stockname(stockcode)
     file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'cashflow.csv'
     df=pd.read_csv(file,index_col=0).fillna('0')
@@ -173,10 +186,26 @@ def GetNetIncomeCashSum(stockcode):
             ls.append(float(sr[sr.index[i]].replace(',',''))-float(sr[sr.index[i-1]].replace(',','')))
         else:
             ls.append(float(sr[sr.index[i]].replace(',','')))
-    return sum(ls)        
+    return sum(ls)
+    '''
+    stockname=ssa.get_stockname(stockcode)
+    file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'cashflow.csv'
+    df=pd.read_csv(file,index_col=0)
+    sr=df.loc['经营活动产生的现金流量净额']
+    #print(sr)
+    ls=[]
+    for i in range(len(sr.index)):
+        if i>0 and sr.index[i][5:]!='03-31' and sr.index[i-1][5:]!='12-31':
+            ls.append(sr[sr.index[i]]-sr[sr.index[i-1]])
+        else:
+            ls.append(sr[sr.index[i]])
+    print(ls)
+    return sum(ls)*10000        
+
 
 #获取累计投资现金净额
 def GetNetInvestmentCashSum(stockcode):
+    '''
     stockname=ssa.get_stockname(stockcode)
     file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'cashflow.csv'
     df=pd.read_csv(file,index_col=0).fillna('0')
@@ -188,6 +217,19 @@ def GetNetInvestmentCashSum(stockcode):
         else:
             ls.append(float(sr[sr.index[i]].replace(',','')))
     return sum(ls)
+    '''
+    stockname=ssa.get_stockname(stockcode)
+    file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'cashflow.csv'
+    df=pd.read_csv(file,index_col=0)
+    sr=df.loc['投资活动产生的现金流量净额']
+    ls=[]
+    for i in range(len(sr.index)):
+        if i>0 and sr.index[i][5:]!='03-31' and sr.index[i-1][5:]!='12-31':
+            ls.append(sr[sr.index[i]]-sr[sr.index[i-1]])
+        else:
+            ls.append(sr[sr.index[i]])
+    return sum(ls)*10000
+
 
 #刻度转换
 def graduation(OldGraduation):
@@ -197,13 +239,14 @@ def graduation(OldGraduation):
         if OldGraduation<0:
             NewGraduation=0
         elif OldGraduation<=100:
-            NewGraduation=OldGraduation/25
+            NewGraduation=OldGraduation/20
         else:
-            NewGraduation=100/25+(OldGraduation-100)/10000
+            NewGraduation=100/20
     return NewGraduation
 
 #获取供应链地位
 def GetTradePosition(stockcode):
+    '''
     stockname=ssa.get_stockname(stockcode)
     file=os.getcwd()+'\\stock_financial\\'+stockcode+stockname+'balancesheet.csv'
     df0=pd.read_csv(file,index_col=0).fillna('0')
@@ -214,6 +257,27 @@ def GetTradePosition(stockcode):
     s_jyxfz=sum(df1[df1.columns[-1]][['应付票据','应付账款','预收款项']])#经营性负债
     #print (s_jyxfz)
     return (s_jyxfz-s_jyxzc)/s_jyxzc
+    '''
+    stockname=ssa.get_stockname(stockcode)
+    file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'balancesheet.csv'
+    df=pd.read_csv(file,index_col=0)
+    if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的项目名称不同，故要作区别对待。
+        serr=df.loc[['存放同业款项','拆出资金','同业存入及拆入','拆入资金'],df.columns[-1]]
+        s_jyxzc=sum(serr[['存放同业款项','拆出资金']])#经营性资产
+        s_jyxfz=sum(serr[['同业存入及拆入','拆入资金']])#经营性负债
+    else:
+        serr=df.loc[['应收票据及应收账款','应收票据','应收账款','预付款项','应付票据及应付账款','应付票据','应付账款','预收款项'],df.columns[-1]]
+        if serr['应收票据及应收账款']==0:
+            s_jyxzc=sum(serr[['应收票据','应收账款','预付款项']])#经营性资产
+        else:
+            s_jyxzc=sum(serr[['应收票据及应收账款','预付款项']])#经营性资产
+        if serr['应付票据及应付账款']==0:
+            s_jyxfz=sum(serr[['应付票据','应付账款','预收款项']])#经营性负债
+        else:
+            s_jyxfz=sum(serr[['应付票据及应付账款','预收款项']])#经营性负债
+        
+    return s_jyxfz/(s_jyxfz+s_jyxzc)
+
 
 
 #从雪球调取主营业务
@@ -245,7 +309,7 @@ def GetTotalLevel(stockcode):
     InterValue=iv(NetProfitGrowth,EPS,0.07,15)
     #print('估值：',InterValue)
     #计算安全边际
-    SecurityLevel=graduation((InterValue/StockPrice-1)*100)
+    SecurityLevel=graduation(InterValue/(StockPrice+InterValue)*100)
     #print('股价安全度：',SecurityLevel)
     #计算成长性
     GrowthLevel=graduation(NetProfitGrowth*100)
@@ -258,7 +322,11 @@ def GetTotalLevel(stockcode):
     #print('累计经营现金净额：',NetIncomeCashSum)
     NetInvestmentCashSum=GetNetInvestmentCashSum(stockcode)
     #print('累计投资现金净额：',NetInvestmentCashSum)
-    CashLevel=graduation((NetIncomeCashSum/abs(NetInvestmentCashSum)-1)*100)
+    #CashLevel=graduation((NetIncomeCashSum/abs(NetInvestmentCashSum)-1)*100)
+    if NetInvestmentCashSum>=0:
+        CashLevel=1*100
+    else:
+        CashLevel=graduation(NetIncomeCashSum/(NetIncomeCashSum+abs(NetInvestmentCashSum))*100)
     #print('运营现金：',CashLevel)
     #计算供应链地位
     TradePosition=GetTradePosition(stockcode)
@@ -294,7 +362,7 @@ if __name__=='__main__':
     label5='估值：'+str('{:.2f}'.format(InterValue))+'元'
     print(label5)
     #计算安全边际
-    SecurityLevel=graduation(InterValue/StockPrice*100)
+    SecurityLevel=graduation(InterValue/(StockPrice+InterValue)*100)
     #print('股价安全度：',SecurityLevel)
     #计算成长性
     GrowthLevel=graduation(NetProfitGrowth*100)
@@ -307,7 +375,11 @@ if __name__=='__main__':
     #print('累计经营现金净额：',NetIncomeCashSum)
     NetInvestmentCashSum=GetNetInvestmentCashSum(stockcode)
     #print('累计投资现金净额：',NetInvestmentCashSum)
-    CashLevel=graduation(NetIncomeCashSum/abs(NetInvestmentCashSum)*100)
+    #CashLevel=graduation(NetIncomeCashSum/abs(NetInvestmentCashSum)*100)
+    if NetInvestmentCashSum>=0:
+        CashLevel=1*100
+    else:
+        CashLevel=graduation(NetIncomeCashSum/(NetIncomeCashSum+abs(NetInvestmentCashSum))*100)
     #print('运营现金：',CashLevel)
     #计算供应链地位
     TradePosition=GetTradePosition(stockcode)

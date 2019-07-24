@@ -2,3 +2,33 @@
 600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml
 2019-07-22 14:14:08.426537 600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml
 2019-07-22 14:15:09.396051 | 600036 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/600036/ctrl/2019/displaytype/4.phtml
+2019-07-23 23:41:12.525926 | 612225 2019 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2019/displaytype/4.phtml
+2019-07-23 23:41:13.151027 | 612225 2018 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2018/displaytype/4.phtml
+2019-07-23 23:41:13.413407 | 612225 2017 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2017/displaytype/4.phtml
+2019-07-23 23:41:13.701439 | 612225 2016 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2016/displaytype/4.phtml
+2019-07-23 23:41:13.902559 | 612225 2015 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2015/displaytype/4.phtml
+2019-07-23 23:41:14.126331 | 612225 2014 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2014/displaytype/4.phtml
+2019-07-23 23:41:14.361388 | 612225 2013 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2013/displaytype/4.phtml
+2019-07-23 23:41:14.590600 | 612225 2012 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2012/displaytype/4.phtml
+2019-07-23 23:41:14.825813 | 612225 2011 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2011/displaytype/4.phtml
+2019-07-23 23:41:15.007527 | 612225 2010 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2010/displaytype/4.phtml
+2019-07-23 23:41:15.218013 | 612225 2009 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2009/displaytype/4.phtml
+2019-07-23 23:41:15.435559 | 612225 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2008/displaytype/4.phtml
+2019-07-23 23:41:15.679302 | 612225 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/612225/ctrl/2007/displaytype/4.phtml
+2019-07-24 00:02:26.640849 | 603309 2010 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/603309/ctrl/2010/displaytype/4.phtml
+2019-07-24 00:02:26.915946 | 603309 2009 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/603309/ctrl/2009/displaytype/4.phtml
+2019-07-24 00:02:27.151634 | 603309 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/603309/ctrl/2008/displaytype/4.phtml
+2019-07-24 00:02:27.415805 | 603309 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/603309/ctrl/2007/displaytype/4.phtml
+2019-07-24 00:09:59.303443 | 300357 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300357/ctrl/2008/displaytype/4.phtml
+2019-07-24 00:09:59.535140 | 300357 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300357/ctrl/2007/displaytype/4.phtml
+2019-07-24 00:14:42.913706 | 300400 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2008/displaytype/4.phtml
+2019-07-24 00:14:43.193526 | 300400 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2007/displaytype/4.phtml
+2019-07-24 00:44:03.600871 | 300400 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2008/displaytype/4.phtml
+2019-07-24 00:44:03.884138 | 300400 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2007/displaytype/4.phtml
+2019-07-24 00:51:13.314778 | 300400 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2008/displaytype/4.phtml
+2019-07-24 00:51:13.510248 | 300400 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2007/displaytype/4.phtml
+2019-07-24 00:53:21.120416 | 300400 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2008/displaytype/4.phtml
+2019-07-24 00:53:21.329062 | 300400 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300400/ctrl/2007/displaytype/4.phtml
+2019-07-24 00:53:28.644014 | 300357 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300357/ctrl/2008/displaytype/4.phtml
+2019-07-24 00:53:28.935520 | 300357 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300357/ctrl/2007/displaytype/4.phtml
+2019-07-24 01:06:53.551327 | 300315 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300315/ctrl/2007/displaytype/4.phtml
