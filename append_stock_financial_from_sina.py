@@ -180,6 +180,7 @@ def get_cashflow(stock_code):
                 for column in df.columns:
                     df[column]=pd.to_numeric(df[column],errors='coerce')
                 df.dropna(axis=0,inplace=True)
+                df=df[~df.index.duplicated()] #证券类或保险类公司的现金流量表中“经营活动中产生的现金流量净额”有重复行，去除
                 dfs.append(df)
             except:
                 with open('get_cashflow_log.txt','a') as f:
@@ -193,7 +194,7 @@ def get_cashflow(stock_code):
         df=dfs[0]
     elif len(dfs)==0:
         df=None
-
+    print(df)
     if not df is None:
         #如果已有数据文件，则将已有数据与爬取数据合表到一个df,并将列按升序重排
         if os.path.exists(file):
@@ -209,6 +210,7 @@ def get_cashflow(stock_code):
         columns=list(df.columns)
         columns.sort()
         df=df.reindex(columns=columns)
+        
         file=os.getcwd()+'\\stock_financial_sina\\'+stock_code+'cashflow.csv'
         print(file)
         print('*'*50)

@@ -29,3 +29,17 @@
 2019-07-24 00:53:30.462237 | 300357 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300357/ctrl/2008/displaytype/4.phtml
 2019-07-24 00:53:30.623826 | 300357 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300357/ctrl/2007/displaytype/4.phtml
 2019-07-24 01:06:56.991806 | 300315 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300315/ctrl/2007/displaytype/4.phtml
+2019-07-24 19:45:29.124799 | 002841 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2010/displaytype/4.phtml
+2019-07-24 19:45:29.539786 | 002841 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2009/displaytype/4.phtml
+2019-07-24 19:45:29.993003 | 002841 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2008/displaytype/4.phtml
+2019-07-24 19:45:30.308260 | 002841 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2007/displaytype/4.phtml
+2019-07-24 21:04:48.279685 | 002841 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2010/displaytype/4.phtml
+2019-07-24 21:04:48.609410 | 002841 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2009/displaytype/4.phtml
+2019-07-24 21:04:48.908333 | 002841 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2008/displaytype/4.phtml
+2019-07-24 21:04:49.262107 | 002841 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002841/ctrl/2007/displaytype/4.phtml
+2019-07-24 21:27:07.613884 | 603030 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603030/ctrl/2010/displaytype/4.phtml
+2019-07-24 21:27:08.018652 | 603030 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603030/ctrl/2009/displaytype/4.phtml
+2019-07-24 21:27:08.317348 | 603030 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603030/ctrl/2008/displaytype/4.phtml
+2019-07-24 21:27:08.604534 | 603030 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603030/ctrl/2007/displaytype/4.phtml
+2019-07-28 10:33:30.954389 | 300400 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300400/ctrl/2008/displaytype/4.phtml
+2019-07-28 10:33:31.154366 | 300400 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300400/ctrl/2007/displaytype/4.phtml

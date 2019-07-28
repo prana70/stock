@@ -13,6 +13,7 @@ import stockeval as se
 
 
 def GetAssets(stockcode):  # 获取历年总资产与净资产
+    '''
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
     # print (file)
@@ -27,9 +28,25 @@ def GetAssets(stockcode):  # 获取历年总资产与净资产
     l_zzc = list(s_zzc.values)  # 总资产列表
     l_jzc = list(s_jzc.values)  # 净资产列表
     return l_index, l_zzc, l_jzc
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
+    # print (file)
+    df = pd.read_csv(file, index_col=0)
+    if ssa.get_stock_type(stockcode)=='金融类':  # 略有文字不一致，导致对金融类和非金融类要作区分
+        s_zzc = df.loc['资产总计'] / 10000  # 总资产
+        s_jzc = df.loc['股东权益合计'] / 10000  # 净资产
+    else:
+        s_zzc = df.loc['资产总计'] / 10000  # 总资产
+        s_jzc = df.loc['所有者权益(或股东权益)合计'] / 10000  # 净资产
+    l_index = list(s_zzc.index.values)  # 报告期列表
+    l_zzc = list(s_zzc.values)  # 总资产列表
+    l_jzc = list(s_jzc.values)  # 净资产列表
+    return l_index, l_zzc, l_jzc
 
 
 def GetAssetsStructure(stockcode):  # 获取最近一期的资产结构
+    '''
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
     #print(file)
@@ -82,9 +99,79 @@ def GetAssetsStructure(stockcode):  # 获取最近一期的资产结构
                       '商誉', '长期待摊费用', '递延所得税资产', '其他非流动资产'],
                      df.columns[-1]].str.replace(',', '').fillna('0').astype(float) / 100000000
     return list(df2.index.values), list(df2.values)
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
+    #print(file)
+    df = pd.read_csv(file, index_col=0)
+    if ssa.get_stock_type(stockcode)=='金融类':  # 对金融类和非金融类要作区分
+        df2 = df.loc[['现金及存放中央银行款项',
+                      '存放同业款项',
+                      '拆出资金',
+                      '贵金属',
+                      '交易性金融资产',
+                      '衍生金融工具资产',
+                      '买入返售金融资产',
+                      '应收利息',
+                      '发放贷款及垫款',
+                      '代理业务资产',
+                      '可供出售金融资产',
+                      '持有至到期投资',
+                      '长期股权投资',
+                      '应收投资款项',
+                      '固定资产合计',
+                      '无形资产',
+                      '商誉',
+                      '递延税款借项',
+                      '投资性房地产',
+                      '其他资产'], df.columns[-1]] / 10000
+    else:
+        for item in df.columns:
+            if df[item]['应收票据及应收账款']==0:
+                df[item]['应收票据及应收账款']=df[item]['应收票据']+df[item]['应收账款']
+            #if df[item]['应付票据及应付账款']==0:
+                #df[item]['应付票据及应付账款']=df[item]['应付票据']+df[item]['应付账款']
+
+        df2 = df.loc[['货币资金',
+                      '交易性金融资产',
+                      '衍生金融资产',
+                      '应收票据及应收账款',
+                      '预付款项',
+                      '应收利息',
+                      '应收股利',
+                      '其他应收款',
+                      '买入返售金融资产',
+                      '存货',
+                      '划分为持有待售的资产',
+                      '一年内到期的非流动资产',
+                      '待摊费用',
+                      '待处理流动资产损益',
+                      '其他流动资产',
+                      '发放贷款及垫款',
+                      '可供出售金融资产',
+                      '持有至到期投资',
+                      '长期应收款',
+                      '长期股权投资',
+                      '投资性房地产',
+                      '固定资产净额',
+                      '在建工程',
+                      '工程物资',
+                      '固定资产清理',
+                      '生产性生物资产',
+                      '公益性生物资产',
+                      '油气资产',
+                      '无形资产',
+                      '开发支出',
+                      '商誉',
+                      '长期待摊费用',
+                      '递延所得税资产',
+                      '其他非流动资产'],df.columns[-1]] / 10000
+    return list(df2.index.values), list(df2.values)
+
 
 
 def GetAssetsSource(stockcode):  # 获取最近一期的资产来源
+    '''
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
     #print(file)
@@ -141,9 +228,78 @@ def GetAssetsSource(stockcode):  # 获取最近一期的资产来源
                       '未分配利润', '少数股东权益', '外币报表折算价差', '非正常经营项目收益调整'],
                      df.columns[-1]].str.replace(',', '').fillna('0').astype(float) / 100000000
     return list(df2.index.values), list(df2.values)
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
+    df = pd.read_csv(file, index_col=0)
+    if ssa.get_stock_type(stockcode)=='金融类':  # 对金融类和非金融类要作区分
+        df2 = df.loc[['向中央银行借款',
+                      '同业存入及拆入',
+                      '衍生金融工具负债',
+                      '交易性金融负债',
+                      '卖出回购金融资产款',
+                      '客户存款(吸收存款)',
+                      '应付职工薪酬',
+                      '应交税费',
+                      '应付利息',
+                      '应付账款',
+                      '代理业务负债',
+                      '应付债券',
+                      '递延所得税负债',
+                      '预计负债',
+                      '其他负债',
+                      '股本',
+                      '其他权益工具',
+                      '资本公积',
+                      '其他综合收益',
+                      '盈余公积',
+                      '未分配利润',
+                      '一般风险准备',
+                      '外币报表折算差额',
+                      '其他储备'], df.columns[-1]] / 10000
+    else:
+        for item in df.columns:
+            #if df[item]['应收票据及应收账款']==0:
+                #df[item]['应收票据及应收账款']=df[item]['应收票据']+df[item]['应收账款']
+            if df[item]['应付票据及应付账款']==0:
+                df[item]['应付票据及应付账款']=df[item]['应付票据']+df[item]['应付账款']
+        df2 = df.loc[['短期借款',
+                      '交易性金融负债',
+                      '应付票据及应付账款',
+                      '预收款项',
+                      '应付手续费及佣金',
+                      '应付职工薪酬',
+                      '应交税费',
+                      '应付利息',
+                      '应付股利',
+                      '其他应付款',
+                      '预提费用',
+                      '一年内的递延收益',
+                      '应付短期债券',
+                      '一年内到期的非流动负债',
+                      '其他流动负债',
+                      '长期借款',
+                      '应付债券',
+                      '长期应付款',
+                      '长期应付职工薪酬',
+                      '专项应付款',
+                      '预计非流动负债',
+                      '递延所得税负债',
+                      '长期递延收益',
+                      '其他非流动负债',
+                      '实收资本(或股本)',
+                      '资本公积',
+                      '其他综合收益',
+                      '专项储备',
+                      '盈余公积',
+                      '一般风险准备',
+                      '未分配利润'], df.columns[-1]] / 10000
+    return list(df2.index.values), list(df2.values)
+
 
 
 def GetPosition(stockcode):  # 获取供应链地位
+    '''
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
     # print(file)
@@ -157,6 +313,27 @@ def GetPosition(stockcode):  # 获取供应链地位
                       '应付票据', '应付账款', '预收款项']].fillna('0').applymap(ssa.str_to_float) / 100000000
         s_jyxzc = df2.loc['应收票据'] + df2.loc['应收账款'] + df2.loc['预付款项']  # 经营性资产
         s_jyxfz = df2.loc['应付票据'] + df2.loc['应付账款'] + df2.loc['预收款项']  # 经营性负债
+    labels = list(s_jyxzc.index.values)  # 报告期
+    data1 = list(s_jyxzc.values)  # 经营性资产
+    data2 = list(s_jyxfz.values)  # 经营性负债
+    return labels, data1, data2
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file = os.getcwd() + '\\stock_financial_sina\\' + stockcode +'balancesheet.csv'
+    df = pd.read_csv(file, index_col=0)
+    if ssa.get_stock_type(stockcode)=='金融类':  # 对金融类和非金融类要作区分
+        df2 = df.loc[['存放同业款项','拆出资金','同业存入及拆入','拆入资金']]/10000
+        s_jyxzc = df2.loc['存放同业款项']+df2.loc['拆出资金']  # 经营性资产
+        s_jyxfz = df2.loc['同业存入及拆入']+df2.loc['拆入资金'] # 经营性负债
+    else:
+        df2 = df.loc[['应收票据及应收账款','应收票据','应收账款','预付款项','应付票据及应付账款','应付票据','应付账款','预收款项']]/ 10000
+        for item in df2.columns:
+            if df2[item]['应收票据及应收账款']==0:
+                df2[item]['应收票据及应收账款']=df2[item]['应收票据']+df2[item]['应收账款']
+            if df2[item]['应付票据及应付账款']==0:
+                df2[item]['应付票据及应付账款']=df2[item]['应付票据']+df2[item]['应付账款']
+        s_jyxzc = df2.loc['应收票据及应收账款'] + df2.loc['预付款项']  # 经营性资产
+        s_jyxfz = df2.loc['应付票据及应付账款'] + df2.loc['预收款项']  # 经营性负债
     labels = list(s_jyxzc.index.values)  # 报告期
     data1 = list(s_jyxzc.values)  # 经营性资产
     data2 = list(s_jyxfz.values)  # 经营性负债

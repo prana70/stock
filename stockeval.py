@@ -51,10 +51,14 @@ def GetNetProfit(stockcode):
             #print(LastYear)
             break
         i-=1
-    if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的净利润项目名称不同，故要作区别对待。
+    if '其他业务支出'in df.index: #银行、保险、证券以及普通公司项目名称不同，此为银行类。
         NetProfitName='归属于母公司的净利润'#'五、净利润'
-    else:
-        NetProfitName='归属于母公司所有者的净利润'#'四、净利润'
+    elif '利息支出'in df.index: #此为证券类。
+        NetProfitName='归属于母公司所有者的净利润'
+    elif '退保金'in df.index: #此为保险类。
+        NetProfitName='归属于母公司股东的净利润'
+    else: #此为普通类
+        NetProfitName='归属于母公司所有者的净利润'
     #print(df.loc[NetProfitName])
     NetProfit=df.at[NetProfitName,LastYear]*10000
     return NetProfit
@@ -119,10 +123,14 @@ def GetNetProfitGrowth(stockcode):
         LastTerm=str(int(CurrentTerm[:4])-1)+CurrentTerm[4:]
         if LastTerm not in df.columns:
             LastTerm=str(int(CurrentTerm[:4])-1)+'-12-31'
-        if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的净利润项目名称不同，故要作区别对待。
+        if '其他业务支出'in df.index: #银行、保险、证券以及普通公司项目名称不同，此为银行类。
             NetProfitName='归属于母公司的净利润'#'五、净利润'
-        else:
-            NetProfitName='归属于母公司所有者的净利润'#'四、净利润'
+        elif '利息支出'in df.index: #此为证券类。
+            NetProfitName='归属于母公司所有者的净利润'
+        elif '退保金'in df.index: #此为保险类。
+            NetProfitName='归属于母公司股东的净利润'
+        else: #此为普通类
+            NetProfitName='归属于母公司所有者的净利润'
         CurrentProfit=df.at[NetProfitName,CurrentTerm]/TermType[CurrentTerm[5:]]*4
         LastProfit=df.at[NetProfitName,LastTerm]/TermType[LastTerm[5:]]*4
 
@@ -160,7 +168,11 @@ def GetIncomeGrowth(stockcode):
     LastTerm=str(int(CurrentTerm[:4])-1)+CurrentTerm[4:]
     if LastTerm not in df.columns:
         LastTerm=str(int(CurrentTerm[:4])-1)+'-12-31'
-    if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的营业收入项目名称不同，故要作区别对待。
+    if '其他业务支出'in df.index: ##银行、保险、证券以及普通公司项目名称不同，此为银行类。
+        IncomeName='一、营业收入'
+    elif '利息支出'in df.index: #此为证券类。
+        IncomeName='一、营业收入'
+    elif '退保金'in df.index: #此为保险类。
         IncomeName='一、营业收入'
     else:
         IncomeName='一、营业总收入'
@@ -199,7 +211,6 @@ def GetNetIncomeCashSum(stockcode):
             ls.append(sr[sr.index[i]]-sr[sr.index[i-1]])
         else:
             ls.append(sr[sr.index[i]])
-    print(ls)
     return sum(ls)*10000        
 
 
@@ -261,10 +272,19 @@ def GetTradePosition(stockcode):
     stockname=ssa.get_stockname(stockcode)
     file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'balancesheet.csv'
     df=pd.read_csv(file,index_col=0)
-    if ssa.get_stock_type(stockcode)=='金融类': #金融类与非金融类股票的项目名称不同，故要作区别对待。
+    if '贵金属' in df.index: #银行类。
         serr=df.loc[['存放同业款项','拆出资金','同业存入及拆入','拆入资金'],df.columns[-1]]
         s_jyxzc=sum(serr[['存放同业款项','拆出资金']])#经营性资产
         s_jyxfz=sum(serr[['同业存入及拆入','拆入资金']])#经营性负债
+    elif '融出资金' in df.index: #证券类
+        serr=df.loc[['融出资金','应收账款','应收利息','拆入资金','应付账款','应付利息'],df.columns[-1]]
+        s_jyxzc=sum(serr[['融出资金','应收账款','应收利息']])#经营性资产
+        s_jyxfz=sum(serr[['拆入资金','应付账款','应付利息']])#经营性负债
+    elif '应收保费' in df.index: #保险类
+        serr=df.loc[['拆出资金','应收保费','应收利息','应收分保账款','拆入资金','预收账款','预收保费','应付手续费及佣金','应付分保账款','应付利息'],df.columns[-1]]
+        s_jyxzc=sum(serr[['拆出资金','应收保费','应收利息','应收分保账款']])#经营性资产
+        s_jyxfz=sum(serr[['拆入资金','预收账款','预收保费','应付手续费及佣金','应付分保账款','应付利息']])#经营性负债
+        
     else:
         serr=df.loc[['应收票据及应收账款','应收票据','应收账款','预付款项','应付票据及应付账款','应付票据','应付账款','预收款项'],df.columns[-1]]
         if serr['应收票据及应收账款']==0:
