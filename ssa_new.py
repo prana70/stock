@@ -33,9 +33,15 @@ def GetAssets(stockcode):  # 获取历年总资产与净资产
     file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
     # print (file)
     df = pd.read_csv(file, index_col=0)
-    if ssa.get_stock_type(stockcode)=='金融类':  # 略有文字不一致，导致对金融类和非金融类要作区分
+    if '贵金属' in df.index: #银行类。
         s_zzc = df.loc['资产总计'] / 10000  # 总资产
         s_jzc = df.loc['股东权益合计'] / 10000  # 净资产
+    elif '融出资金' in df.index: #证券类
+        s_zzc = df.loc['资产总计'] / 10000  # 总资产
+        s_jzc = df.loc['所有者权益合计'] / 10000  # 净资产
+    elif '应收保费' in df.index: #保险类
+        s_zzc = df.loc['资产总计'] / 10000  # 总资产
+        s_jzc = df.loc['所有者权益合计'] / 10000  # 净资产
     else:
         s_zzc = df.loc['资产总计'] / 10000  # 总资产
         s_jzc = df.loc['所有者权益(或股东权益)合计'] / 10000  # 净资产
@@ -104,7 +110,7 @@ def GetAssetsStructure(stockcode):  # 获取最近一期的资产结构
     file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
     #print(file)
     df = pd.read_csv(file, index_col=0)
-    if ssa.get_stock_type(stockcode)=='金融类':  # 对金融类和非金融类要作区分
+    if '贵金属' in df.index:  # 银行类
         df2 = df.loc[['现金及存放中央银行款项',
                       '存放同业款项',
                       '拆出资金',
@@ -125,7 +131,53 @@ def GetAssetsStructure(stockcode):  # 获取最近一期的资产结构
                       '递延税款借项',
                       '投资性房地产',
                       '其他资产'], df.columns[-1]] / 10000
-    else:
+    elif '融出资金' in df.index: #证券类
+        df2 = df.loc[['货币资金',
+                      '结算备付金',
+                      '融出资金',
+                      '交易性金融资产',
+                      '衍生金融资产',
+                      '买入返售金融资产',
+                      '应收账款',
+                      '应收利息',
+                      '存出保证金',
+                      '可供出售金融资产',
+                      '持有至到期投资',
+                      '长期股权投资',
+                      '固定资产',
+                      '无形资产',
+                      '商誉',
+                      '递延所得税资产',
+                      '投资性房地产',
+                      '其他资产'], df.columns[-1]] / 10000
+    elif '应收保费' in df.index: #保险类
+        df2 = df.loc[['货币资金',
+                      '拆出资金',
+                      '交易性金融资产',
+                      '衍生金融资产',
+                      '买入返售金融资产',
+                      '应收保费',
+                      '应收利息',
+                      '应收分保账款',
+                      '应收分保未到期责任准备金',
+                      '应收分保未决赔款准备金',
+                      '应收分保寿险责任准备金',
+                      '应收分保长期健康险责任准备金',
+                      '保户质押贷款',
+                      '可供出售金融资产',
+                      '持有至到期投资',
+                      '长期股权投资',
+                      '存出资本保证金',
+                      '应收款项类投资',
+                      '固定资产',
+                      '无形资产',
+                      '商誉',
+                      '独立账户资产',
+                      '递延所得税资产',
+                      '投资性房地产',
+                      '定期存款',
+                      '其他资产'], df.columns[-1]] / 10000
+    else: #普通类
         for item in df.columns:
             if df[item]['应收票据及应收账款']==0:
                 df[item]['应收票据及应收账款']=df[item]['应收票据']+df[item]['应收账款']
@@ -232,7 +284,7 @@ def GetAssetsSource(stockcode):  # 获取最近一期的资产来源
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
     df = pd.read_csv(file, index_col=0)
-    if ssa.get_stock_type(stockcode)=='金融类':  # 对金融类和非金融类要作区分
+    if '贵金属' in df.index:  #银行类
         df2 = df.loc[['向中央银行借款',
                       '同业存入及拆入',
                       '衍生金融工具负债',
@@ -257,6 +309,66 @@ def GetAssetsSource(stockcode):  # 获取最近一期的资产来源
                       '一般风险准备',
                       '外币报表折算差额',
                       '其他储备'], df.columns[-1]] / 10000
+    elif '融出资金' in df.index: #证券类
+        df2 = df.loc[['短期借款',
+                      '应付短期融资款',
+                      '拆入资金',
+                      '交易性金融负债',
+                      '衍生金融负债',
+                      '卖出回购金融资产款',
+                      '代理买卖证券款',
+                      '代理承销证券款',
+                      '应付职工薪酬',
+                      '应交税费',
+                      '应付账款',
+                      '应付利息',
+                      '长期借款',
+                      '应付债券款',
+                      '递延所得税负债',
+                      '预计负债',
+                      '其他负债',
+                      '股本',
+                      '其他权益工具',
+                      '资本公积金',
+                      '其他综合收益',
+                      '盈余公积金金',
+                      '未分配利润',
+                      '一般风险准备',
+                      '交易风险准备',
+                      '外币报表折算差额'], df.columns[-1]] / 10000
+    elif '应收保费' in df.index: #保险类
+        df2 = df.loc[['短期借款',
+                      '拆入资金',
+                      '交易性金融负债',
+                      '衍生金融负债',
+                      '卖出回购金融资产款',
+                      '预收账款',
+                      '预收保费',
+                      '应付手续费及佣金',
+                      '应付分保账款',
+                      '应付职工薪酬',
+                      '应交税费',
+                      '应付利息',
+                      '应付赔付款',
+                      '应付保单红利',
+                      '保户储金及投资款',
+                      '未到期责任准备金',
+                      '未决赔款准备金',
+                      '寿险责任准备金',
+                      '长期健康险责任准备金',
+                      '长期借款',
+                      '应付债券',
+                      '独立账户负债',
+                      '递延所得税负债',
+                      '预计负债',
+                      '其他负债',
+                      '股本',
+                      '资本公积金',
+                      '其他综合收益',
+                      '盈余公积金金',
+                      '未分配利润',
+                      '一般风险准备',
+                      '外币报表折算差额'], df.columns[-1]] / 10000
     else:
         for item in df.columns:
             #if df[item]['应收票据及应收账款']==0:
@@ -321,11 +433,37 @@ def GetPosition(stockcode):  # 获取供应链地位
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial_sina\\' + stockcode +'balancesheet.csv'
     df = pd.read_csv(file, index_col=0)
-    if ssa.get_stock_type(stockcode)=='金融类':  # 对金融类和非金融类要作区分
+    if '贵金属' in df.index:  # 银行类
         df2 = df.loc[['存放同业款项','拆出资金','同业存入及拆入','拆入资金']]/10000
         s_jyxzc = df2.loc['存放同业款项']+df2.loc['拆出资金']  # 经营性资产
         s_jyxfz = df2.loc['同业存入及拆入']+df2.loc['拆入资金'] # 经营性负债
-    else:
+    elif '融出资金' in df.index: #证券类
+        df2 = df.loc[['融出资金',
+                      '应收账款',
+                      '应收利息',
+                      '拆入资金',
+                      '应付账款',
+                      '应付利息']]/10000
+        s_jyxzc = df2.loc['融出资金']+df2.loc['应收账款']+df2.loc['应收利息']  # 经营性资产
+        s_jyxfz = df2.loc['拆入资金']+df2.loc['应付账款']+df2.loc['应付利息'] # 经营性负债
+    elif '应收保费' in df.index: #保险类
+        df2 = df.loc[['拆出资金',
+                      '应收保费',
+                      '应收利息',
+                      '应收分保账款',
+                      '应收分保未到期责任准备金',
+                      '应收分保未决赔款准备金',
+                      '应收分保寿险责任准备金',
+                      '应收分保长期健康险责任准备金',
+                      '拆入资金',
+                      '预收账款',
+                      '预收保费',
+                      '应付手续费及佣金',
+                      '应付分保账款',
+                      '应付利息']]/10000
+        s_jyxzc = df2.loc['拆出资金']+df2.loc['应收保费']+df2.loc['应收利息']+df2.loc['应收分保账款']+df2.loc['应收分保未到期责任准备金']+df2.loc['应收分保未决赔款准备金']+df2.loc['应收分保寿险责任准备金']+df2.loc['应收分保长期健康险责任准备金']  # 经营性资产
+        s_jyxfz = df2.loc['拆入资金']+df2.loc['预收账款']+df2.loc['预收保费']+df2.loc['应付手续费及佣金']+df2.loc['应付分保账款']+df2.loc['应付利息'] # 经营性负债
+    else: #普通类
         df2 = df.loc[['应收票据及应收账款','应收票据','应收账款','预付款项','应付票据及应付账款','应付票据','应付账款','预收款项']]/ 10000
         for item in df2.columns:
             if df2[item]['应收票据及应收账款']==0:
@@ -341,6 +479,7 @@ def GetPosition(stockcode):  # 获取供应链地位
 
 
 def GetReceivablesRate(stockcode):  # 获取应收账款比率
+    '''
     stockname = ssa.get_stockname(stockcode)
     file1 = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
     file2 = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'incomestatements.csv'
@@ -377,9 +516,56 @@ def GetReceivablesRate(stockcode):  # 获取应收账款比率
     data = list(ReceivableRate.values)
     # print(labels,data)
     return labels, data
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file1 = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
+    file2 = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'profitstatement.csv'
+
+    df1 = pd.read_csv(file1, index_col=0)
+    df2 = pd.read_csv(file2, index_col=0)
+
+    if '贵金属' in df1.index:  # 银行类
+        df3 = df1.loc[['存放同业款项',
+                       '拆出资金',
+                       '应收利息']] / 10000
+        s_yszk = df3.loc['存放同业款项'] + df3.loc['拆出资金'] + df3.loc['应收利息']
+        s_yysr = df2.loc['一、营业收入'] / 10000  # 获取营业收入
+    elif '融出资金' in df1.index: # 证券类
+        df3 = df1.loc[['融出资金',
+                       '应收账款',
+                       '应收利息',]] / 10000
+        s_yszk = df3.loc['融出资金'] + df3.loc['应收账款'] + df3.loc['应收利息']
+        s_yysr = df2.loc['一、营业收入'] / 10000  # 获取营业收入
+    elif '应收保费' in df1.index: # 保险类
+        df3 = df1.loc[['拆出资金',
+                       '应收保费',
+                       '应收利息',
+                       '应收分保账款',
+                       '应收分保未到期责任准备金',
+                       '应收分保未决赔款准备金',
+                       '应收分保寿险责任准备金',
+                       '应收分保长期健康险责任准备金']] / 10000
+        s_yszk = df3.loc['拆出资金'] + df3.loc['应收保费']+df3.loc['应收利息']+df3.loc['应收分保账款']+df3.loc['应收分保未到期责任准备金']+df3.loc['应收分保未决赔款准备金']+df3.loc['应收分保寿险责任准备金']+df3.loc['应收分保长期健康险责任准备金']
+        s_yysr = df2.loc['一、营业收入'] / 10000  # 获取营业收入
+    else: #普通类
+        s_yszk = df1.loc['应收账款'] / 10000
+        s_yysr = df2.loc['一、营业总收入'] / 10000  # 获取营业收入
+    for index in s_yysr.index.values:  # 将季度营业收入转变为年度营业收入
+        if '03-31' in index:
+            s_yysr[index] = s_yysr[index] * 4
+        if '06-30' in index:
+            s_yysr[index] = s_yysr[index] / 2 * 4
+        if '09-30' in index:
+            s_yysr[index] = s_yysr[index] / 3 * 4
+    ReceivableRate = s_yszk / s_yysr * 100
+    ReceivableRate.dropna(inplace=True)
+    labels = list(ReceivableRate.index.values)
+    data = list(ReceivableRate.values)
+    return labels, data
 
 
 def GetInventoryRate(stockcode):  # 获取存货比率
+    '''
     stockname = ssa.get_stockname(stockcode)
     file1 = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
     file2 = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'incomestatements.csv'
@@ -409,11 +595,36 @@ def GetInventoryRate(stockcode):  # 获取存货比率
     InventoryRate = s_ch / s_yysr * 100
     labels = list(InventoryRate.index.values)
     data = list(InventoryRate.values)
-    # print(labels,data)
+    return labels, data
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file1 = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
+    file2 = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'profitstatement.csv'
+
+    df1 = pd.read_csv(file1, index_col=0)
+    df2 = pd.read_csv(file2, index_col=0)
+
+    if '贵金属' in df1.index.values or '融出资金' in df1.index.values or '应收保费' in df1.index.values:  # 若是金融企业，没有存货，返回none
+        return None, None
+
+    s_ch = df1.loc['存货'] / 10000
+    s_yysr = df2.loc['一、营业总收入'] / 10000  # 获取营业收入
+    for index in s_yysr.index.values:  # 将季度营业收入转变为年度营业收入
+        if '03-31' in index:
+            s_yysr[index] = s_yysr[index] * 4
+        if '06-30' in index:
+            s_yysr[index] = s_yysr[index] / 2 * 4
+        if '09-30' in index:
+            s_yysr[index] = s_yysr[index] / 3 * 4
+    InventoryRate = s_ch / s_yysr * 100
+    InventoryRate.dropna(inplace=True)
+    labels = list(InventoryRate.index.values)
+    data = list(InventoryRate.values)
     return labels, data
 
 
 def GetIncomeProfit(stockcode):  # 获取营业状况
+    '''
     stockname = ssa.get_stockname(stockcode)
     file = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'incomestatements.csv'
     df = pd.read_csv(file, index_col=0)
@@ -471,9 +682,53 @@ def GetIncomeProfit(stockcode):  # 获取营业状况
     #print('净利润：')
     #print(data3)
     return labels, data1, data2, data3
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'profitstatement.csv'
+    df = pd.read_csv(file, index_col=0)
+
+    if '其他业务支出' in df.index:  # 银行类
+        df1 = df.loc[['一、营业收入','汇兑收益','投资净收益','公允价值变动净收益','其他业务收入','资产减值损失','其他业务支出','三、营业利润','五、净利润',]] / 10000
+        df1.loc['营业收入'] = df1.loc['一、营业收入']
+        df1.loc['净利润'] = df1.loc['五、净利润']
+        df1.loc['核心利润'] = df1.loc['三、营业利润'] - df1.loc['投资净收益'] - df1.loc['公允价值变动净收益'] - df1.loc['汇兑收益'] \
+                          - df1.loc['其他业务收入'] + df1.loc['资产减值损失'] + df1.loc['其他业务支出']
+    elif '利息支出' in df.index: # 证券类
+        df1 = df.loc[['一、营业收入','投资收益','公允价值变动损益','汇兑损益','其他业务收入','资产减值损失','其他业务成本','三、营业利润','五、净利润']] / 10000
+        df1.loc['营业收入'] = df1.loc['一、营业收入']
+        df1.loc['净利润'] = df1.loc['五、净利润']
+        df1.loc['核心利润'] = df1.loc['三、营业利润'] - df1.loc['投资收益'] - df1.loc['公允价值变动损益'] - df1.loc['汇兑损益'] \
+                          - df1.loc['其他业务收入'] + df1.loc['资产减值损失'] + df1.loc['其他业务成本']
+    elif '退保金' in df.index: # 保险类：
+        df1 = df.loc[['一、营业收入','投资净收益','公允价值变动损益','汇兑损益','其他业务收入','其他业务成本','资产减值损失','三、营业利润','五、净利润']] / 10000
+        df1.loc['营业收入'] = df1.loc['一、营业收入']
+        df1.loc['净利润'] = df1.loc['五、净利润']
+        df1.loc['核心利润'] = df1.loc['三、营业利润'] - df1.loc['投资净收益'] - df1.loc['公允价值变动损益'] - df1.loc['汇兑损益'] \
+                          - df1.loc['其他业务收入'] + df1.loc['资产减值损失'] + df1.loc['其他业务成本']
+    else: # 普通类
+        df1 = df.loc[['一、营业总收入','资产减值损失','公允价值变动收益','投资收益','汇兑收益','三、营业利润','五、净利润']] / 10000
+        df1.loc['营业收入'] = df1.loc['一、营业总收入']
+        df1.loc['净利润'] = df1.loc['五、净利润']
+        df1.loc['核心利润'] = df1.loc['三、营业利润'] + df1.loc['资产减值损失'] - df1.loc['公允价值变动收益'] - df1.loc['投资收益'] \
+                          - df1.loc['汇兑收益']
+    for column in df1.columns:  # 将季度数据转变为年度数据
+        if '03-31' in column:
+            df1[column] = df1[column] * 4
+        if '06-30' in column:
+            df1[column] = df1[column] / 2 * 4
+        if '09-30' in column:
+            df1[column] = df1[column] / 3 * 4
+
+
+    labels = list(df1.columns)
+    data1 = list(df1.loc['营业收入'])
+    data2 = list(df1.loc['核心利润'])
+    data3 = list(df1.loc['净利润'])
+    return labels, data1, data2, data3
 
 
 def GetROE(stockcode):  # 获取资产收益率
+    '''
     stockname = ssa.get_stockname(stockcode)
     file1 = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'balancesheet.csv'
     file2 = os.getcwd() + '\\stock_financial\\' + stockcode + stockname + 'incomestatements.csv'
@@ -556,6 +811,127 @@ def GetROE(stockcode):  # 获取资产收益率
     df3 = df3.replace(np.inf, np.nan).replace(-(np.inf), np.nan)
     df3 = df3.fillna(0)
     # print(df3)
+
+    # </新改造>
+
+    labels = list(df3.columns)
+    # print(labels)
+    data1 = list(df3.loc['息税前资产收益率'])
+    # print(data1)
+    data2 = list(df3.loc['净资产收益率'])
+    # print(data2)
+    data3 = list(df3.loc['有息负债利率'])
+    # print(data3)
+    return labels, data1, data2, data3
+    '''
+    stockname = ssa.get_stockname(stockcode)
+    file1 = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
+    file2 = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'profitstatement.csv'
+
+    df1 = pd.read_csv(file1, index_col=0)  
+    df2 = pd.read_csv(file2, index_col=0)
+
+    if '贵金属' in df1.index:  # 银行类
+        df1_1 = df1.loc[['向中央银行借款',
+                         '同业存入及拆入',
+                         '拆入资金',
+                         '衍生金融工具负债',
+                         '交易性金融负债',
+                         '卖出回购金融资产款',
+                         '客户存款(吸收存款)',
+                         '应付债券',
+                         '股东权益合计',
+                         '负债及股东权益总计']] / 10000
+        df1_1.loc['总资产'] = df1_1.loc['负债及股东权益总计']
+        df1_1.loc['净资产'] = df1_1.loc['股东权益合计']
+        df1_1.loc['有息负债'] = df1_1.loc['向中央银行借款'] + df1_1.loc['同业存入及拆入'] + df1_1.loc['拆入资金'] + df1_1.loc['衍生金融工具负债'] + \
+                            df1_1.loc['交易性金融负债'] + df1_1.loc['卖出回购金融资产款'] + df1_1.loc['客户存款(吸收存款)'] + df1_1.loc['应付债券']
+        df1_2 = df1_1.loc[['总资产', '净资产', '有息负债']]
+
+        df2_1 = df2.loc[['减：利息支出','四、利润总额','五、净利润']] / 10000
+        df2_1.loc['净利润'] = df2_1.loc['五、净利润']
+        df2_1.loc['息税前利润'] = df2_1.loc['减：利息支出'] + df2_1.loc['四、利润总额']
+        df2_1.loc['负债成本'] = df2_1.loc['减：利息支出']
+        df2_2 = df2_1.loc[['净利润', '息税前利润', '负债成本']]
+    elif '融出资金' in df1.index: # 证券类
+        df1_1 = df1.loc[['短期借款',
+                         '应付短期融资款',
+                         '拆入资金',
+                         '交易性金融负债',
+                         '衍生金融负债',
+                         '卖出回购金融资产款',
+                         '长期借款',
+                         '应付债券款',
+                         '所有者权益合计',
+                         '负债及股东权益总计']] / 10000
+        df1_1.loc['总资产'] = df1_1.loc['负债及股东权益总计']
+        df1_1.loc['净资产'] = df1_1.loc['所有者权益合计']
+        df1_1.loc['有息负债'] = df1_1.loc['短期借款'] + df1_1.loc['应付短期融资款'] + df1_1.loc['拆入资金'] + df1_1.loc['交易性金融负债'] + \
+                            df1_1.loc['衍生金融负债'] + df1_1.loc['卖出回购金融资产款'] + df1_1.loc['长期借款'] + df1_1.loc['应付债券款']
+        df1_2 = df1_1.loc[['总资产', '净资产', '有息负债']]
+
+        df2_1 = df2.loc[['利息支出','四、利润总额','五、净利润']] / 10000
+        df2_1.loc['净利润'] = df2_1.loc['五、净利润']
+        df2_1.loc['息税前利润'] = df2_1.loc['利息支出'] + df2_1.loc['四、利润总额']
+        df2_1.loc['负债成本'] = df2_1.loc['利息支出']
+        df2_2 = df2_1.loc[['净利润', '息税前利润', '负债成本']]
+    elif '应收保费' in df1.index: # 保险类
+        df1_1 = df1.loc[['短期借款',
+                         '拆入资金',
+                         '交易性金融负债',
+                         '衍生金融负债',
+                         '卖出回购金融资产款',
+                         '长期借款',
+                         '应付债券',
+                         '所有者权益合计',
+                         '负债及股东权益总计']] / 10000
+        df1_1.loc['总资产'] = df1_1.loc['负债及股东权益总计']
+        df1_1.loc['净资产'] = df1_1.loc['所有者权益合计']
+        df1_1.loc['有息负债'] = df1_1.loc['短期借款'] + df1_1.loc['拆入资金'] + df1_1.loc['交易性金融负债'] + \
+                            df1_1.loc['衍生金融负债'] + df1_1.loc['卖出回购金融资产款'] + df1_1.loc['长期借款'] + df1_1.loc['应付债券']
+        df1_2 = df1_1.loc[['总资产', '净资产', '有息负债']]
+
+        df2_1 = df2.loc[['保户红利支出','四、利润总额','五、净利润']] / 10000
+        df2_1.loc['净利润'] = df2_1.loc['五、净利润']
+        df2_1.loc['息税前利润'] = df2_1.loc['保户红利支出'] + df2_1.loc['四、利润总额']
+        df2_1.loc['负债成本'] = df2_1.loc['保户红利支出']
+        df2_2 = df2_1.loc[['净利润', '息税前利润', '负债成本']]
+    else: #普通类
+        df1_1 = df1.loc[['短期借款',
+                         '交易性金融负债',
+                         '应付短期债券',
+                         '长期借款',
+                         '应付债券',
+                         '所有者权益(或股东权益)合计',
+                         '负债和所有者权益(或股东权益)总计']] / 10000
+        df1_1.loc['总资产'] = df1_1.loc['负债和所有者权益(或股东权益)总计']
+        df1_1.loc['净资产'] = df1_1.loc['所有者权益(或股东权益)合计']
+        df1_1.loc['有息负债'] = df1_1.loc['短期借款'] + df1_1.loc['交易性金融负债'] + df1_1.loc['应付短期债券'] + \
+                            df1_1.loc['长期借款'] + df1_1.loc['应付债券']
+        df1_2 = df1_1.loc[['总资产', '净资产', '有息负债']]
+        print(df1_2)
+
+        df2_1 = df2.loc[['财务费用','四、利润总额','五、净利润']] / 10000
+        df2_1.loc['净利润'] = df2_1.loc['五、净利润']
+        df2_1.loc['息税前利润'] = df2_1.loc['财务费用'] + df2_1.loc['四、利润总额']
+        df2_1.loc['负债成本'] = df2_1.loc['财务费用']
+        df2_2 = df2_1.loc[['净利润', '息税前利润', '负债成本']]
+        
+    # 将季度利润表数据转变为年度数据
+    for column in df2_2.columns:
+        if '03-31' in column:
+            df2_2[column] = df2_2[column] * 4
+        if '06-30' in column:
+            df2_2[column] = df2_2[column] / 2 * 4
+        if '09-30' in column:
+            df2_2[column] = df2_2[column] / 3 * 4
+    df3 = pd.concat([df1_2, df2_2], join='inner')
+    df3.loc['净资产收益率'] = df3.loc['净利润'] / df3.loc['净资产'] * 100
+    df3.loc['息税前资产收益率'] = df3.loc['息税前利润'] / df3.loc['总资产'] * 100
+    df3.loc['有息负债利率'] = df3.loc['负债成本'] / df3.loc['有息负债'] * 100
+    df3 = df3.replace(np.inf, np.nan).replace(-(np.inf), np.nan)
+    df3 = df3.fillna(0)
+
 
     # </新改造>
 
