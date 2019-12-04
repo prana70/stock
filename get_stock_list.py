@@ -55,11 +55,8 @@ def get_stocklist_from_sh():
     return df
 
 if __name__=='__main__':
-    #定期运行，以免误运行
-    '''
     df1=get_stocklist_from_sz()
     df2=get_stocklist_from_sh()
     df=pd.concat([df1,df2])
     df.to_csv(os.getcwd()+'\\market_data\\stock_list.csv',index=False)
-    '''
 

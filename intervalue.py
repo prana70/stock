@@ -30,7 +30,7 @@ def InterValue(Growth, EarningsPerShare, DiscountRate, PriceEarningsRatio): #成
         V3 = 0
         V4 = 0
     else:
-        V1 = (1 + Growth) / (1 + DiscountRate) ** 2
+        V1 = (1 + Growth) / (1 + DiscountRate) **2
         V2 = 0
         V3 = 0
         V4 = 0
