@@ -8,6 +8,11 @@ import os
 
 
 
+
+def abstract_stock_name(str):
+    reg=re.compile(r"<u>(.*)</u>")
+    return reg.findall(str)[0]
+
 #get stock list from 深交所
 def get_stocklist_from_sz():
     headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.90 Safari/537.36'}
@@ -24,6 +29,7 @@ def get_stocklist_from_sz():
     df.rename(columns={'agdm':'股票代码','agjc':'股票名称'},inplace=True)
     df=df[['股票代码','股票名称']]
     df['交易所']='深圳'
+    df['股票名称']=df['股票名称'].apply(abstract_stock_name)
     df['股票名称']=df['股票名称'].str.replace(' ','')
     
     return df
