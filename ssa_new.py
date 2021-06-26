@@ -623,6 +623,16 @@ def GetInventoryRate(stockcode):  # 获取存货比率
     return labels, data
 
 
+
+def GetBalance(stockcode):  # 获取资产负债表
+    stockname = ssa.get_stockname(stockcode)
+    file = os.getcwd() + '\\stock_financial_sina\\' + stockcode + 'balancesheet.csv'
+    #print(file)
+    df = pd.read_csv(file, index_col=0)/10000
+    return df
+
+
+
 def GetIncomeProfit(stockcode):  # 获取营业状况
     '''
     stockname = ssa.get_stockname(stockcode)
@@ -1575,7 +1585,7 @@ def GetFreeCashFlowSum(stockcode):  # 获取累计自由现金流
     return labels, data1, data2
 
 def GetMarketCode(StockCode): #根据股票代码前三位，返回市场代码SH，或者SZ
-    MarketCode = {'600': 'SH', '601': 'SH', '603': 'SH', '000': 'SZ', '002': 'SZ', '300': 'SZ', '003': 'SZ'}
+    MarketCode = {'688':'SH','600': 'SH', '601': 'SH', '603': 'SH', '000': 'SZ', '002': 'SZ', '300': 'SZ', '003': 'SZ'}
     return MarketCode[StockCode[:3]]
 
 def GetAveragePE(StockCode): #根据股票代码到亿牛网获取过去10年的平均市盈率
@@ -1633,4 +1643,5 @@ def GetFutureROI(StockCode): #根据历史平均市盈率、历史净利润复�
 
 if __name__ == '__main__':
     stockcode = input('请输入股票代码:')
-    print(GetProfitCAGR(stockcode))
+    df=GetBalance(stockcode)
+    print(df.loc['货币资金'].values)

@@ -1304,3 +1304,925 @@
 2020-12-22 12:20:39.670026 | 603393 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603393/ctrl/2007/displaytype/4.phtml
 2020-12-28 09:50:43.603934 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
 2021-01-02 15:28:22.311832 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-01-05 13:13:20.720772 | 002268 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002268/ctrl/2021/displaytype/4.phtml
+2021-01-06 14:47:26.802179 | 600104 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-01-07 10:27:40.172284 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-01-07 10:28:55.522816 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-01-07 21:27:05.460516 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-01-07 21:50:21.176756 | 600875 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:29:35.720778 | 002002 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:47:51.682600 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:50:52.655407 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:58:02.781036 | 600585 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:07:32.719947 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:22:59.508407 | 601006 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:31:56.642956 | 000568 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000568/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:34:33.048665 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:31:28.011630 | 002002 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:31:53.737842 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:48:23.312750 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:48:25.067985 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-09 21:56:51.069910 | 300072 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300072/ctrl/2021/displaytype/4.phtml
+2021-01-09 22:03:22.665206 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-01-09 22:06:48.318480 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-01-12 09:54:16.572324 | 002821 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-01-12 09:54:20.138490 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-01-12 09:54:20.651071 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-01-12 09:54:21.123837 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-01-12 09:54:21.701936 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-01-12 10:35:37.352236 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-12 10:39:05.284944 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-01-12 10:56:58.423888 | 000423 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000423/ctrl/2021/displaytype/4.phtml
+2021-01-12 18:38:35.496731 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-12 18:41:30.695406 | 000423 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000423/ctrl/2021/displaytype/4.phtml
+2021-01-12 21:23:51.244847 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-12 21:30:50.872694 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-01-12 21:30:52.807818 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-01-12 21:30:53.295449 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-01-12 21:30:53.825031 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-01-12 21:30:54.297308 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-01-12 22:01:39.484238 | 601006 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:05:08.202402 | 600028 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600028/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:06:56.065786 | 601006 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:07:51.847175 | 601111 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601111/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:09:05.181045 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:11:39.869325 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:13:29.549414 | 601003 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:15:19.327246 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-01-15 13:43:47.589357 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:42:01.451466 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:42:47.117531 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:43:42.371417 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:44:51.165388 |  601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:44:51.694030 |  601360 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2020/displaytype/4.phtml
+2021-01-16 09:44:52.189323 |  601360 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2019/displaytype/4.phtml
+2021-01-16 09:44:52.731342 |  601360 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2018/displaytype/4.phtml
+2021-01-16 09:44:53.238638 |  601360 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2017/displaytype/4.phtml
+2021-01-16 09:44:53.796499 |  601360 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2016/displaytype/4.phtml
+2021-01-16 09:44:54.338480 |  601360 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2015/displaytype/4.phtml
+2021-01-16 09:44:54.813932 |  601360 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2014/displaytype/4.phtml
+2021-01-16 09:44:55.287134 |  601360 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:44:55.763169 |  601360 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2012/displaytype/4.phtml
+2021-01-16 09:44:56.367193 |  601360 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2011/displaytype/4.phtml
+2021-01-16 09:44:56.921108 |  601360 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2010/displaytype/4.phtml
+2021-01-16 09:44:57.534106 |  601360 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:44:58.034409 |  601360 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:44:58.654129 |  601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:45:29.336718 |  601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:45:29.822571 |  601360 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2020/displaytype/4.phtml
+2021-01-16 09:45:30.301329 |  601360 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2019/displaytype/4.phtml
+2021-01-16 09:45:30.764879 |  601360 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2018/displaytype/4.phtml
+2021-01-16 09:45:31.255012 |  601360 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2017/displaytype/4.phtml
+2021-01-16 09:45:31.762395 |  601360 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2016/displaytype/4.phtml
+2021-01-16 09:45:32.282331 |  601360 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2015/displaytype/4.phtml
+2021-01-16 09:45:32.801170 |  601360 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2014/displaytype/4.phtml
+2021-01-16 09:45:33.326971 |  601360 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:45:33.783538 |  601360 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2012/displaytype/4.phtml
+2021-01-16 09:45:34.289224 |  601360 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2011/displaytype/4.phtml
+2021-01-16 09:45:34.784082 |  601360 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2010/displaytype/4.phtml
+2021-01-16 09:45:35.336974 |  601360 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:45:35.834891 |  601360 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:45:36.328593 |  601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 601360/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:45:37.556852 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:45:39.262049 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:46:20.712450 | 601816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:46:22.382023 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-01-16 09:46:22.905168 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-01-16 09:46:23.593115 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:46:24.132823 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-01-16 09:46:24.749212 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-01-16 09:46:25.333792 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-01-16 09:46:25.815470 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:46:26.403080 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:46:27.128833 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:47:16.411703 | 003816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:47:17.256493 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:47:18.643742 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:47:19.124841 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:47:19.678275 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:48:12.829378 | 000338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:49:16.698276 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:49:50.228224 | 600887 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-01-21 09:39:32.579520 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-01-21 09:52:14.019297 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-21 09:52:15.548325 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-23 21:04:23.708134 | 688513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 21:04:26.146760 | 688513 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 21:04:26.572964 | 688513 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 21:04:26.984669 | 688513 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 21:04:27.441713 | 688513 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 21:04:27.901993 | 688513 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 21:04:28.590868 | 688513 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 21:04:48.799154 | 688513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 21:04:50.639235 | 688513 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 21:04:51.291618 | 688513 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 21:04:52.867154 | 688513 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 21:04:53.514147 | 688513 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 21:04:53.898087 | 688513 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 21:04:54.311719 | 688513 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 21:15:35.881175 | 000338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:22:04.734943 | 600036 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600036/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:22:25.141415 | 601111 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601111/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:23:21.863006 | 688513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:23:23.812262 | 688513 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:23:24.320846 | 688513 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:23:25.118986 | 688513 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:23:25.595630 | 688513 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:23:26.120368 | 688513 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:23:26.602092 | 688513 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:36:11.183808 | 688513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:36:13.100499 | 688513 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:36:13.639012 | 688513 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:36:14.101234 | 688513 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:36:14.589990 | 688513 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:36:15.136560 | 688513 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:36:15.549980 | 688513 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:40:43.239763 | 688513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:40:45.269841 | 688513 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:40:45.684170 | 688513 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:40:46.084287 | 688513 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:40:46.503703 | 688513 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:40:46.991052 | 688513 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:40:47.411232 | 688513 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:43:07.337262 | 688513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:43:09.358521 | 688513 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:43:09.807066 | 688513 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:43:10.249647 | 688513 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:43:10.716644 | 688513 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:43:11.256862 | 688513 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:43:11.748395 | 688513 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:46:35.025667 | 300068 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300068/ctrl/2021/displaytype/4.phtml
+2021-01-23 23:14:24.209067 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-01-23 23:14:25.418700 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-01-25 09:32:42.295239 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-25 09:34:35.218457 | 300677 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2021/displaytype/4.phtml
+2021-01-25 09:34:37.641706 | 300677 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2012/displaytype/4.phtml
+2021-01-25 09:34:38.108565 | 300677 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2011/displaytype/4.phtml
+2021-01-25 09:34:38.528544 | 300677 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2010/displaytype/4.phtml
+2021-01-25 09:34:39.003999 | 300677 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2009/displaytype/4.phtml
+2021-01-25 09:34:39.435535 | 300677 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2008/displaytype/4.phtml
+2021-01-25 09:34:39.881309 | 300677 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2007/displaytype/4.phtml
+2021-01-25 09:36:12.608566 | 300677 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2021/displaytype/4.phtml
+2021-01-25 09:36:14.486045 | 300677 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2012/displaytype/4.phtml
+2021-01-25 09:36:14.875457 | 300677 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2011/displaytype/4.phtml
+2021-01-25 09:36:15.353263 | 300677 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2010/displaytype/4.phtml
+2021-01-25 09:36:15.793074 | 300677 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2009/displaytype/4.phtml
+2021-01-25 09:36:16.238365 | 300677 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2008/displaytype/4.phtml
+2021-01-25 09:36:16.654533 | 300677 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300677/ctrl/2007/displaytype/4.phtml
+2021-01-25 11:13:00.521706 | 600875 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:13:55.131429 | 600875 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:20:46.803609 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:35:23.706977 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:46:50.868774 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-01-25 12:06:54.304588 | 600585 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-01-27 21:52:33.901892 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-27 22:02:21.016204 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-01-27 22:06:34.629048 | 002195 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002195/ctrl/2021/displaytype/4.phtml
+2021-01-30 14:57:53.990887 | 002821 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-01-30 14:57:56.313784 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-01-30 14:57:56.903206 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-01-30 14:57:57.444755 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-01-30 14:57:57.992554 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-01-30 15:00:05.636011 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-30 22:40:52.893185 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-30 22:40:54.506658 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-30 22:41:53.938915 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-30 22:41:55.355038 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-08 11:01:11.154079 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:08:55.797752 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:14:53.157878 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:14:54.629007 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-08 11:20:35.354384 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:22:55.002514 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:32:45.055120 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:35:10.067560 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:35:11.926529 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-08 11:35:12.461264 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-08 11:35:12.922067 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-08 11:35:13.451862 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-10 16:06:37.070399 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:50:17.491451 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:53:54.427933 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:59:45.138666 | 601816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:59:46.485051 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-02-10 22:59:46.956788 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-02-10 22:59:47.387219 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-02-10 22:59:47.863231 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-02-10 22:59:48.327131 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-02-10 22:59:48.801443 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-02-10 22:59:49.448773 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-02-10 22:59:49.995816 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-02-10 22:59:50.442759 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-02-10 23:01:45.121308 | 003816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:01:45.856780 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-02-10 23:01:47.010085 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-02-10 23:01:47.520215 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-02-10 23:01:48.041487 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-02-10 23:04:26.539826 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:05:57.427206 | 601104 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:05:57.845087 | 601104 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2020/displaytype/4.phtml
+2021-02-10 23:05:58.322352 | 601104 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2019/displaytype/4.phtml
+2021-02-10 23:05:58.754240 | 601104 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2018/displaytype/4.phtml
+2021-02-10 23:05:59.245129 | 601104 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2017/displaytype/4.phtml
+2021-02-10 23:05:59.708623 | 601104 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2016/displaytype/4.phtml
+2021-02-10 23:06:00.139472 | 601104 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2015/displaytype/4.phtml
+2021-02-10 23:06:00.596957 | 601104 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2014/displaytype/4.phtml
+2021-02-10 23:06:01.025205 | 601104 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2013/displaytype/4.phtml
+2021-02-10 23:06:01.456276 | 601104 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2012/displaytype/4.phtml
+2021-02-10 23:06:02.037176 | 601104 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2011/displaytype/4.phtml
+2021-02-10 23:06:02.479434 | 601104 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2010/displaytype/4.phtml
+2021-02-10 23:06:02.949226 | 601104 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2009/displaytype/4.phtml
+2021-02-10 23:06:03.417689 | 601104 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2008/displaytype/4.phtml
+2021-02-10 23:06:03.876126 | 601104 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601104/ctrl/2007/displaytype/4.phtml
+2021-02-10 23:06:45.576860 | 600104 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:08:50.246891 | 000800 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000800/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:11:09.324807 | 002594 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002594/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:16:14.742891 | 000625 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000625/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:12:11.402816 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:14:56.056885 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:16:08.354203 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:17:09.215601 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:17:10.465790 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:18:53.206077 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:18:54.583679 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:20:10.661240 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:21:54.562860 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:21:56.177095 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-11 09:21:56.634981 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-11 09:21:57.145381 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:21:57.590776 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:23:03.684720 | 002507 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002507/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:23:57.162558 | 000895 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:25:18.014190 | 00338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:25:18.480311 | 00338 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2020/displaytype/4.phtml
+2021-02-11 09:25:18.944073 | 00338 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2019/displaytype/4.phtml
+2021-02-11 09:25:19.357066 | 00338 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2018/displaytype/4.phtml
+2021-02-11 09:25:19.778265 | 00338 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2017/displaytype/4.phtml
+2021-02-11 09:25:20.238003 | 00338 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2016/displaytype/4.phtml
+2021-02-11 09:25:20.649973 | 00338 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2015/displaytype/4.phtml
+2021-02-11 09:25:21.106410 | 00338 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2014/displaytype/4.phtml
+2021-02-11 09:25:21.515286 | 00338 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2013/displaytype/4.phtml
+2021-02-11 09:25:21.937205 | 00338 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2012/displaytype/4.phtml
+2021-02-11 09:25:22.431562 | 00338 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2011/displaytype/4.phtml
+2021-02-11 09:25:22.858941 | 00338 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2010/displaytype/4.phtml
+2021-02-11 09:25:23.280813 | 00338 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2009/displaytype/4.phtml
+2021-02-11 09:25:23.701700 | 00338 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:25:24.200315 | 00338 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/00338/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:25:43.862450 | 000338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:27:05.039183 | 600887 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:28:19.556443 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:29:37.507364 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:31:24.643907 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:32:29.382482 | 601006 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:33:48.887380 | 600887 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:34:34.573141 | 000651 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:35:32.592706 | 000357 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:35:33.028413 | 000357 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2020/displaytype/4.phtml
+2021-02-11 09:35:33.456269 | 000357 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2019/displaytype/4.phtml
+2021-02-11 09:35:33.966764 | 000357 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2018/displaytype/4.phtml
+2021-02-11 09:35:34.388503 | 000357 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2017/displaytype/4.phtml
+2021-02-11 09:35:34.802004 | 000357 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2016/displaytype/4.phtml
+2021-02-11 09:35:35.273328 | 000357 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2015/displaytype/4.phtml
+2021-02-11 09:35:35.714388 | 000357 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2014/displaytype/4.phtml
+2021-02-11 09:35:36.219331 | 000357 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2013/displaytype/4.phtml
+2021-02-11 09:35:36.681338 | 000357 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2012/displaytype/4.phtml
+2021-02-11 09:35:37.138386 | 000357 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2011/displaytype/4.phtml
+2021-02-11 09:35:37.558269 | 000357 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2010/displaytype/4.phtml
+2021-02-11 09:35:37.972384 | 000357 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2009/displaytype/4.phtml
+2021-02-11 09:35:38.398434 | 000357 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:35:38.810922 | 000357 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000357/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:35:55.359392 | 300357 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300357/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:35:57.016820 | 300357 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300357/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:35:57.503341 | 300357 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300357/ctrl/2007/displaytype/4.phtml
+2021-02-11 12:18:42.118376 | 600674 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600674/ctrl/2021/displaytype/4.phtml
+2021-02-11 12:21:40.411301 | 600886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-02-11 12:23:46.692801 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-12 11:54:41.185513 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-12 11:54:42.999336 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-12 11:54:43.434619 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-12 11:54:43.874660 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-12 11:54:44.343376 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-12 11:57:30.594382 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-12 11:57:32.322191 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-12 11:57:32.783919 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-12 11:57:33.251316 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-12 11:57:33.687151 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-12 23:56:09.863268 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:56:56.687535 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:58:08.366449 | 600036 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600036/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:58:38.965080 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:59:06.026124 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 00:30:18.978909 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-13 00:59:07.522378 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 00:59:09.258569 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 00:59:09.718307 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 00:59:10.180493 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 00:59:10.654220 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:10:09.782509 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:10:11.250214 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:10:11.748523 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:10:12.161495 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:10:12.671002 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:11:15.924870 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:11:17.341342 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:11:17.804139 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:11:18.230001 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:11:18.652837 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:15:11.039640 | 002821 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:15:12.820475 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:15:13.335326 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:15:13.766143 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:15:14.250847 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:16:51.376947 | 300068 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300068/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:17:55.279483 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:20:28.446220 | 601816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:20:29.817361 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-02-13 01:20:30.254950 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-02-13 01:20:30.747406 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:20:31.195177 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-02-13 01:20:31.654435 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-02-13 01:20:32.082633 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:20:32.516016 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:20:32.995082 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:20:33.436900 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:22:09.301333 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:22:10.732885 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:23:46.302254 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:25:10.677414 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:25:11.940912 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:29:23.630563 | 003816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:29:24.503269 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:29:25.663681 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:29:26.170359 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:29:26.693974 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:37:59.744440 | 002002 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:39:33.140366 | 600875 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:40:57.443260 | 000338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:43:52.400198 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:45:48.403650 | 600887 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:47:41.322351 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:50:21.884325 | 601398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:52:41.101809 | 601003 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:54:18.990254 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:56:43.194880 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:58:17.850758 |  002027 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:58:18.292912 |  002027 002027 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2020/displaytype/4.phtml
+2021-02-13 01:58:18.775621 |  002027 002027 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2019/displaytype/4.phtml
+2021-02-13 01:58:19.259359 |  002027 002027 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2018/displaytype/4.phtml
+2021-02-13 01:58:19.684189 |  002027 002027 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2017/displaytype/4.phtml
+2021-02-13 01:58:20.135017 |  002027 002027 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2016/displaytype/4.phtml
+2021-02-13 01:58:20.678529 |  002027 002027 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2015/displaytype/4.phtml
+2021-02-13 01:58:21.165542 |  002027 002027 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2014/displaytype/4.phtml
+2021-02-13 01:58:21.659221 |  002027 002027 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:58:22.204874 |  002027 002027 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2012/displaytype/4.phtml
+2021-02-13 01:58:22.732868 |  002027 002027 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2011/displaytype/4.phtml
+2021-02-13 01:58:23.166529 |  002027 002027 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:58:23.743986 |  002027 002027 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:58:24.236668 |  002027 002027 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:58:24.747669 |  002027 002027 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027 002027/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:58:25.805122 |  002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:58:26.271441 |  002027 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2020/displaytype/4.phtml
+2021-02-13 01:58:26.742182 |  002027 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2019/displaytype/4.phtml
+2021-02-13 01:58:27.254809 |  002027 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2018/displaytype/4.phtml
+2021-02-13 01:58:27.721562 |  002027 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2017/displaytype/4.phtml
+2021-02-13 01:58:28.284748 |  002027 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2016/displaytype/4.phtml
+2021-02-13 01:58:28.772819 |  002027 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2015/displaytype/4.phtml
+2021-02-13 01:58:29.228632 |  002027 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2014/displaytype/4.phtml
+2021-02-13 01:58:29.835936 |  002027 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:58:30.285733 |  002027 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2012/displaytype/4.phtml
+2021-02-13 01:58:30.781146 |  002027 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2011/displaytype/4.phtml
+2021-02-13 01:58:31.242944 |  002027 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:58:31.695513 |  002027 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:58:32.149299 |  002027 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:58:32.616053 |  002027 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002027/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:58:54.567960 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:00:34.145961 | 600585 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:03:48.419450 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:05:34.440711 | 002001 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:07:05.263172 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:08:06.433732 | 000651 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:09:39.424109 | 000333 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000333/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:11:12.327594 | 000895 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:12:37.265292 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:15:04.704908 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:18:36.284329 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:20:44.922043 | 600519 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:23:24.852934 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:23:26.558169 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 02:23:27.039843 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 02:23:27.487635 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 02:23:27.970744 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 10:45:05.329858 |  000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:45:05.770777 |  000858 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2020/displaytype/4.phtml
+2021-02-13 10:45:06.264491 |  000858 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2019/displaytype/4.phtml
+2021-02-13 10:45:06.691623 |  000858 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2018/displaytype/4.phtml
+2021-02-13 10:45:07.115490 |  000858 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2017/displaytype/4.phtml
+2021-02-13 10:45:07.531414 |  000858 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2016/displaytype/4.phtml
+2021-02-13 10:45:07.957279 |  000858 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2015/displaytype/4.phtml
+2021-02-13 10:45:08.383100 |  000858 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2014/displaytype/4.phtml
+2021-02-13 10:45:08.807964 |  000858 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2013/displaytype/4.phtml
+2021-02-13 10:45:09.221528 |  000858 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2012/displaytype/4.phtml
+2021-02-13 10:45:09.658247 |  000858 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2011/displaytype/4.phtml
+2021-02-13 10:45:10.089095 |  000858 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2010/displaytype/4.phtml
+2021-02-13 10:45:10.510320 |  000858 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2009/displaytype/4.phtml
+2021-02-13 10:45:10.928628 |  000858 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2008/displaytype/4.phtml
+2021-02-13 10:45:11.359071 |  000858 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2007/displaytype/4.phtml
+2021-02-13 10:45:52.870906 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:50:57.794248 | 600519 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:54:31.669068 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:58:52.857675 | 601398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-02-13 13:24:59.232454 | 600886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-02-13 15:31:11.260903 | 600886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-02-13 16:49:44.055566 | 002001 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:10:50.094814 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:10:51.476021 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:22:25.662752 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:25:45.367032 | 603886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:25:47.193103 | 603886 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-02-13 18:25:47.665840 | 603886 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-02-13 18:25:48.180918 | 603886 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-02-13 18:25:48.639726 | 603886 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:29:15.874869 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:29:17.433406 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 18:29:17.857293 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 18:29:18.309088 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 18:29:18.726844 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:30:50.695537 | 002821 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:30:52.586321 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-13 18:30:53.067041 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-13 18:30:53.516838 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-13 18:30:53.973826 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:32:12.275776 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:34:39.283167 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:36:44.188863 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:38:35.857775 | 000895 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:40:22.800727 | 300498 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300498/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:44:14.211934 | 000876 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000876/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:47:11.242635 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:49:45.940006 | 002195 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002195/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:51:39.351533 | 600660 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600660/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:03:19.246839 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:04:43.671043 | 002001 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:20:21.174969 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:32:25.644476 | 600519 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:13:20.582562 | 600519 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:15:06.065835 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:55:27.743165 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:55:29.164754 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-16 20:56:32.255878 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:56:33.720180 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-16 21:01:55.184703 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-16 21:08:10.643541 | 600875 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:30:17.047818 | 300130 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300130/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:31:19.619973 | 002812 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002812/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:31:22.473318 | 002812 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002812/ctrl/2010/displaytype/4.phtml
+2021-02-17 10:31:22.976609 | 002812 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002812/ctrl/2009/displaytype/4.phtml
+2021-02-17 10:31:23.446939 | 002812 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002812/ctrl/2008/displaytype/4.phtml
+2021-02-17 10:31:23.965586 | 002812 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002812/ctrl/2007/displaytype/4.phtml
+2021-02-17 10:37:21.213965 | 000462 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:37:21.668606 | 000462 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2020/displaytype/4.phtml
+2021-02-17 10:37:22.121450 | 000462 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2019/displaytype/4.phtml
+2021-02-17 10:37:22.623849 | 000462 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2018/displaytype/4.phtml
+2021-02-17 10:37:23.074812 | 000462 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2017/displaytype/4.phtml
+2021-02-17 10:37:23.567887 | 000462 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2016/displaytype/4.phtml
+2021-02-17 10:37:24.024769 | 000462 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2015/displaytype/4.phtml
+2021-02-17 10:37:24.546254 | 000462 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2014/displaytype/4.phtml
+2021-02-17 10:37:25.058744 | 000462 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2013/displaytype/4.phtml
+2021-02-17 10:37:25.517771 | 000462 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2012/displaytype/4.phtml
+2021-02-17 10:37:26.016776 | 000462 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2011/displaytype/4.phtml
+2021-02-17 10:37:26.435991 | 000462 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2010/displaytype/4.phtml
+2021-02-17 10:37:26.927760 | 000462 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2009/displaytype/4.phtml
+2021-02-17 10:37:27.343735 | 000462 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2008/displaytype/4.phtml
+2021-02-17 10:37:27.806939 | 000462 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000462/ctrl/2007/displaytype/4.phtml
+2021-02-17 10:38:02.677182 | 300462 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300462/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:38:05.740375 | 300462 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300462/ctrl/2010/displaytype/4.phtml
+2021-02-17 10:38:06.213589 | 300462 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300462/ctrl/2009/displaytype/4.phtml
+2021-02-17 10:38:06.758277 | 300462 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300462/ctrl/2008/displaytype/4.phtml
+2021-02-17 10:38:07.308921 | 300462 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300462/ctrl/2007/displaytype/4.phtml
+2021-02-17 10:47:52.852076 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:11:23.566188 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:12:04.457813 | 002563 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002563/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:20:48.573098 | 002029 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002029/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:24:26.145124 | 601566 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601566/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:24:30.127291 | 601566 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601566/ctrl/2007/displaytype/4.phtml
+2021-02-17 12:34:32.985391 | 600028 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600028/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:37:48.319092 | 603886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:37:51.191313 | 603886 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-02-17 12:37:51.653079 | 603886 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-02-17 12:37:52.114886 | 603886 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-02-17 12:37:52.654409 | 603886 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-02-17 12:43:29.894541 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:47:48.417620 | 002821 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:47:50.384819 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-17 12:47:50.906271 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-17 12:47:51.413672 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-17 12:47:51.871544 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-25 19:15:53.383647 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:18:56.524031 | 600519 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:22:11.109557 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:22:12.406091 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-25 19:24:06.634645 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:24:08.200602 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-28 12:10:21.148509 | 603886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-02-28 12:10:23.300025 | 603886 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-02-28 12:10:23.783062 | 603886 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-02-28 12:10:24.284155 | 603886 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-02-28 12:10:24.832797 | 603886 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-02-28 12:13:01.232662 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-28 12:29:51.517707 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-28 12:29:53.373227 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-28 12:29:53.848922 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-28 12:29:54.353058 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-28 12:29:54.823965 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:11:44.587618 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:11:46.455478 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:11:46.909264 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:11:47.421473 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:11:47.963268 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:25:48.633772 | 002821 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:25:50.694032 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:25:51.232796 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:25:51.693966 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:25:52.193151 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:45:04.974896 | 002821 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:45:06.906257 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:45:07.363129 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:45:07.897977 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:45:08.398009 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:47:00.572127 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:48:17.468633 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:50:17.876129 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:50:19.422972 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:51:30.564611 | 601816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:51:31.985823 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-02-28 13:51:32.890861 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-02-28 13:51:33.347870 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-02-28 13:51:33.840554 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-02-28 13:51:34.299080 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-02-28 13:51:34.765835 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:51:35.304392 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:51:35.766027 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:51:36.228845 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:53:17.633577 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:53:18.967855 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:55:56.648115 | 003816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:55:57.367191 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-02-28 13:55:58.677261 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:55:59.135999 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:55:59.639653 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:58:19.488481 | 002002 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:59:41.132999 | 600875 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:01:03.505083 | 000338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:02:19.535340 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:03:42.956852 | 601398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:04:32.754625 | 600887 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:07:20.135373 | 601003 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:08:15.310051 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:09:33.085229 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:11:23.541723 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:12:38.105435 | 600585 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:13:51.053611 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:14:50.798969 | 600104 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:15:34.631409 | 002507 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002507/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:17:16.707725 | 002001 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:18:50.548103 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:19:38.608405 | 000895 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:21:06.116484 | 000651 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:21:52.108475 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-03-02 09:43:38.983751 | 002002 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-03-02 09:45:18.398297 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-03-02 09:47:51.977958 | 600875 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-03-03 21:41:33.864068 | 600763 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600763/ctrl/2021/displaytype/4.phtml
+2021-03-05 18:05:05.521801 | 600585 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-03-05 19:26:09.599815 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-03-06 20:54:43.571677 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:15:48.873266 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:15:50.045284 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-14 15:16:49.746147 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:18:24.944176 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:18:26.449196 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-14 15:18:26.877007 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-14 15:18:27.322815 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-14 15:18:27.786579 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-15 15:32:17.241451 | 600837 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600837/ctrl/2021/displaytype/4.phtml
+2021-03-15 15:32:31.322865 | 601398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-03-15 16:13:41.749913 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-15 16:13:43.135203 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-16 08:33:22.855247 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-16 08:33:24.488557 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-16 08:33:24.897248 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-16 08:33:25.346512 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-16 08:33:25.770373 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-18 10:47:40.215608 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-03-19 10:30:55.359579 | 003816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-03-19 10:30:56.121217 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-03-19 10:30:57.293395 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-03-19 10:30:57.807985 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-03-19 10:30:58.257512 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-03-19 11:05:12.715221 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-19 11:05:14.106454 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-19 11:14:55.491855 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-03-19 14:35:52.083819 | 603505 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603505/ctrl/2021/displaytype/4.phtml
+2021-03-19 14:35:54.970733 | 603505 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603505/ctrl/2010/displaytype/4.phtml
+2021-03-19 14:35:55.499094 | 603505 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603505/ctrl/2009/displaytype/4.phtml
+2021-03-19 14:35:55.947116 | 603505 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603505/ctrl/2008/displaytype/4.phtml
+2021-03-19 14:35:56.391893 | 603505 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603505/ctrl/2007/displaytype/4.phtml
+2021-03-23 17:18:18.568924 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:18:20.168892 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-23 17:18:20.593791 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-23 17:18:21.047269 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-23 17:18:21.570566 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-23 17:24:58.738486 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:25:00.093016 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-23 17:26:08.849490 | 600782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:26:50.010863 | 300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:28:15.745322 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-03-25 13:34:05.988931 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-25 13:35:40.192267 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-25 15:01:47.183117 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-25 15:06:45.593344 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-27 08:39:09.569105 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-27 08:39:12.233039 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-27 08:39:12.764579 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-27 08:39:13.209225 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-27 08:39:13.664690 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-27 08:40:30.340798 | 002382 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:45:02.592412 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:49:19.283771 | 600104 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:51:13.885847 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:52:38.151918 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:52:39.750746 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-03-27 10:49:10.275749 | 601398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-03-27 10:52:50.410393 | 600036 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600036/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:18:06.430289 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:20:16.735809 | 002268 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002268/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:45:11.495650 | 601811 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:45:15.378307 | 601811 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2010/displaytype/4.phtml
+2021-03-28 14:45:15.903678 | 601811 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2009/displaytype/4.phtml
+2021-03-28 14:45:16.445375 | 601811 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2008/displaytype/4.phtml
+2021-03-28 14:45:16.968094 | 601811 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2007/displaytype/4.phtml
+2021-03-28 17:56:50.445635 | 601811 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2021/displaytype/4.phtml
+2021-03-28 17:56:54.071849 | 601811 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2010/displaytype/4.phtml
+2021-03-28 17:56:54.577035 | 601811 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2009/displaytype/4.phtml
+2021-03-28 17:56:55.153847 | 601811 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2008/displaytype/4.phtml
+2021-03-28 17:56:55.954497 | 601811 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601811/ctrl/2007/displaytype/4.phtml
+2021-03-28 17:58:41.348767 | 000651 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-03-28 18:00:13.654830 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-03-31 13:47:05.646214 | 000895 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-03-31 13:50:04.561909 | 000338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-03-31 13:58:24.624110 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:49:47.343750 | 600585 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:57:39.816440 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:58:05.052362 | 600519 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:59:24.633070 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-02 10:16:02.811380 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-04-02 10:16:04.309375 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-04-02 10:16:04.831630 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-04-02 10:16:05.325879 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-04-02 10:16:05.797408 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-04-02 13:09:14.592631 | 002001 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-04-04 21:13:07.735469 | 601360 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-04-04 21:13:09.333084 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-04 21:14:25.022189 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-04-04 21:14:26.455492 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-04-20 11:37:06.376661 | 003816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-04-20 11:37:06.874951 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-04-20 11:37:08.164914 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-04-20 11:37:08.645168 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-04-20 11:37:09.070063 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:33:47.914937 | 603886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:33:49.979208 | 603886 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-04-20 12:33:50.429892 | 603886 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-04-20 12:33:50.897122 | 603886 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-04-20 12:33:51.368132 | 603886 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:38:39.944638 | 603866 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:38:41.708218 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-04-20 12:38:42.272958 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-04-20 12:38:42.717767 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-04-20 12:38:43.234986 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:41:58.730694 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:44:04.303778 | 601816 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:44:05.764343 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-04-20 12:44:06.216598 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-04-20 12:44:06.712387 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-04-20 12:44:07.343794 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-04-20 12:44:07.772045 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-04-20 12:44:08.332269 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-04-20 12:44:08.863008 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-04-20 12:44:09.337260 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-04-20 12:44:09.882245 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:46:12.615651 | 002555 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:46:13.970784 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:48:07.419922 | 000338 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:50:56.247604 | 600867 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:53:45.296224 | 600887 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-04-20 15:51:06.182840 | 601398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-04-20 15:57:50.917920 | 601006 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:01:15.414532 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:04:50.496617 | 300113 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300113/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:12:20.061034 | 601003 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:12:59.609411 | 600018 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:17:27.817711 | 600398 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:18:31.098227 | 000651 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:19:10.106295 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:23:49.235296 | 600585 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:26:20.728179 | 601699 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:27:12.864828 | 600519 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:29:25.764610 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:32:00.589954 | 600104 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:36:53.517504 | 002507 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002507/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:38:12.339168 | 002001 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:40:27.723718 | 000513 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:41:44.300339 | 000895 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-04-22 10:35:03.823591 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-22 10:38:30.875933 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-22 10:44:59.788569 | 002027 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-04-23 16:14:22.610127 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-26 20:39:01.239192 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-04-27 11:06:24.519637 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-04-27 11:06:25.845793 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-04-27 11:06:26.299752 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-04-27 11:06:26.844135 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-04-27 11:16:25.674754 | 600886 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-04-27 11:23:02.614836 | 300315 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300315/ctrl/2021/displaytype/4.phtml
+2021-04-27 11:23:03.960550 | 300315 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300315/ctrl/2007/displaytype/4.phtml
+2021-04-27 11:30:35.380235 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-04-27 11:30:35.950218 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-04-27 11:30:36.491606 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-04-27 11:30:37.039499 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-04-27 16:01:34.275247 | 002594 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002594/ctrl/2021/displaytype/4.phtml
+2021-04-27 16:10:26.023874 | 600104 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-04-27 22:52:20.352516 | 002563 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002563/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:00:42.323899 |  002128 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:00:42.816456 |  002128 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2020/displaytype/4.phtml
+2021-04-27 23:00:43.309181 |  002128 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2019/displaytype/4.phtml
+2021-04-27 23:00:43.936839 |  002128 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2018/displaytype/4.phtml
+2021-04-27 23:00:44.516134 |  002128 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2017/displaytype/4.phtml
+2021-04-27 23:00:45.057623 |  002128 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2016/displaytype/4.phtml
+2021-04-27 23:00:45.591163 |  002128 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2015/displaytype/4.phtml
+2021-04-27 23:00:46.018006 |  002128 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2014/displaytype/4.phtml
+2021-04-27 23:00:46.458755 |  002128 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2013/displaytype/4.phtml
+2021-04-27 23:00:47.053957 |  002128 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2012/displaytype/4.phtml
+2021-04-27 23:00:47.563508 |  002128 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2011/displaytype/4.phtml
+2021-04-27 23:00:48.035111 |  002128 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2010/displaytype/4.phtml
+2021-04-27 23:00:48.468804 |  002128 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2009/displaytype/4.phtml
+2021-04-27 23:00:48.931481 |  002128 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2008/displaytype/4.phtml
+2021-04-27 23:00:49.349331 |  002128 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 002128/ctrl/2007/displaytype/4.phtml
+2021-04-27 23:01:42.515405 | 002128 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002128/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:04:17.251972 | 000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:14:59.701109 | 600260 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-04-28 22:52:48.250903 | 601111 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601111/ctrl/2021/displaytype/4.phtml
+2021-04-29 07:41:26.414794 | 601225 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-04-29 07:48:01.934748 | 000333 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000333/ctrl/2021/displaytype/4.phtml
+2021-04-29 08:50:15.109827 | 601782 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2021/displaytype/4.phtml
+2021-04-29 08:50:15.542212 | 601782 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2020/displaytype/4.phtml
+2021-04-29 08:50:16.005722 | 601782 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2019/displaytype/4.phtml
+2021-04-29 08:50:16.447257 | 601782 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2018/displaytype/4.phtml
+2021-04-29 08:50:16.876247 | 601782 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2017/displaytype/4.phtml
+2021-04-29 08:50:17.295736 | 601782 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2016/displaytype/4.phtml
+2021-04-29 08:50:17.735080 | 601782 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2015/displaytype/4.phtml
+2021-04-29 08:50:18.179021 | 601782 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2014/displaytype/4.phtml
+2021-04-29 08:50:18.637473 | 601782 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2013/displaytype/4.phtml
+2021-04-29 08:50:19.104543 | 601782 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2012/displaytype/4.phtml
+2021-04-29 08:50:19.547867 | 601782 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2011/displaytype/4.phtml
+2021-04-29 08:50:19.982551 | 601782 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2010/displaytype/4.phtml
+2021-04-29 08:50:20.408544 | 601782 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2009/displaytype/4.phtml
+2021-04-29 08:50:20.871302 | 601782 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2008/displaytype/4.phtml
+2021-04-29 08:50:21.349909 | 601782 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601782/ctrl/2007/displaytype/4.phtml
+2021-04-29 09:10:26.572716 |  300146 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2021/displaytype/4.phtml
+2021-04-29 09:10:27.054127 |  300146 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2020/displaytype/4.phtml
+2021-04-29 09:10:27.521334 |  300146 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2019/displaytype/4.phtml
+2021-04-29 09:10:28.066120 |  300146 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2018/displaytype/4.phtml
+2021-04-29 09:10:28.571771 |  300146 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2017/displaytype/4.phtml
+2021-04-29 09:10:29.038885 |  300146 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2016/displaytype/4.phtml
+2021-04-29 09:10:29.500581 |  300146 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2015/displaytype/4.phtml
+2021-04-29 09:10:29.944285 |  300146 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2014/displaytype/4.phtml
+2021-04-29 09:10:30.489780 |  300146 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2013/displaytype/4.phtml
+2021-04-29 09:10:31.044273 |  300146 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2012/displaytype/4.phtml
+2021-04-29 09:10:31.545980 |  300146 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2011/displaytype/4.phtml
+2021-04-29 09:10:32.014169 |  300146 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2010/displaytype/4.phtml
+2021-04-29 09:10:32.441277 |  300146 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2009/displaytype/4.phtml
+2021-04-29 09:10:32.951980 |  300146 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2008/displaytype/4.phtml
+2021-04-29 09:10:33.416500 |  300146 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 300146/ctrl/2007/displaytype/4.phtml
+2021-04-29 23:08:39.792599 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-04-29 23:08:40.238530 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-04-29 23:08:40.683338 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-04-29 23:08:41.209653 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-04-29 23:08:41.716104 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-04-29 23:08:42.350410 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-04-29 23:08:43.018622 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-04-29 23:08:43.689825 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-04-29 23:08:44.219411 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-04-29 23:11:00.968922 | 000333 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/000333/ctrl/2021/displaytype/4.phtml
+2021-04-29 23:17:17.376708 |  000858 2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2021/displaytype/4.phtml
+2021-04-29 23:17:17.855350 |  000858 2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2020/displaytype/4.phtml
+2021-04-29 23:17:18.415099 |  000858 2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2019/displaytype/4.phtml
+2021-04-29 23:17:18.899926 |  000858 2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2018/displaytype/4.phtml
+2021-04-29 23:17:19.607710 |  000858 2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2017/displaytype/4.phtml
+2021-04-29 23:17:20.130253 |  000858 2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2016/displaytype/4.phtml
+2021-04-29 23:17:20.657441 |  000858 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2015/displaytype/4.phtml
+2021-04-29 23:17:21.171563 |  000858 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2014/displaytype/4.phtml
+2021-04-29 23:17:21.681599 |  000858 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2013/displaytype/4.phtml
+2021-04-29 23:17:22.244946 |  000858 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2012/displaytype/4.phtml
+2021-04-29 23:17:22.773331 |  000858 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2011/displaytype/4.phtml
+2021-04-29 23:17:23.256218 |  000858 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2010/displaytype/4.phtml
+2021-04-29 23:17:23.788986 |  000858 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2009/displaytype/4.phtml
+2021-04-29 23:17:24.352834 |  000858 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2008/displaytype/4.phtml
+2021-04-29 23:17:24.877264 |  000858 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/ 000858/ctrl/2007/displaytype/4.phtml
+2021-04-29 23:22:27.603620 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-05-03 07:47:55.150768 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-05-03 07:47:55.606438 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-05-03 07:47:56.160055 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-05-03 07:47:56.695721 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-05-03 07:47:57.173310 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-05-03 07:47:57.676150 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-05-03 07:47:58.112362 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-05-03 07:47:58.581160 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-05-03 07:47:59.037404 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-05-03 07:53:12.545241 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-05-03 07:53:13.860441 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-05-03 07:53:14.369902 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-05-03 07:53:14.842636 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-05-08 12:50:20.301475 | 300770 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300770/ctrl/2013/displaytype/4.phtml
+2021-05-08 12:50:20.803001 | 300770 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300770/ctrl/2012/displaytype/4.phtml
+2021-05-08 12:50:21.417450 | 300770 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300770/ctrl/2011/displaytype/4.phtml
+2021-05-08 12:50:21.903081 | 300770 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300770/ctrl/2010/displaytype/4.phtml
+2021-05-08 12:50:22.400448 | 300770 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300770/ctrl/2009/displaytype/4.phtml
+2021-05-08 12:50:22.884502 | 300770 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300770/ctrl/2008/displaytype/4.phtml
+2021-05-08 12:50:23.311221 | 300770 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300770/ctrl/2007/displaytype/4.phtml
+2021-05-16 11:42:45.569010 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-05-27 16:40:28.485319 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-05-28 10:21:37.801639 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-05-28 10:21:38.313172 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-05-28 10:21:38.790993 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-05-28 10:21:39.264880 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-06 16:21:45.051311 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-06-07 12:27:59.441684 | 688200 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2015/displaytype/4.phtml
+2021-06-07 12:27:59.911668 | 688200 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2014/displaytype/4.phtml
+2021-06-07 12:28:00.394365 | 688200 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2013/displaytype/4.phtml
+2021-06-07 12:28:00.962647 | 688200 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2012/displaytype/4.phtml
+2021-06-07 12:28:01.421295 | 688200 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2011/displaytype/4.phtml
+2021-06-07 12:28:01.832160 | 688200 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2010/displaytype/4.phtml
+2021-06-07 12:28:02.288357 | 688200 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2009/displaytype/4.phtml
+2021-06-07 12:28:02.706445 | 688200 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2008/displaytype/4.phtml
+2021-06-07 12:28:03.113725 | 688200 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2007/displaytype/4.phtml
+2021-06-15 07:45:30.495372 | 300298 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300298/ctrl/2007/displaytype/4.phtml
+2021-06-25 23:26:35.627165 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-06-25 23:26:36.301181 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-06-25 23:26:36.817335 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-06-25 23:26:37.264837 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-26 09:10:03.182558 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-06-26 09:10:03.757753 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-06-26 09:10:04.286859 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-06-26 09:10:04.805163 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-26 10:23:43.032197 | 601816 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-06-26 10:23:43.722898 | 601816 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-06-26 10:23:44.230721 | 601816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-06-26 10:23:44.814108 | 601816 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-06-26 10:23:45.405971 | 601816 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-06-26 10:23:45.905152 | 601816 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-06-26 10:23:46.352250 | 601816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-06-26 10:23:46.902855 | 601816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-06-26 10:23:47.474204 | 601816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-06-26 10:34:12.205299 | 002555 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-06-26 10:44:07.245221 | 003816 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-06-26 10:44:08.576109 | 003816 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-06-26 10:44:09.045601 | 003816 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-06-26 10:44:09.578200 | 003816 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-06-26 11:54:04.234852 | 601360 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-06-26 11:59:01.403352 |  2021 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2021/displaytype/4.phtml
+2021-06-26 11:59:01.913524 |  2020 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2020/displaytype/4.phtml
+2021-06-26 11:59:02.488260 |  2019 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2019/displaytype/4.phtml
+2021-06-26 11:59:03.033810 |  2018 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2018/displaytype/4.phtml
+2021-06-26 11:59:03.674282 |  2017 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2017/displaytype/4.phtml
+2021-06-26 11:59:04.193884 |  2016 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2016/displaytype/4.phtml
+2021-06-26 11:59:04.636918 |  2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2015/displaytype/4.phtml
+2021-06-26 11:59:05.233788 |  2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2014/displaytype/4.phtml
+2021-06-26 11:59:05.759379 |  2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2013/displaytype/4.phtml
+2021-06-26 11:59:06.272566 |  2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2012/displaytype/4.phtml
+2021-06-26 11:59:06.855488 |  2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2011/displaytype/4.phtml
+2021-06-26 11:59:07.389714 |  2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2010/displaytype/4.phtml
+2021-06-26 11:59:07.911232 |  2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2009/displaytype/4.phtml
+2021-06-26 11:59:08.426505 |  2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2008/displaytype/4.phtml
+2021-06-26 11:59:08.986758 |  2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid//ctrl/2007/displaytype/4.phtml
+2021-06-26 11:59:09.942148 | 688200 2015 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2015/displaytype/4.phtml
+2021-06-26 11:59:10.506068 | 688200 2014 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2014/displaytype/4.phtml
+2021-06-26 11:59:10.958768 | 688200 2013 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2013/displaytype/4.phtml
+2021-06-26 11:59:11.508325 | 688200 2012 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2012/displaytype/4.phtml
+2021-06-26 11:59:11.947611 | 688200 2011 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2011/displaytype/4.phtml
+2021-06-26 11:59:12.435041 | 688200 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2010/displaytype/4.phtml
+2021-06-26 11:59:12.898169 | 688200 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2009/displaytype/4.phtml
+2021-06-26 11:59:13.524977 | 688200 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2008/displaytype/4.phtml
+2021-06-26 11:59:13.961810 | 688200 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/688200/ctrl/2007/displaytype/4.phtml
+2021-06-26 12:02:21.030795 | 603886 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-06-26 12:02:21.529101 | 603886 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-06-26 12:02:22.065667 | 603886 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-06-26 12:02:22.540981 | 603886 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-06-26 12:05:29.752038 | 603866 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-06-26 12:05:30.318506 | 603866 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-06-26 12:05:30.854808 | 603866 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-06-26 12:05:31.363466 | 603866 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-26 16:17:01.326750 | 002821 2010 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-06-26 16:17:01.858480 | 002821 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-06-26 16:17:02.411060 | 002821 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-06-26 16:17:03.031998 | 002821 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/002821/ctrl/2007/displaytype/4.phtml

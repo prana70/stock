@@ -1,0 +1,42 @@
+$def with (title, labels, data, yAxesLabel,legend)
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>$title</title>
+</head>
+<body>
+<h2>$title</h2>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+<div class="cities" style="width:70%"><canvas id="myChart"></canvas></div>
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels:$:labels,
+        datasets: [{
+            label: '$legend',
+            data:$data,
+            backgroundColor:'orange',
+            borderColor:'orange',
+            borderWidth: 1,
+            pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
+        }]
+    },
+    options: {
+        scales: {
+            xAxes: [{
+                stacked: false,
+                }],
+            yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: '$yAxesLabel'
+                    },
+                }]
+            },
+        }
+});
+</script>
+</body>
+</html>

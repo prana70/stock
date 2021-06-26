@@ -1,4 +1,4 @@
-$def with (title,labels,data,yAxesLabel)
+$def with (stockcode,title,labels,data,yAxesLabel)
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -6,6 +6,7 @@ $def with (title,labels,data,yAxesLabel)
 </head>
 <body>
 <h2>$title</h2>
+<h3><a href="/showbalance/$stockcode" target="_blank">历年分析</a></h3>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
 <div class="cities" style="width:80%"><canvas id="myChart"></canvas></div>
 <script>

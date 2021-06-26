@@ -10,29 +10,8 @@ import InstitutionalPerspective as ip
 import HkStockAnalysis as hsa
 import append_stock_financial_from_cninfo as asf
 import append_stock_financial_from_sina as asffs
-
-type = sys.getdefaultencoding()
-
-urls = (
-    '/showassets/(.*)', 'ShowAssets',
-    '/showassetsstructure/(.*)', 'ShowAssetsStructure',
-    '/showassetssource/(.*)', 'ShowAssetsSource',
-    '/showposition/(.*)', 'ShowPosition',
-    '/showreceivablesrate/(.*)', 'ShowReceivablesRate',
-    '/showinventoryrate/(.*)', 'ShowInventoryRate',
-    '/showincomeprofit/(.*)', 'ShowIncomeProfit',
-    '/showroe/(.*)', 'ShowROE',
-    '/shownetcashflowsum/(.*)', 'ShowNetCashFlowSum',
-    '/showfreecashflowsum/(.*)', 'ShowFreeCashFlowSum',
-    '/showinvestmentcash/(.*)', 'ShowInvestmentCash',
-    '/showraisecash/(.*)', 'ShowRaiseCash',
-    '/showfundholding/(.*)', 'ShowFundHolding',
-    '/showinstitutionalperspective/(.*)', 'ShowInstitutionalPerspective',
-    '/', 'index',
-    '/hk/', 'HkIndex',
-)
-
-app = web.application(urls, globals())
+from DCF import DCF
+from intervalue import InterValue as iv
 
 
 # 国内股票分析首页
@@ -75,8 +54,9 @@ class index:
         info3 = '净利润增长率：' + str('{:.2f}'.format(NetProfitGrowth * 100)) + '%'
         IncomeGrowth = se.GetIncomeGrowth(stockcode)
         info4 = '营业收入增长率：' + str('{:.2f}'.format(IncomeGrowth * 100)) + '%'
-        InterValue = se.iv(NetProfitGrowth, EPS, 0.07, 15)
-        info5 = '估值：' + str('{:.2f}'.format(InterValue)) + '元'
+        InterValue1=iv(NetProfitGrowth,EPS,0.07,15)
+        InterValue2 = DCF(stockcode)
+        info5 = '估值：' + str('{:.2f}'.format(InterValue1))+'~'+str('{:.2f}'.format(InterValue2)) + '元'
         FutureROI = sn.GetFutureROI(stockcode)
         info6 = '预期复合投资收益率：' + str('{:.2f}'.format(FutureROI * 100)) + '%'
         info7 = '业务：' + se.GetBusiness(stockcode)
@@ -121,7 +101,28 @@ class ShowAssetsStructure:  # 显示资产结构
         # legend=''
         yAxesLabel = '（亿元）'
         render = web.template.render('templates')
-        return render.ShowAssetsStructure(title, labels, data, yAxesLabel)
+        return render.ShowAssetsStructure(stockcode,title, labels, data, yAxesLabel)
+
+class ShowBalance: # 显示资产负债表所有项目
+    def GET(self,stockcode):
+        title = ssa.get_stockname(stockcode) + '（%s）' % stockcode + '-资产负债项目历年分析'
+        df=sn.GetBalance(stockcode)
+        items=list(df.index)
+        render = web.template.render('templates')
+        return render.ShowBalance(title,stockcode,items)
+            
+class ShowBalanceItem: # 显示某一资产负债表项目历年数据
+    def GET(self,*arg):
+        stockcode=web.input().stockcode
+        item=web.input().item
+        title =ssa.get_stockname(stockcode) + '（%s）' %stockcode+'-'+item
+        df=sn.GetBalance(stockcode)
+        labels=list(df.loc[item].index)
+        data=list(df.loc[item].values)
+        yAxesLabel = '（亿元）'
+        legend=item
+        render = web.template.render('templates')
+        return render.ShowBalanceItem(title,labels,data,yAxesLabel,legend)
 
 
 class ShowAssetsSource:  # 显示资产来源
@@ -132,7 +133,7 @@ class ShowAssetsSource:  # 显示资产来源
         # legend=''
         yAxesLabel = '（亿元）'
         render = web.template.render('templates')
-        return render.ShowAssetsSource(title, labels, data, yAxesLabel)
+        return render.ShowAssetsSource(stockcode,title, labels, data, yAxesLabel)
 
 
 class ShowPosition:  # 显示供应链地位
@@ -327,5 +328,29 @@ class HkIndex:
 
 
 if __name__ == '__main__':
-    print(type)
+    type = sys.getdefaultencoding()
+    urls = (
+        '/showassets/(.*)', 'ShowAssets',
+        '/showassetsstructure/(.*)', 'ShowAssetsStructure',
+        '/showbalance/(.*)', 'ShowBalance',
+        '/showbalanceitem/(.*)', 'ShowBalanceItem',
+        '/showassetssource/(.*)', 'ShowAssetsSource',
+        '/showposition/(.*)', 'ShowPosition',
+        '/showreceivablesrate/(.*)', 'ShowReceivablesRate',
+        '/showinventoryrate/(.*)', 'ShowInventoryRate',
+        '/showincomeprofit/(.*)', 'ShowIncomeProfit',
+        '/showroe/(.*)', 'ShowROE',
+        '/shownetcashflowsum/(.*)', 'ShowNetCashFlowSum',
+        '/showfreecashflowsum/(.*)', 'ShowFreeCashFlowSum',
+        '/showinvestmentcash/(.*)', 'ShowInvestmentCash',
+        '/showraisecash/(.*)', 'ShowRaiseCash',
+        '/showfundholding/(.*)', 'ShowFundHolding',
+        '/showinstitutionalperspective/(.*)', 'ShowInstitutionalPerspective',
+        '/', 'index',
+        '/hk/', 'HkIndex',
+    )
+    #print(globals())
+    app = web.application(urls, globals())
+
+    #print(type)
     app.run()

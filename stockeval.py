@@ -13,6 +13,7 @@ import tushare as ts
 import math
 import re
 import json
+from DCF import DCF
 
 
 
@@ -26,10 +27,10 @@ def GetStockPrice(stockcode):
 #获取最新股本
 def GetShares(stockcode):
     #通过新浪网站获取总股本
-    MarketType={'600':'sh','601':'sh','603':'sh','000':'sz','002':'sz','300':'sz','003':'sz'} #根据股票代码确定市场类型
+    MarketType={'688':'sh','600':'sh','601':'sh','603':'sh','000':'sz','002':'sz','300':'sz','003':'sz'} #根据股票代码确定市场类型
     url='http://finance.sina.com.cn/realstock/company/'+MarketType[stockcode[0:3]]+stockcode+'/nc.shtml'
     resp=rq.get(url)
-    print(resp.status_code)
+    #print(resp.status_code)
     resp.encoding='gb2312'
     reg=re.compile(r'var totalcapital = ([\d.]*)')
     text=resp.text
@@ -303,7 +304,7 @@ def GetTradePosition(stockcode):
 #从雪球调取主营业务
 def GetBusiness(stockcode):
     #stockcode='002456'
-    MarketCode={'600':'SH','601':'SH','603':'SH','000':'SZ','002':'SZ','300':'SZ','003':'SZ'}
+    MarketCode={'688':'SH','600':'SH','601':'SH','603':'SH','000':'SZ','002':'SZ','300':'SZ','003':'SZ'}
     url='https://xueqiu.com/S/'+MarketCode[stockcode[:3]]+stockcode
     headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'}
     resp=rq.get(url,headers=headers)
@@ -326,7 +327,7 @@ def GetTotalLevel(stockcode):
     #print('净利润增长率：',NetProfitGrowth*100)
     IncomeGrowth=GetIncomeGrowth(stockcode)
     #print('营业收入增长率：',IncomeGrowth*100)
-    InterValue=iv(NetProfitGrowth,EPS,0.07,15)
+    InterValue=DCF(stockcode)
     #print('估值：',InterValue)
     #计算安全边际
     SecurityLevel=graduation(InterValue/(StockPrice+InterValue)*100)

@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import time,datetime
 import os
 
+import GetStockNameFromSina as gsnfs
+
 import matplotlib as mpl
 mpl.rcParams['font.sans-serif'] = ['SimHei']
 mpl.rcParams['font.serif'] = ['SimHei']
@@ -23,8 +25,7 @@ def get_stock_type(stockcode):
 
 #从stock_list.csv中查询股票名称
 def get_stockname(stockcode):
-    df=pd.read_csv(os.getcwd()+'\\market_data\\stock_list.csv',index_col=0)
-    stockname=df.loc[int(stockcode)]['股票名称']
+    stockname=gsnfs.GetStockNameFromSina(stockcode)
 
     return stockname
 

@@ -1323,3 +1323,925 @@
 2020-12-22 12:20:43.358755 | 603393 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603393/ctrl/2007/displaytype/4.phtml
 2020-12-28 09:50:45.237863 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
 2021-01-02 15:28:23.190044 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-01-05 13:13:25.734076 | 002268 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002268/ctrl/2021/displaytype/4.phtml
+2021-01-06 14:47:27.749664 | 600104 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-01-07 10:27:42.945945 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-01-07 10:28:56.536242 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-01-07 21:27:06.362818 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-01-07 21:50:22.099783 | 600875 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:29:36.527929 | 002002 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:47:52.534364 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:50:54.126011 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-07 22:58:03.664005 | 600585 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:07:33.782770 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:23:00.441323 | 601006 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:31:57.852569 | 000568 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000568/ctrl/2021/displaytype/4.phtml
+2021-01-08 10:34:33.944317 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:31:28.900681 | 002002 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:31:54.746724 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:48:25.682553 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-09 21:48:27.468879 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-09 21:56:52.344084 | 300072 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300072/ctrl/2021/displaytype/4.phtml
+2021-01-09 22:03:23.726593 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-01-09 22:06:51.337361 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-01-12 09:54:22.285388 | 002821 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-01-12 09:54:26.020130 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-01-12 09:54:26.544794 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-01-12 09:54:27.154713 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-01-12 09:54:27.737858 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-01-12 10:35:38.444843 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-12 10:39:07.394253 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-01-12 10:56:59.243023 | 000423 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000423/ctrl/2021/displaytype/4.phtml
+2021-01-12 18:38:36.409065 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-12 18:41:31.609803 | 000423 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000423/ctrl/2021/displaytype/4.phtml
+2021-01-12 21:23:52.243549 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-12 21:30:55.008134 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-01-12 21:30:57.019000 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-01-12 21:30:57.535618 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-01-12 21:30:58.009352 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-01-12 21:30:58.532949 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-01-12 22:01:40.348957 | 601006 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:05:09.449098 | 600028 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600028/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:06:56.731579 | 601006 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:07:52.766717 | 601111 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601111/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:09:06.090572 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:11:40.761906 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:13:30.496701 | 601003 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-01-12 22:15:20.184951 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-01-15 13:43:49.020107 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:42:02.317607 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:42:48.632767 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:43:43.309920 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:44:59.188551 |  601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:44:59.725007 |  601360 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2020/displaytype/4.phtml
+2021-01-16 09:45:00.292972 |  601360 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2019/displaytype/4.phtml
+2021-01-16 09:45:00.813622 |  601360 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2018/displaytype/4.phtml
+2021-01-16 09:45:01.325708 |  601360 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2017/displaytype/4.phtml
+2021-01-16 09:45:01.888172 |  601360 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2016/displaytype/4.phtml
+2021-01-16 09:45:02.367944 |  601360 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2015/displaytype/4.phtml
+2021-01-16 09:45:02.985213 |  601360 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2014/displaytype/4.phtml
+2021-01-16 09:45:03.509221 |  601360 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:45:04.011918 |  601360 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2012/displaytype/4.phtml
+2021-01-16 09:45:04.497937 |  601360 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2011/displaytype/4.phtml
+2021-01-16 09:45:05.004755 |  601360 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2010/displaytype/4.phtml
+2021-01-16 09:45:05.471490 |  601360 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:45:06.011252 |  601360 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:45:06.495853 |  601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:45:36.853964 |  601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:45:37.577804 |  601360 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2020/displaytype/4.phtml
+2021-01-16 09:45:38.085916 |  601360 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2019/displaytype/4.phtml
+2021-01-16 09:45:38.569639 |  601360 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2018/displaytype/4.phtml
+2021-01-16 09:45:39.264077 |  601360 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2017/displaytype/4.phtml
+2021-01-16 09:45:39.766576 |  601360 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2016/displaytype/4.phtml
+2021-01-16 09:45:39.942972 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:45:40.315008 |  601360 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2015/displaytype/4.phtml
+2021-01-16 09:45:40.830594 |  601360 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2014/displaytype/4.phtml
+2021-01-16 09:45:41.385206 |  601360 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:45:41.651517 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:45:42.949020 |  601360 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2012/displaytype/4.phtml
+2021-01-16 09:45:43.450215 |  601360 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2011/displaytype/4.phtml
+2021-01-16 09:45:44.059327 |  601360 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2010/displaytype/4.phtml
+2021-01-16 09:45:44.545076 |  601360 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:45:45.049279 |  601360 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:45:45.562442 |  601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 601360/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:46:27.697582 | 601816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:46:30.542633 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-01-16 09:46:31.137089 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-01-16 09:46:31.690060 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:46:32.181012 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-01-16 09:46:32.774076 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-01-16 09:46:33.364556 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-01-16 09:46:33.849093 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:46:34.404170 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:46:34.996553 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:47:20.264445 | 003816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:47:20.997550 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-01-16 09:47:22.267650 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-01-16 09:47:22.798959 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-01-16 09:47:23.435195 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-01-16 09:48:13.856158 | 000338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:49:17.625215 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-16 09:49:51.112149 | 600887 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-01-21 09:39:33.469306 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-01-21 09:52:16.177642 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-21 09:52:17.927005 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-23 21:04:29.063587 | 688513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 21:04:31.900041 | 688513 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 21:04:32.365137 | 688513 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 21:04:32.816751 | 688513 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 21:04:33.269385 | 688513 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 21:04:34.081459 | 688513 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 21:04:34.516505 | 688513 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 21:04:54.825409 | 688513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 21:04:57.085757 | 688513 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 21:04:57.538815 | 688513 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 21:04:57.956706 | 688513 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 21:04:58.345928 | 688513 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 21:04:58.902281 | 688513 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 21:04:59.323464 | 688513 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 21:15:36.638031 | 000338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:22:05.567903 | 600036 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:22:25.872382 | 601111 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601111/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:23:27.042693 | 688513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:23:29.234424 | 688513 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:23:29.675634 | 688513 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:23:30.175570 | 688513 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:23:30.663857 | 688513 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:23:31.104249 | 688513 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:23:31.520508 | 688513 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:36:16.052307 | 688513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:36:18.381561 | 688513 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:36:18.800927 | 688513 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:36:19.228231 | 688513 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:36:19.661074 | 688513 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:36:20.138627 | 688513 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:36:20.630094 | 688513 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:40:47.893794 | 688513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:40:49.965744 | 688513 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:40:50.377834 | 688513 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:40:50.862051 | 688513 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:40:51.250937 | 688513 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:40:51.682307 | 688513 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:40:52.180095 | 688513 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:43:12.218834 | 688513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2021/displaytype/4.phtml
+2021-01-23 22:43:14.732789 | 688513 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2012/displaytype/4.phtml
+2021-01-23 22:43:15.153986 | 688513 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2011/displaytype/4.phtml
+2021-01-23 22:43:15.642023 | 688513 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2010/displaytype/4.phtml
+2021-01-23 22:43:16.088218 | 688513 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2009/displaytype/4.phtml
+2021-01-23 22:43:16.500557 | 688513 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2008/displaytype/4.phtml
+2021-01-23 22:43:16.907840 | 688513 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688513/ctrl/2007/displaytype/4.phtml
+2021-01-23 22:46:39.179937 | 300068 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300068/ctrl/2021/displaytype/4.phtml
+2021-01-23 23:14:25.990414 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-01-23 23:14:27.449826 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-01-25 09:32:43.455066 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-25 09:34:40.345334 | 300677 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2021/displaytype/4.phtml
+2021-01-25 09:34:42.581373 | 300677 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2012/displaytype/4.phtml
+2021-01-25 09:34:42.992779 | 300677 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2011/displaytype/4.phtml
+2021-01-25 09:34:43.441315 | 300677 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2010/displaytype/4.phtml
+2021-01-25 09:34:43.904217 | 300677 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2009/displaytype/4.phtml
+2021-01-25 09:34:44.334583 | 300677 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2008/displaytype/4.phtml
+2021-01-25 09:34:44.805628 | 300677 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2007/displaytype/4.phtml
+2021-01-25 09:36:17.047792 | 300677 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2021/displaytype/4.phtml
+2021-01-25 09:36:18.882001 | 300677 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2012/displaytype/4.phtml
+2021-01-25 09:36:19.324739 | 300677 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2011/displaytype/4.phtml
+2021-01-25 09:36:19.741293 | 300677 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2010/displaytype/4.phtml
+2021-01-25 09:36:20.184424 | 300677 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2009/displaytype/4.phtml
+2021-01-25 09:36:20.716004 | 300677 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2008/displaytype/4.phtml
+2021-01-25 09:36:21.155533 | 300677 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300677/ctrl/2007/displaytype/4.phtml
+2021-01-25 11:13:55.891271 | 600875 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:19:32.378317 | 600875 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:20:47.989643 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:35:24.901878 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-01-25 11:46:51.713444 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-01-25 12:06:55.211127 | 600585 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-01-27 21:52:35.210582 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-27 22:02:21.938136 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-01-27 22:06:35.570006 | 002195 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002195/ctrl/2021/displaytype/4.phtml
+2021-01-30 14:57:58.563730 | 002821 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-01-30 14:58:01.081185 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-01-30 14:58:01.578090 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-01-30 14:58:02.124628 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-01-30 14:58:02.687517 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-01-30 15:00:06.943706 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-01-30 22:40:55.108000 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-30 22:40:56.875131 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-01-30 22:41:55.887614 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-01-30 22:41:57.323570 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-08 11:01:12.051959 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:08:56.646522 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:14:55.154591 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:14:56.371305 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-08 11:20:36.255253 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:22:56.778488 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:32:45.982399 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:35:13.980862 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-08 11:35:16.058201 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-08 11:35:16.578365 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-08 11:35:17.052124 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-08 11:35:17.547290 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-10 16:06:38.030135 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:50:18.339112 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:53:55.192749 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:59:50.986381 | 601816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-02-10 22:59:52.366685 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-02-10 22:59:52.807505 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-02-10 22:59:53.266391 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-02-10 22:59:53.725202 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-02-10 22:59:54.193821 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-02-10 22:59:54.632461 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-02-10 22:59:55.110410 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-02-10 22:59:55.548239 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-02-10 22:59:55.987836 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-02-10 23:01:48.546917 | 003816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:01:49.225606 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-02-10 23:01:50.417155 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-02-10 23:01:50.882503 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-02-10 23:01:51.378172 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-02-10 23:04:27.386440 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:06:04.332059 | 601104 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:06:04.790899 | 601104 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2020/displaytype/4.phtml
+2021-02-10 23:06:05.343139 | 601104 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2019/displaytype/4.phtml
+2021-02-10 23:06:05.842462 | 601104 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2018/displaytype/4.phtml
+2021-02-10 23:06:06.257448 | 601104 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2017/displaytype/4.phtml
+2021-02-10 23:06:06.688417 | 601104 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2016/displaytype/4.phtml
+2021-02-10 23:06:07.107261 | 601104 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2015/displaytype/4.phtml
+2021-02-10 23:06:07.576994 | 601104 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2014/displaytype/4.phtml
+2021-02-10 23:06:08.092654 | 601104 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2013/displaytype/4.phtml
+2021-02-10 23:06:08.550695 | 601104 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2012/displaytype/4.phtml
+2021-02-10 23:06:08.981283 | 601104 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2011/displaytype/4.phtml
+2021-02-10 23:06:09.413342 | 601104 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2010/displaytype/4.phtml
+2021-02-10 23:06:09.884052 | 601104 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2009/displaytype/4.phtml
+2021-02-10 23:06:10.308915 | 601104 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2008/displaytype/4.phtml
+2021-02-10 23:06:10.819723 | 601104 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601104/ctrl/2007/displaytype/4.phtml
+2021-02-10 23:06:46.360541 | 600104 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:08:54.075374 | 000800 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000800/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:11:10.982297 | 002594 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002594/ctrl/2021/displaytype/4.phtml
+2021-02-10 23:16:15.880910 | 000625 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000625/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:12:12.326394 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:14:56.841129 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:16:09.122297 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:17:10.944540 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:17:12.057788 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:18:55.058045 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:18:56.658861 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:20:12.223756 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:21:58.055051 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:21:59.732823 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-11 09:22:00.167150 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-11 09:22:00.601115 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:22:01.033550 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:23:05.084654 | 002507 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002507/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:23:57.953133 | 000895 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:25:24.638321 | 00338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:25:25.109411 | 00338 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2020/displaytype/4.phtml
+2021-02-11 09:25:25.536272 | 00338 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2019/displaytype/4.phtml
+2021-02-11 09:25:25.960159 | 00338 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2018/displaytype/4.phtml
+2021-02-11 09:25:26.369123 | 00338 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2017/displaytype/4.phtml
+2021-02-11 09:25:26.820532 | 00338 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2016/displaytype/4.phtml
+2021-02-11 09:25:27.238507 | 00338 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2015/displaytype/4.phtml
+2021-02-11 09:25:27.673217 | 00338 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2014/displaytype/4.phtml
+2021-02-11 09:25:28.090105 | 00338 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2013/displaytype/4.phtml
+2021-02-11 09:25:28.558380 | 00338 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2012/displaytype/4.phtml
+2021-02-11 09:25:28.977811 | 00338 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2011/displaytype/4.phtml
+2021-02-11 09:25:29.473871 | 00338 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2010/displaytype/4.phtml
+2021-02-11 09:25:29.931648 | 00338 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2009/displaytype/4.phtml
+2021-02-11 09:25:30.361500 | 00338 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:25:30.845180 | 00338 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/00338/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:25:44.608540 | 000338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:27:05.892306 | 600887 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:28:20.433490 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:29:38.229435 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:31:26.869761 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:32:30.259882 | 601006 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:33:49.610159 | 600887 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:34:35.365745 | 000651 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:35:39.295664 | 000357 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:35:39.773006 | 000357 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2020/displaytype/4.phtml
+2021-02-11 09:35:40.189524 | 000357 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2019/displaytype/4.phtml
+2021-02-11 09:35:40.624550 | 000357 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2018/displaytype/4.phtml
+2021-02-11 09:35:41.063411 | 000357 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2017/displaytype/4.phtml
+2021-02-11 09:35:41.606929 | 000357 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2016/displaytype/4.phtml
+2021-02-11 09:35:42.081271 | 000357 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2015/displaytype/4.phtml
+2021-02-11 09:35:42.504380 | 000357 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2014/displaytype/4.phtml
+2021-02-11 09:35:42.930170 | 000357 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2013/displaytype/4.phtml
+2021-02-11 09:35:43.348463 | 000357 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2012/displaytype/4.phtml
+2021-02-11 09:35:43.816148 | 000357 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2011/displaytype/4.phtml
+2021-02-11 09:35:44.237450 | 000357 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2010/displaytype/4.phtml
+2021-02-11 09:35:44.695060 | 000357 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2009/displaytype/4.phtml
+2021-02-11 09:35:45.112455 | 000357 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:35:45.537319 | 000357 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000357/ctrl/2007/displaytype/4.phtml
+2021-02-11 09:35:58.008426 | 300357 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300357/ctrl/2021/displaytype/4.phtml
+2021-02-11 09:35:59.926263 | 300357 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300357/ctrl/2008/displaytype/4.phtml
+2021-02-11 09:36:00.429958 | 300357 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300357/ctrl/2007/displaytype/4.phtml
+2021-02-11 12:18:42.965079 | 600674 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600674/ctrl/2021/displaytype/4.phtml
+2021-02-11 12:21:41.428894 | 600886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-02-11 12:23:47.469823 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-12 11:54:44.925851 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-12 11:54:46.741525 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-12 11:54:47.199293 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-12 11:54:47.695760 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-12 11:54:48.173481 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-12 11:57:34.152821 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-12 11:57:36.054535 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-12 11:57:36.525332 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-12 11:57:36.974735 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-12 11:57:37.435503 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-12 23:56:10.787795 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:56:57.441095 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:58:09.049047 | 600036 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:58:39.609376 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-12 23:59:06.745326 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 00:30:19.847486 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-13 00:59:11.124961 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 00:59:12.684927 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 00:59:13.133728 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 00:59:13.586515 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 00:59:14.057256 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:10:13.191582 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:10:14.940830 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:10:15.415027 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:10:15.831912 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:10:16.381882 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:11:19.099645 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:11:20.867034 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:11:21.354950 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:11:21.804089 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:11:22.355489 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:15:14.799386 | 002821 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:15:16.744757 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:15:17.263017 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:15:17.779635 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:15:18.208521 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:16:52.720876 | 300068 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300068/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:17:56.499206 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:20:33.967928 | 601816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:20:35.452407 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-02-13 01:20:35.882384 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-02-13 01:20:36.361381 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:20:36.862046 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-02-13 01:20:37.306458 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-02-13 01:20:37.829467 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:20:38.271591 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:20:38.696455 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:20:39.168741 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:22:11.313135 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:22:12.819861 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:23:47.095903 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:25:12.623264 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:25:13.849513 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:29:27.185584 | 003816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:29:27.939739 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:29:29.099297 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:29:29.541512 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:29:29.996471 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:38:00.711643 | 002002 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:39:33.913941 | 600875 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:40:58.195321 | 000338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:43:53.163827 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:45:49.258589 | 600887 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:47:43.535400 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:50:22.695794 | 601398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:52:41.827311 | 601003 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:54:19.795494 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:56:43.975115 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:58:25.308166 |  002027 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:58:25.750304 |  002027 002027 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2020/displaytype/4.phtml
+2021-02-13 01:58:26.295382 |  002027 002027 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2019/displaytype/4.phtml
+2021-02-13 01:58:26.774063 |  002027 002027 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2018/displaytype/4.phtml
+2021-02-13 01:58:27.254809 |  002027 002027 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2017/displaytype/4.phtml
+2021-02-13 01:58:27.750486 |  002027 002027 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2016/displaytype/4.phtml
+2021-02-13 01:58:28.255825 |  002027 002027 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2015/displaytype/4.phtml
+2021-02-13 01:58:28.718963 |  002027 002027 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2014/displaytype/4.phtml
+2021-02-13 01:58:29.198728 |  002027 002027 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:58:29.663591 |  002027 002027 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2012/displaytype/4.phtml
+2021-02-13 01:58:30.187992 |  002027 002027 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2011/displaytype/4.phtml
+2021-02-13 01:58:30.776159 |  002027 002027 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:58:31.260896 |  002027 002027 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:58:31.772307 |  002027 002027 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:58:32.259039 |  002027 002027 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027 002027/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:58:33.057916 |  002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2021/displaytype/4.phtml
+2021-02-13 01:58:33.589568 |  002027 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2020/displaytype/4.phtml
+2021-02-13 01:58:34.028100 |  002027 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2019/displaytype/4.phtml
+2021-02-13 01:58:34.475951 |  002027 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2018/displaytype/4.phtml
+2021-02-13 01:58:34.948646 |  002027 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2017/displaytype/4.phtml
+2021-02-13 01:58:35.383476 |  002027 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2016/displaytype/4.phtml
+2021-02-13 01:58:35.849464 |  002027 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2015/displaytype/4.phtml
+2021-02-13 01:58:36.336717 |  002027 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2014/displaytype/4.phtml
+2021-02-13 01:58:36.770506 |  002027 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2013/displaytype/4.phtml
+2021-02-13 01:58:37.204346 |  002027 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2012/displaytype/4.phtml
+2021-02-13 01:58:37.632059 |  002027 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2011/displaytype/4.phtml
+2021-02-13 01:58:38.058026 |  002027 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2010/displaytype/4.phtml
+2021-02-13 01:58:38.597585 |  002027 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2009/displaytype/4.phtml
+2021-02-13 01:58:39.033418 |  002027 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2008/displaytype/4.phtml
+2021-02-13 01:58:39.462346 |  002027 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002027/ctrl/2007/displaytype/4.phtml
+2021-02-13 01:58:55.386329 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:00:34.993662 | 600585 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:03:49.150131 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:05:35.249565 | 002001 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:07:06.027458 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:08:07.178809 | 000651 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:09:40.436406 | 000333 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000333/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:11:13.226825 | 000895 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:12:38.118314 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:15:06.308429 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:18:37.070482 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:20:45.676027 | 600519 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:23:28.420505 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 02:23:30.221730 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 02:23:30.721125 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 02:23:31.299580 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 02:23:31.761089 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 10:45:11.814821 |  000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:45:12.354422 |  000858 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2020/displaytype/4.phtml
+2021-02-13 10:45:12.783204 |  000858 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2019/displaytype/4.phtml
+2021-02-13 10:45:13.234696 |  000858 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2018/displaytype/4.phtml
+2021-02-13 10:45:13.651580 |  000858 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2017/displaytype/4.phtml
+2021-02-13 10:45:14.149753 |  000858 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2016/displaytype/4.phtml
+2021-02-13 10:45:14.593514 |  000858 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2015/displaytype/4.phtml
+2021-02-13 10:45:15.010365 |  000858 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2014/displaytype/4.phtml
+2021-02-13 10:45:15.461160 |  000858 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2013/displaytype/4.phtml
+2021-02-13 10:45:15.916599 |  000858 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2012/displaytype/4.phtml
+2021-02-13 10:45:16.331515 |  000858 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2011/displaytype/4.phtml
+2021-02-13 10:45:16.763393 |  000858 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2010/displaytype/4.phtml
+2021-02-13 10:45:17.181303 |  000858 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2009/displaytype/4.phtml
+2021-02-13 10:45:17.645980 |  000858 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2008/displaytype/4.phtml
+2021-02-13 10:45:18.100742 |  000858 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2007/displaytype/4.phtml
+2021-02-13 10:45:53.841984 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:50:58.521299 | 600519 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:54:32.387111 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-13 10:58:53.568778 | 601398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-02-13 13:25:00.046630 | 600886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-02-13 15:31:12.152763 | 600886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-02-13 16:49:44.793231 | 002001 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:10:51.960724 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:10:53.550614 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:22:27.092377 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:25:49.237127 | 603886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:25:51.125176 | 603886 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-02-13 18:25:51.559226 | 603886 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-02-13 18:25:52.021761 | 603886 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-02-13 18:25:52.488216 | 603886 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:29:19.184595 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:29:20.873508 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-13 18:29:21.309021 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-13 18:29:21.772989 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-13 18:29:22.203492 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:30:54.452984 | 002821 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:30:56.384891 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-13 18:30:56.818693 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-13 18:30:57.248796 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-13 18:30:57.676958 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-13 18:32:13.121894 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:34:40.041024 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:36:44.975437 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:38:36.701609 | 000895 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:40:24.402789 | 300498 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300498/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:44:14.923624 | 000876 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000876/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:47:11.989638 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:49:46.773007 | 002195 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002195/ctrl/2021/displaytype/4.phtml
+2021-02-13 18:51:40.489768 | 600660 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600660/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:03:20.013325 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:04:44.370781 | 002001 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:20:21.966965 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-16 12:32:26.494893 | 600519 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:13:21.378111 | 600519 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:15:06.910580 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:55:29.675417 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:55:31.176505 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-16 20:56:34.168990 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-16 20:56:35.802991 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-16 21:01:55.982570 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-16 21:08:11.478342 | 600875 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:30:21.048213 | 300130 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300130/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:31:24.479214 | 002812 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002812/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:31:27.740495 | 002812 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002812/ctrl/2010/displaytype/4.phtml
+2021-02-17 10:31:28.162605 | 002812 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002812/ctrl/2009/displaytype/4.phtml
+2021-02-17 10:31:28.626462 | 002812 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002812/ctrl/2008/displaytype/4.phtml
+2021-02-17 10:31:29.131190 | 002812 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002812/ctrl/2007/displaytype/4.phtml
+2021-02-17 10:37:28.265372 | 000462 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:37:28.723009 | 000462 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2020/displaytype/4.phtml
+2021-02-17 10:37:29.146268 | 000462 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2019/displaytype/4.phtml
+2021-02-17 10:37:29.633373 | 000462 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2018/displaytype/4.phtml
+2021-02-17 10:37:30.098660 | 000462 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2017/displaytype/4.phtml
+2021-02-17 10:37:30.521890 | 000462 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2016/displaytype/4.phtml
+2021-02-17 10:37:31.025612 | 000462 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2015/displaytype/4.phtml
+2021-02-17 10:37:31.458524 | 000462 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2014/displaytype/4.phtml
+2021-02-17 10:37:31.900693 | 000462 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2013/displaytype/4.phtml
+2021-02-17 10:37:32.380574 | 000462 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2012/displaytype/4.phtml
+2021-02-17 10:37:32.863726 | 000462 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2011/displaytype/4.phtml
+2021-02-17 10:37:33.389718 | 000462 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2010/displaytype/4.phtml
+2021-02-17 10:37:33.901575 | 000462 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2009/displaytype/4.phtml
+2021-02-17 10:37:34.404844 | 000462 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2008/displaytype/4.phtml
+2021-02-17 10:37:34.864512 | 000462 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000462/ctrl/2007/displaytype/4.phtml
+2021-02-17 10:38:07.754966 | 300462 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300462/ctrl/2021/displaytype/4.phtml
+2021-02-17 10:38:11.211707 | 300462 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300462/ctrl/2010/displaytype/4.phtml
+2021-02-17 10:38:11.643467 | 300462 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300462/ctrl/2009/displaytype/4.phtml
+2021-02-17 10:38:12.098486 | 300462 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300462/ctrl/2008/displaytype/4.phtml
+2021-02-17 10:38:12.564096 | 300462 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300462/ctrl/2007/displaytype/4.phtml
+2021-02-17 10:47:53.691739 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:11:24.294635 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:12:06.126675 | 002563 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002563/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:20:52.739902 | 002029 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002029/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:24:30.617978 | 601566 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601566/ctrl/2021/displaytype/4.phtml
+2021-02-17 11:24:34.855821 | 601566 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601566/ctrl/2007/displaytype/4.phtml
+2021-02-17 12:34:33.965769 | 600028 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600028/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:37:53.264650 | 603886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:37:55.506165 | 603886 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-02-17 12:37:56.019109 | 603886 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-02-17 12:37:56.468860 | 603886 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-02-17 12:37:56.941566 | 603886 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-02-17 12:43:31.859302 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:47:52.353409 | 002821 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-17 12:47:54.458423 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-17 12:47:54.948873 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-17 12:47:55.401627 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-17 12:47:55.828936 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-25 19:15:54.281245 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:18:57.407786 | 600519 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:22:13.057112 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:22:14.619934 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-25 19:24:08.834900 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-25 19:24:10.672674 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-28 12:10:25.377506 | 603886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-02-28 12:10:27.605002 | 603886 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-02-28 12:10:28.063808 | 603886 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-02-28 12:10:28.629059 | 603886 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-02-28 12:10:29.143683 | 603886 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-02-28 12:13:02.814179 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-02-28 12:29:55.343306 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-28 12:29:57.290821 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-28 12:29:57.770892 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-28 12:29:58.264401 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-28 12:29:58.679637 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:11:48.537383 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:11:50.421321 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:11:51.010361 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:11:51.566874 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:11:52.114410 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:25:52.764700 | 002821 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:25:55.085369 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:25:55.603217 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:25:56.075299 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:25:56.511189 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:45:08.863764 | 002821 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:45:11.146403 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:45:11.559437 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:45:12.062545 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:45:12.573157 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:47:02.081523 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:48:18.392012 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:50:20.010699 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:50:21.736123 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:51:36.755395 | 601816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:51:38.405456 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-02-28 13:51:38.934215 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-02-28 13:51:39.469360 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-02-28 13:51:39.961601 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-02-28 13:51:40.532309 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-02-28 13:51:40.990443 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-02-28 13:51:41.452160 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:51:42.011941 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:51:42.507733 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:53:19.515025 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:53:20.975151 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:56:00.261027 | 003816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:56:01.132055 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-02-28 13:56:02.421815 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-02-28 13:56:02.928520 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-02-28 13:56:03.395618 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-02-28 13:58:20.257476 | 002002 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-02-28 13:59:41.960818 | 600875 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:01:04.441596 | 000338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:02:20.327557 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:03:43.851284 | 601398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:04:33.640868 | 600887 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:07:20.947256 | 601003 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:08:16.168467 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:09:33.947949 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:11:24.301725 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:12:39.041778 | 600585 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:13:51.862027 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:14:51.577502 | 600104 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:15:36.315194 | 002507 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002507/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:17:17.548019 | 002001 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:18:51.365100 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:19:39.424191 | 000895 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:21:07.000319 | 000651 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-02-28 14:21:52.940021 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-03-02 09:43:39.859519 | 002002 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002002/ctrl/2021/displaytype/4.phtml
+2021-03-02 09:45:19.280703 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-03-02 09:47:52.768332 | 600875 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600875/ctrl/2021/displaytype/4.phtml
+2021-03-03 21:41:50.659493 | 600763 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600763/ctrl/2021/displaytype/4.phtml
+2021-03-05 18:05:06.492767 | 600585 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-03-05 19:26:10.499896 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-03-06 20:54:45.158342 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:15:50.545951 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:15:51.708875 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-14 15:16:51.011874 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:18:28.313170 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-14 15:18:29.844074 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-14 15:18:30.285893 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-14 15:18:30.841409 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-14 15:18:31.278241 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-15 15:32:18.659291 | 600837 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600837/ctrl/2021/displaytype/4.phtml
+2021-03-15 15:32:32.221369 | 601398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-03-15 16:13:43.756576 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-15 16:13:45.046112 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-16 08:33:26.239290 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-16 08:33:27.837347 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-16 08:33:28.261141 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-16 08:33:28.746222 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-16 08:33:29.245630 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-18 10:47:42.626074 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-03-19 10:30:59.026455 | 003816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-03-19 10:31:00.040741 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-03-19 10:31:01.411150 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-03-19 10:31:02.072014 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-03-19 10:31:02.659715 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-03-19 11:05:15.495436 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-19 11:05:17.290865 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-19 11:14:56.329751 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-03-19 14:35:56.992637 | 603505 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603505/ctrl/2021/displaytype/4.phtml
+2021-03-19 14:36:00.347001 | 603505 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603505/ctrl/2010/displaytype/4.phtml
+2021-03-19 14:36:00.877362 | 603505 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603505/ctrl/2009/displaytype/4.phtml
+2021-03-19 14:36:01.431791 | 603505 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603505/ctrl/2008/displaytype/4.phtml
+2021-03-19 14:36:01.969264 | 603505 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603505/ctrl/2007/displaytype/4.phtml
+2021-03-23 17:18:22.096147 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:18:23.890096 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-23 17:18:24.311422 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-23 17:18:24.777067 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-23 17:18:25.254822 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-23 17:25:00.664786 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:25:01.885992 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-03-23 17:26:09.759056 | 600782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600782/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:26:51.372004 | 300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2021/displaytype/4.phtml
+2021-03-23 17:28:16.704319 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-03-25 13:34:06.943587 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-25 13:35:40.969293 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-25 15:01:48.008649 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-25 15:06:47.945527 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-27 08:39:14.378710 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-03-27 08:39:16.061554 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-03-27 08:39:16.495038 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-03-27 08:39:17.064689 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-03-27 08:39:17.519799 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-03-27 08:40:31.595521 | 002382 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002382/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:45:03.469201 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:49:20.265128 | 600104 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:51:14.789531 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:52:40.358696 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-03-27 09:52:41.971535 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-03-27 10:49:11.049259 | 601398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-03-27 10:52:51.144418 | 600036 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600036/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:18:07.942685 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:20:18.082974 | 002268 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002268/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:45:17.772892 | 601811 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2021/displaytype/4.phtml
+2021-03-28 14:45:22.653009 | 601811 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2010/displaytype/4.phtml
+2021-03-28 14:45:23.179089 | 601811 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2009/displaytype/4.phtml
+2021-03-28 14:45:23.921666 | 601811 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2008/displaytype/4.phtml
+2021-03-28 14:45:24.775760 | 601811 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2007/displaytype/4.phtml
+2021-03-28 17:56:57.105937 | 601811 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2021/displaytype/4.phtml
+2021-03-28 17:56:59.977044 | 601811 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2010/displaytype/4.phtml
+2021-03-28 17:57:00.538847 | 601811 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2009/displaytype/4.phtml
+2021-03-28 17:57:01.179126 | 601811 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2008/displaytype/4.phtml
+2021-03-28 17:57:01.695714 | 601811 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601811/ctrl/2007/displaytype/4.phtml
+2021-03-28 17:58:42.204720 | 000651 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-03-28 18:00:14.726409 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-03-31 13:47:06.643434 | 000895 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-03-31 13:50:05.461488 | 000338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-03-31 13:58:25.574605 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:49:48.682355 | 600585 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:57:40.873324 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:58:05.952531 | 600519 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-03-31 15:59:25.431150 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-02 10:16:06.365367 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-04-02 10:16:07.710664 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-04-02 10:16:08.195249 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-04-02 10:16:08.687690 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-04-02 10:16:09.163245 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-04-02 13:09:15.509293 | 002001 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-04-04 21:13:09.968882 | 601360 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2021/displaytype/4.phtml
+2021-04-04 21:13:11.690494 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-04 21:14:27.059665 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-04-04 21:14:28.623770 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-04-20 11:37:09.583164 | 003816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2021/displaytype/4.phtml
+2021-04-20 11:37:10.061883 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-04-20 11:37:11.237741 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-04-20 11:37:11.810209 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-04-20 11:37:12.310873 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:33:51.923690 | 603886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:33:53.978268 | 603886 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-04-20 12:33:54.512494 | 603886 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-04-20 12:33:55.003880 | 603886 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-04-20 12:33:55.494364 | 603886 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:38:43.792563 | 603866 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:38:45.398694 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-04-20 12:38:45.878113 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-04-20 12:38:46.387086 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-04-20 12:38:46.871796 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:41:59.743824 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:44:10.432342 | 601816 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:44:11.912958 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-04-20 12:44:12.379282 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-04-20 12:44:12.821871 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-04-20 12:44:13.244533 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-04-20 12:44:13.720866 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-04-20 12:44:14.252928 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-04-20 12:44:14.702728 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-04-20 12:44:15.227548 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-04-20 12:44:15.745581 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:46:14.529374 | 002555 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:46:15.726682 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-04-20 12:48:08.002907 | 000338 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000338/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:50:57.108045 | 600867 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600867/ctrl/2021/displaytype/4.phtml
+2021-04-20 12:53:46.129518 | 600887 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600887/ctrl/2021/displaytype/4.phtml
+2021-04-20 15:51:06.726790 | 601398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601398/ctrl/2021/displaytype/4.phtml
+2021-04-20 15:57:51.910698 | 601006 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601006/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:01:17.767194 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:04:53.894235 | 300113 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300113/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:12:21.049730 | 601003 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601003/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:13:00.366973 | 600018 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600018/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:17:28.634206 | 600398 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600398/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:18:32.285329 | 000651 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000651/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:19:10.991928 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:23:49.767270 | 600585 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600585/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:26:21.656726 | 601699 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601699/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:27:13.478167 | 600519 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600519/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:29:26.663402 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:32:01.102749 | 600104 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:37:04.898205 | 002507 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002507/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:38:12.969495 | 002001 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002001/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:40:28.288409 | 000513 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000513/ctrl/2021/displaytype/4.phtml
+2021-04-20 16:41:45.202269 | 000895 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000895/ctrl/2021/displaytype/4.phtml
+2021-04-22 10:35:05.894609 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-22 10:38:32.623261 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-22 10:45:00.585810 | 002027 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002027/ctrl/2021/displaytype/4.phtml
+2021-04-23 16:14:24.376532 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-04-26 20:39:03.474174 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-04-27 11:06:27.743737 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-04-27 11:06:29.170387 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-04-27 11:06:29.649341 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-04-27 11:06:30.159249 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-04-27 11:16:26.555106 | 600886 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600886/ctrl/2021/displaytype/4.phtml
+2021-04-27 11:23:04.635092 | 300315 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300315/ctrl/2021/displaytype/4.phtml
+2021-04-27 11:23:06.211507 | 300315 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300315/ctrl/2007/displaytype/4.phtml
+2021-04-27 11:30:39.101286 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-04-27 11:30:39.582549 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-04-27 11:30:40.093625 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-04-27 11:30:40.544409 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-04-27 16:01:36.112000 | 002594 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002594/ctrl/2021/displaytype/4.phtml
+2021-04-27 16:10:26.564059 | 600104 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600104/ctrl/2021/displaytype/4.phtml
+2021-04-27 22:52:22.155318 | 002563 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002563/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:00:49.858022 |  002128 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:00:50.374869 |  002128 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2020/displaytype/4.phtml
+2021-04-27 23:00:50.837121 |  002128 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2019/displaytype/4.phtml
+2021-04-27 23:00:51.402121 |  002128 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2018/displaytype/4.phtml
+2021-04-27 23:00:52.192066 |  002128 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2017/displaytype/4.phtml
+2021-04-27 23:00:52.704094 |  002128 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2016/displaytype/4.phtml
+2021-04-27 23:00:53.176109 |  002128 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2015/displaytype/4.phtml
+2021-04-27 23:00:53.711765 |  002128 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2014/displaytype/4.phtml
+2021-04-27 23:00:54.196788 |  002128 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2013/displaytype/4.phtml
+2021-04-27 23:00:54.626052 |  002128 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2012/displaytype/4.phtml
+2021-04-27 23:00:55.084199 |  002128 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2011/displaytype/4.phtml
+2021-04-27 23:00:55.621062 |  002128 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2010/displaytype/4.phtml
+2021-04-27 23:00:56.198078 |  002128 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2009/displaytype/4.phtml
+2021-04-27 23:00:56.711621 |  002128 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2008/displaytype/4.phtml
+2021-04-27 23:00:57.184815 |  002128 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 002128/ctrl/2007/displaytype/4.phtml
+2021-04-27 23:01:43.609909 | 002128 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002128/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:04:18.019774 | 000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000858/ctrl/2021/displaytype/4.phtml
+2021-04-27 23:15:00.571354 | 600260 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/600260/ctrl/2021/displaytype/4.phtml
+2021-04-28 22:52:49.175577 | 601111 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601111/ctrl/2021/displaytype/4.phtml
+2021-04-29 07:41:28.787252 | 601225 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601225/ctrl/2021/displaytype/4.phtml
+2021-04-29 07:48:02.899946 | 000333 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000333/ctrl/2021/displaytype/4.phtml
+2021-04-29 08:50:21.868539 | 601782 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2021/displaytype/4.phtml
+2021-04-29 08:50:22.412419 | 601782 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2020/displaytype/4.phtml
+2021-04-29 08:50:22.934042 | 601782 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2019/displaytype/4.phtml
+2021-04-29 08:50:23.418774 | 601782 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2018/displaytype/4.phtml
+2021-04-29 08:50:23.963848 | 601782 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2017/displaytype/4.phtml
+2021-04-29 08:50:24.422569 | 601782 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2016/displaytype/4.phtml
+2021-04-29 08:50:24.892283 | 601782 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2015/displaytype/4.phtml
+2021-04-29 08:50:25.358230 | 601782 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2014/displaytype/4.phtml
+2021-04-29 08:50:25.778525 | 601782 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2013/displaytype/4.phtml
+2021-04-29 08:50:26.330941 | 601782 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2012/displaytype/4.phtml
+2021-04-29 08:50:26.790417 | 601782 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2011/displaytype/4.phtml
+2021-04-29 08:50:27.295320 | 601782 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2010/displaytype/4.phtml
+2021-04-29 08:50:27.761765 | 601782 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2009/displaytype/4.phtml
+2021-04-29 08:50:28.268079 | 601782 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2008/displaytype/4.phtml
+2021-04-29 08:50:28.749523 | 601782 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601782/ctrl/2007/displaytype/4.phtml
+2021-04-29 09:10:33.888455 |  300146 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2021/displaytype/4.phtml
+2021-04-29 09:10:34.425480 |  300146 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2020/displaytype/4.phtml
+2021-04-29 09:10:34.861769 |  300146 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2019/displaytype/4.phtml
+2021-04-29 09:10:35.313651 |  300146 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2018/displaytype/4.phtml
+2021-04-29 09:10:35.793623 |  300146 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2017/displaytype/4.phtml
+2021-04-29 09:10:36.273429 |  300146 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2016/displaytype/4.phtml
+2021-04-29 09:10:36.742769 |  300146 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2015/displaytype/4.phtml
+2021-04-29 09:10:37.248390 |  300146 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2014/displaytype/4.phtml
+2021-04-29 09:10:37.827655 |  300146 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2013/displaytype/4.phtml
+2021-04-29 09:10:38.305536 |  300146 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2012/displaytype/4.phtml
+2021-04-29 09:10:38.750341 |  300146 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2011/displaytype/4.phtml
+2021-04-29 09:10:39.167260 |  300146 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2010/displaytype/4.phtml
+2021-04-29 09:10:39.650556 |  300146 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2009/displaytype/4.phtml
+2021-04-29 09:10:40.119412 |  300146 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2008/displaytype/4.phtml
+2021-04-29 09:10:40.596358 |  300146 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 300146/ctrl/2007/displaytype/4.phtml
+2021-04-29 23:08:46.315235 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-04-29 23:08:46.874768 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-04-29 23:08:47.423300 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-04-29 23:08:47.970835 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-04-29 23:08:48.439546 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-04-29 23:08:48.964533 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-04-29 23:08:49.484541 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-04-29 23:08:49.996931 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-04-29 23:08:50.514991 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-04-29 23:11:02.003159 | 000333 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/000333/ctrl/2021/displaytype/4.phtml
+2021-04-29 23:17:25.373162 |  000858 2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2021/displaytype/4.phtml
+2021-04-29 23:17:25.843437 |  000858 2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2020/displaytype/4.phtml
+2021-04-29 23:17:26.336132 |  000858 2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2019/displaytype/4.phtml
+2021-04-29 23:17:26.830000 |  000858 2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2018/displaytype/4.phtml
+2021-04-29 23:17:27.346382 |  000858 2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2017/displaytype/4.phtml
+2021-04-29 23:17:27.896534 |  000858 2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2016/displaytype/4.phtml
+2021-04-29 23:17:28.386391 |  000858 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2015/displaytype/4.phtml
+2021-04-29 23:17:28.916611 |  000858 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2014/displaytype/4.phtml
+2021-04-29 23:17:29.483845 |  000858 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2013/displaytype/4.phtml
+2021-04-29 23:17:30.010981 |  000858 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2012/displaytype/4.phtml
+2021-04-29 23:17:30.484366 |  000858 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2011/displaytype/4.phtml
+2021-04-29 23:17:30.993043 |  000858 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2010/displaytype/4.phtml
+2021-04-29 23:17:31.521150 |  000858 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2009/displaytype/4.phtml
+2021-04-29 23:17:32.012869 |  000858 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2008/displaytype/4.phtml
+2021-04-29 23:17:32.510688 |  000858 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/ 000858/ctrl/2007/displaytype/4.phtml
+2021-04-29 23:22:29.237709 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-05-03 07:48:00.640242 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-05-03 07:48:01.111537 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-05-03 07:48:01.703622 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-05-03 07:48:02.137268 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-05-03 07:48:02.609079 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-05-03 07:48:03.085192 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-05-03 07:48:03.674437 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-05-03 07:48:04.256804 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-05-03 07:48:04.739458 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-05-03 07:53:15.692397 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-05-03 07:53:17.272080 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-05-03 07:53:17.713723 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-05-03 07:53:18.251817 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-05-08 12:50:25.735337 | 300770 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300770/ctrl/2013/displaytype/4.phtml
+2021-05-08 12:50:26.351932 | 300770 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300770/ctrl/2012/displaytype/4.phtml
+2021-05-08 12:50:26.874180 | 300770 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300770/ctrl/2011/displaytype/4.phtml
+2021-05-08 12:50:27.375884 | 300770 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300770/ctrl/2010/displaytype/4.phtml
+2021-05-08 12:50:27.934019 | 300770 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300770/ctrl/2009/displaytype/4.phtml
+2021-05-08 12:50:28.474391 | 300770 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300770/ctrl/2008/displaytype/4.phtml
+2021-05-08 12:50:28.958263 | 300770 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300770/ctrl/2007/displaytype/4.phtml
+2021-05-16 11:42:47.542546 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-05-27 16:40:30.150015 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-05-28 10:21:41.324852 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-05-28 10:21:41.833989 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-05-28 10:21:42.418979 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-05-28 10:21:42.980749 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-06 16:21:46.293621 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-06-07 12:28:05.346820 | 688200 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2015/displaytype/4.phtml
+2021-06-07 12:28:05.823099 | 688200 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2014/displaytype/4.phtml
+2021-06-07 12:28:06.231971 | 688200 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2013/displaytype/4.phtml
+2021-06-07 12:28:06.645256 | 688200 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2012/displaytype/4.phtml
+2021-06-07 12:28:07.062974 | 688200 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2011/displaytype/4.phtml
+2021-06-07 12:28:07.507633 | 688200 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2010/displaytype/4.phtml
+2021-06-07 12:28:07.962019 | 688200 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2009/displaytype/4.phtml
+2021-06-07 12:28:08.446573 | 688200 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2008/displaytype/4.phtml
+2021-06-07 12:28:08.898801 | 688200 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2007/displaytype/4.phtml
+2021-06-15 07:45:35.421619 | 300298 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300298/ctrl/2007/displaytype/4.phtml
+2021-06-25 23:26:39.265502 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-06-25 23:26:39.755922 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-06-25 23:26:40.214851 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-06-25 23:26:40.650342 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-26 09:10:07.048695 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-06-26 09:10:07.642955 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-06-26 09:10:08.132493 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-06-26 09:10:08.656798 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-26 10:23:49.190659 | 601816 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2015/displaytype/4.phtml
+2021-06-26 10:23:49.653028 | 601816 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2014/displaytype/4.phtml
+2021-06-26 10:23:50.229759 | 601816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2013/displaytype/4.phtml
+2021-06-26 10:23:50.843650 | 601816 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2012/displaytype/4.phtml
+2021-06-26 10:23:51.396886 | 601816 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2011/displaytype/4.phtml
+2021-06-26 10:23:51.915254 | 601816 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2010/displaytype/4.phtml
+2021-06-26 10:23:52.438958 | 601816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2009/displaytype/4.phtml
+2021-06-26 10:23:52.915516 | 601816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2008/displaytype/4.phtml
+2021-06-26 10:23:53.436398 | 601816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601816/ctrl/2007/displaytype/4.phtml
+2021-06-26 10:34:14.697278 | 002555 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002555/ctrl/2007/displaytype/4.phtml
+2021-06-26 10:44:10.518762 | 003816 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2013/displaytype/4.phtml
+2021-06-26 10:44:11.922534 | 003816 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2009/displaytype/4.phtml
+2021-06-26 10:44:12.456784 | 003816 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2008/displaytype/4.phtml
+2021-06-26 10:44:13.042356 | 003816 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/003816/ctrl/2007/displaytype/4.phtml
+2021-06-26 11:54:06.062104 | 601360 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/601360/ctrl/2007/displaytype/4.phtml
+2021-06-26 11:59:09.496038 |  2021 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2021/displaytype/4.phtml
+2021-06-26 11:59:10.002985 |  2020 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2020/displaytype/4.phtml
+2021-06-26 11:59:10.505074 |  2019 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2019/displaytype/4.phtml
+2021-06-26 11:59:11.001641 |  2018 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2018/displaytype/4.phtml
+2021-06-26 11:59:11.508325 |  2017 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2017/displaytype/4.phtml
+2021-06-26 11:59:12.113908 |  2016 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2016/displaytype/4.phtml
+2021-06-26 11:59:12.629081 |  2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2015/displaytype/4.phtml
+2021-06-26 11:59:13.184983 |  2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2014/displaytype/4.phtml
+2021-06-26 11:59:13.689538 |  2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2013/displaytype/4.phtml
+2021-06-26 11:59:14.157118 |  2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2012/displaytype/4.phtml
+2021-06-26 11:59:14.647723 |  2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2011/displaytype/4.phtml
+2021-06-26 11:59:15.141899 |  2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2010/displaytype/4.phtml
+2021-06-26 11:59:15.659141 |  2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2009/displaytype/4.phtml
+2021-06-26 11:59:15.755842 | 688200 2015 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2015/displaytype/4.phtml
+2021-06-26 11:59:16.221933 |  2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2008/displaytype/4.phtml
+2021-06-26 11:59:16.264784 | 688200 2014 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2014/displaytype/4.phtml
+2021-06-26 11:59:16.802242 | 688200 2013 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2013/displaytype/4.phtml
+2021-06-26 11:59:16.802242 |  2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid//ctrl/2007/displaytype/4.phtml
+2021-06-26 11:59:17.242486 | 688200 2012 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2012/displaytype/4.phtml
+2021-06-26 11:59:17.771348 | 688200 2011 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2011/displaytype/4.phtml
+2021-06-26 11:59:18.337197 | 688200 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2010/displaytype/4.phtml
+2021-06-26 11:59:18.848775 | 688200 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2009/displaytype/4.phtml
+2021-06-26 11:59:19.342814 | 688200 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2008/displaytype/4.phtml
+2021-06-26 11:59:19.930715 | 688200 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/688200/ctrl/2007/displaytype/4.phtml
+2021-06-26 12:02:24.875742 | 603886 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2010/displaytype/4.phtml
+2021-06-26 12:02:25.325103 | 603886 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2009/displaytype/4.phtml
+2021-06-26 12:02:25.861171 | 603886 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2008/displaytype/4.phtml
+2021-06-26 12:02:26.433030 | 603886 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2007/displaytype/4.phtml
+2021-06-26 12:05:33.385126 | 603866 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2010/displaytype/4.phtml
+2021-06-26 12:05:33.945900 | 603866 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2009/displaytype/4.phtml
+2021-06-26 12:05:34.498512 | 603866 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2008/displaytype/4.phtml
+2021-06-26 12:05:34.949060 | 603866 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603866/ctrl/2007/displaytype/4.phtml
+2021-06-26 16:17:05.678579 | 002821 2010 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2010/displaytype/4.phtml
+2021-06-26 16:17:06.219254 | 002821 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2009/displaytype/4.phtml
+2021-06-26 16:17:06.742123 | 002821 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2008/displaytype/4.phtml
+2021-06-26 16:17:07.306990 | 002821 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/002821/ctrl/2007/displaytype/4.phtml
