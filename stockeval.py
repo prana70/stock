@@ -327,7 +327,7 @@ def GetTotalLevel(stockcode):
     #print('净利润增长率：',NetProfitGrowth*100)
     IncomeGrowth=GetIncomeGrowth(stockcode)
     #print('营业收入增长率：',IncomeGrowth*100)
-    InterValue=DCF(stockcode)
+    InterValue,cashflow_of_per_share,growth_rate_of_free_cashflow=DCF(stockcode)
     #print('估值：',InterValue)
     #计算安全边际
     SecurityLevel=graduation(InterValue/(StockPrice+InterValue)*100)

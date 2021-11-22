@@ -73,7 +73,7 @@ def DCF(stock_code):
 
     value_of_total=value_of_ten_years+value_after_ten_years
 
-    return value_of_total
+    return value_of_total,cashflow_of_per_share,growth_rate_of_free_cashflow
 
 if __name__=='__main__':
     

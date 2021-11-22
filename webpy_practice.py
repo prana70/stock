@@ -12,6 +12,7 @@ import append_stock_financial_from_cninfo as asf
 import append_stock_financial_from_sina as asffs
 from DCF import DCF
 from intervalue import InterValue as iv
+import update_financial_data as ufd
 
 
 # 国内股票分析首页
@@ -27,10 +28,7 @@ class index:
         stockcode=web.input().get('stockcode')
 
         #更新财务数据
-        #asf.append_stock_financial_by_stockcode(stockcode)
-        asffs.get_balancesheet(stockcode)
-        asffs.get_profitstatement(stockcode)
-        asffs.get_cashflow(stockcode)
+        ufd.update_financial_data(stockcode)
 
         render = web.template.render('templates')
         stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(stockcode)
@@ -55,7 +53,9 @@ class index:
         IncomeGrowth = se.GetIncomeGrowth(stockcode)
         info4 = '营业收入增长率：' + str('{:.2f}'.format(IncomeGrowth * 100)) + '%'
         InterValue1=iv(NetProfitGrowth,EPS,0.07,15)
-        InterValue2 = DCF(stockcode)
+        InterValue2,cashflow_of_per_share,growth_rate_of_free_cashflow = DCF(stockcode)
+        info5_0= '每股自由现金流：' + str('{:.2f}'.format(cashflow_of_per_share)) + '元'
+        info5_1='自由现金流增长率：' + str('{:.2f}'.format(growth_rate_of_free_cashflow * 100)) + '%'
         info5 = '估值：' + str('{:.2f}'.format(InterValue1))+'~'+str('{:.2f}'.format(InterValue2)) + '元'
         FutureROI = sn.GetFutureROI(stockcode)
         info6 = '预期复合投资收益率：' + str('{:.2f}'.format(FutureROI * 100)) + '%'
@@ -77,7 +77,7 @@ class index:
         menu14 = '自由现金流对比'
 
         return render.stockeval(stockcode, title, labels, data, legend,
-                                info0, info1, info2, info3, info4, info5, info6, info7,
+                                info0, info1, info2, info3, info4, info5_0, info5_1, info5, info6, info7,
                                 menu1, menu2, menu3, menu4, menu5, menu6, menu7, menu8, menu9, menu10, menu11, menu12,
                                 menu13, menu14)
 

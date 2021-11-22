@@ -194,7 +194,7 @@ def get_cashflow(stock_code):
         df=dfs[0]
     elif len(dfs)==0:
         df=None
-    print(df)
+    #print(df)
     if not df is None:
         #如果已有数据文件，则将已有数据与爬取数据合表到一个df,并将列按升序重排
         if os.path.exists(file):
