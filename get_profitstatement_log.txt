@@ -2456,3 +2456,4 @@
 2021-11-15 23:13:36.282316 | 603886 2009 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2009/displaytype/4.phtml
 2021-11-15 23:13:58.967054 | 603886 2008 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2008/displaytype/4.phtml
 2021-11-15 23:14:17.591264 | 603886 2007 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/603886/ctrl/2007/displaytype/4.phtml
+2022-01-01 11:17:45.884951 | 300146 2022 profitstatement数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_ProfitStatement/stockid/300146/ctrl/2022/displaytype/4.phtml

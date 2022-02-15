@@ -2475,3 +2475,4 @@
 2021-11-15 23:16:01.736592 | 603886 2009 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2009/displaytype/4.phtml
 2021-11-15 23:16:20.368227 | 603886 2008 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2008/displaytype/4.phtml
 2021-11-15 23:16:48.081597 | 603886 2007 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/603886/ctrl/2007/displaytype/4.phtml
+2022-01-01 11:18:42.064164 | 300146 2022 cashflow数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_CashFlow/stockid/300146/ctrl/2022/displaytype/4.phtml

@@ -34,7 +34,7 @@ class index:
         stockcode, stockname, SecurityLevel, GrowthLevel, IncomeLevel, CashLevel, TradePositionLevel = se.GetTotalLevel(stockcode)
         print('stockname:',stockname)
         print('stockcode:',stockcode)
-        print(se.GetTotalLevel(stockcode))
+        #print(se.GetTotalLevel(stockcode))
 
         title = stockname + '（' + stockcode + '）-评估总览'
         labels = ['营收增长', '利润成长', '安全边际', '运营现金', '供应链地位']

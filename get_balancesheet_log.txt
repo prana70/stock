@@ -2458,3 +2458,4 @@
 2021-11-15 23:11:22.445590 | 603886 2009 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/603886/ctrl/2009/displaytype/4.phtml
 2021-11-15 23:11:41.013662 | 603886 2008 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/603886/ctrl/2008/displaytype/4.phtml
 2021-11-15 23:11:59.567334 | 603886 2007 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/603886/ctrl/2007/displaytype/4.phtml
+2022-01-01 11:16:34.860332 | 300146 2022 balancesheet数据获取失败！url:http://money.finance.sina.com.cn/corp/go.php/vFD_BalanceSheet/stockid/300146/ctrl/2022/displaytype/4.phtml

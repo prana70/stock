@@ -13,37 +13,79 @@ import tushare as ts
 import math
 import re
 import json
-from DCF import DCF
+#from DCF import DCF
+import DCF
 
-
-
+ 
 
 #获取股票价格
 def GetStockPrice(stockcode):
-    df=ts.get_k_data(stockcode)
-    RowNo=len(df.index)-1
-    return df.at[RowNo,'close']
+    market_code={'600':'sh','601':'sh','603':'sh','000':'sz','001':'sz','002':'sz','300':'sz'}
+    if stockcode[0:3] in market_code:
+        full_stock_code=market_code[stockcode[0:3]]+stockcode   
+    else:
+        print('该股票非沪深股票，请检查是否有误:',stockcode)
+        return None
+    url='https://hq.sinajs.cn/rn=1642938669673&list=%s,%s,bk_new_ljhy'%(full_stock_code,full_stock_code)
+    headers_string='''
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Connection: keep-alive
+Host: hq.sinajs.cn
+Referer: https://finance.sina.com.cn/realstock/company/sz000858/nc.shtml
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="96", "Google Chrome";v="96"
+sec-ch-ua-mobile: ?1
+sec-ch-ua-platform: "Android"
+Sec-Fetch-Dest: script
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: cross-site
+User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
+'''
+    headers=dict(line.split(': ') for line in headers_string.strip().split('\n'))
+    resp=rq.get(url,headers=headers)
+    if resp.status_code==200:
+        query_result=re.search('\"(.*)\"',resp.text).group(1)
+        if not query_result=='':
+            stock_price=float(query_result.split(',')[3])
+            return stock_price
+        else:
+            print('未能获取价格，请检查是否有误：',stockcode)
+            return None
+    else:
+        print('获取价格错误，错误代码：',resp.status_code)
+        return None
+    return
 
 #获取最新股本
 def GetShares(stockcode):
     #通过新浪网站获取总股本
-    MarketType={'688':'sh','600':'sh','601':'sh','603':'sh','000':'sz','002':'sz','300':'sz','003':'sz'} #根据股票代码确定市场类型
-    url='http://finance.sina.com.cn/realstock/company/'+MarketType[stockcode[0:3]]+stockcode+'/nc.shtml'
+    market_code={'600':'sh','601':'sh','603':'sh','000':'sz','001':'sz','002':'sz','300':'sz'}
+    if stockcode[0:3] in market_code:
+        full_stock_code=market_code[stockcode[0:3]]+stockcode
+    else:
+        print('该股票非沪深股票，请检查是否有误:',stockcode)
+        return None
+    url='http://finance.sina.com.cn/realstock/company/%s/nc.shtml'%full_stock_code
     resp=rq.get(url)
-    #print(resp.status_code)
-    resp.encoding='gb2312'
-    reg=re.compile(r'var totalcapital = ([\d.]*)')
-    text=resp.text
-    #print(text)
-    r=reg.findall(text)
-    return float(r[0])*10000
+    if resp.status_code==200:
+        resp.encoding='gb2312'
+        reg=re.compile(r'var totalcapital = ([\d.]*)')
+        text=resp.text
+        #print(text)
+        shares=float(reg.findall(text)[0])*10000
+        return shares
+    else:
+        print('所查询的可能并非股票，请检查是否有误：',stockcode)
+        return None
 
     
 #获取最近年度的净利润（亦可采用“归属于母公司所有者的净利润”）
 def GetNetProfit(stockcode):
     stockname=ssa.get_stockname(stockcode)
     file=os.getcwd()+'\\stock_financial_sina\\'+stockcode+'profitstatement.csv'
-    df=pd.read_csv(file,index_col=0)    
+    df=pd.read_csv(file,index_col=0)
+    
     #print(df)
     i=len(df.columns)-1
     while i>=0:
@@ -327,7 +369,7 @@ def GetTotalLevel(stockcode):
     #print('净利润增长率：',NetProfitGrowth*100)
     IncomeGrowth=GetIncomeGrowth(stockcode)
     #print('营业收入增长率：',IncomeGrowth*100)
-    InterValue,cashflow_of_per_share,growth_rate_of_free_cashflow=DCF(stockcode)
+    InterValue,cashflow_of_per_share,growth_rate_of_free_cashflow=DCF.DCF(stockcode)
     #print('估值：',InterValue)
     #计算安全边际
     SecurityLevel=graduation(InterValue/(StockPrice+InterValue)*100)
@@ -361,13 +403,21 @@ def GetTotalLevel(stockcode):
     
 if __name__=='__main__':
     stockcode=input('请输入股票代码：')#'000858'
+
     stockname=ssa.get_stockname(stockcode)
     print(stockcode,stockname)
     StockPrice=GetStockPrice(stockcode)
-    label0='股价：'+str('{:.2f}'.format(StockPrice))+'元'
+    if not StockPrice==None:
+        label0='股价：'+str('{:.2f}'.format(StockPrice))+'元'
+    else:
+        label0='股价：--'
     print(label0)
+    '''
     shares=GetShares(stockcode)
-    label1='总股本：'+str('{:.2f}'.format(shares/100000000))+'亿'
+    if not shares==None:
+        label1='总股本：'+str('{:.2f}'.format(shares/100000000))+'亿'
+    else:
+        label1='总股本：--'
     print(label1)
     NetProfit=GetNetProfit(stockcode)
     EPS=NetProfit/shares
@@ -433,4 +483,5 @@ if __name__=='__main__':
     ax.text(-9.5,5.5,label,verticalalignment="top",horizontalalignment="right")
     fig.canvas.set_window_title(stockname+stockcode)
     plt.show()
+    '''
 

@@ -43,7 +43,6 @@ def DCF(stock_code):
             cashflow_of_the_begin=ele
             break
 
-
         
     shares=stockeval.GetShares(stock_code)/10**8
 
@@ -51,11 +50,28 @@ def DCF(stock_code):
 
     print('每股自由现金流：',format(cashflow_of_per_share,',.2f'),'元')
 
-    
+    #计算10年快速现金增长率
     years=int(series_of_free_cashflow.index[len(series_of_free_cashflow)-1][0:4])-int(series_of_free_cashflow.index[0][:4])
     growth_rate_of_free_cashflow=(cashflow_of_the_end/cashflow_of_the_begin)**(1/years)-1
     print('10年快速增长率：%s'%format(growth_rate_of_free_cashflow,'.2%'))
+
+    '''
+    #计算10年快速现金增长率（历年加权平均法）
+    print('10年现金流列表：')
+    print(series_of_free_cashflow)
+    sum_of_weight_cashflow=0 #历年现金流加权之和
+    sum_of_weight=0 #历年现金流权重之和，年代越远，权重越小
+    for j in range(len(series_of_free_cashflow)-1):
+        sum_of_weight_cashflow=sum_of_weight_cashflow+(series_of_free_cashflow[j+1]/series_of_free_cashflow[j]-1)*(j+1)
+        sum_of_weight=sum_of_weight+(j+1)
+    growth_rate_of_cashflow1=sum_of_weight_cashflow/sum_of_weight
+    print('10年快速增长率（加权平均）：%s'%format(growth_rate_of_cashflow1,'.2%'))
+    '''
+
+    #10年后永续现金增长率
     growth_rate_of_free_cashflow_forever=0.01
+
+    #折现率
     discount_rate=0.07
 
     value_of_the_year=0
@@ -87,5 +103,5 @@ if __name__=='__main__':
     print('-'*50)
 
     inter_value=DCF(stock_code)
-    print('每股估值：',format(inter_value,',.2f'),'元')
+    print('每股估值：',format(inter_value[0],',.2f'),'元')
 

@@ -3,8 +3,9 @@
 import os
 import datetime
 import pandas as pd
-import append_stock_financial_from_cninfo as asf
-import append_stock_financial_from_sina as asffs
+#import append_stock_financial_from_cninfo as asf
+#import append_stock_financial_from_sina as asffs
+import get_financial_data
 
 def update_financial_data(stockcode):
     file=os.getcwd()+r'\stock_financial_sina\%sbalancesheet.csv'%stockcode
@@ -26,9 +27,10 @@ def update_financial_data(stockcode):
             if report_date_string not in report_dates:
                 print('添加数据'+report_date_string)
                 #asf.append_stock_financial_by_stockcode(stockcode)#原巨潮信息数据添加，实限已不可用。
-                asffs.get_balancesheet(stockcode)
-                asffs.get_profitstatement(stockcode)
-                asffs.get_cashflow(stockcode)
+                #asffs.get_balancesheet(stockcode)
+                #asffs.get_profitstatement(stockcode)
+                #asffs.get_cashflow(stockcode)
+                get_financial_data.get_financial_data_from_sina(stockcode)
 
         
 
@@ -40,9 +42,10 @@ def update_financial_data(stockcode):
             if report_date_string not in report_dates:
                 print('添加数据'+report_date_string)
                 #asf.append_stock_financial_by_stockcode(stockcode)#原巨潮信息数据添加，实限已不可用。
-                asffs.get_balancesheet(stockcode)
-                asffs.get_profitstatement(stockcode)
-                asffs.get_cashflow(stockcode)
+                #asffs.get_balancesheet(stockcode)
+                #asffs.get_profitstatement(stockcode)
+                #asffs.get_cashflow(stockcode)
+                get_financial_data.get_financial_data_from_sina(stockcode)
 
 
         #判断当前日期是否在三季度报告期期间，并决定是否添加数据
@@ -53,9 +56,10 @@ def update_financial_data(stockcode):
             if report_date_string not in report_dates:
                 print('添加数据'+report_date_string)
                 #asf.append_stock_financial_by_stockcode(stockcode)#原巨潮信息数据添加，实限已不可用。
-                asffs.get_balancesheet(stockcode)
-                asffs.get_profitstatement(stockcode)
-                asffs.get_cashflow(stockcode)
+                #asffs.get_balancesheet(stockcode)
+                #asffs.get_profitstatement(stockcode)
+                #asffs.get_cashflow(stockcode)
+                get_financial_data.get_financial_data_from_sina(stockcode)
 
 
         #判断当前日期是否在四季度报告期期间，并决定是否添加数据
@@ -66,18 +70,20 @@ def update_financial_data(stockcode):
             if report_date_string not in report_dates:
                 print('添加数据'+report_date_string)
                 #asf.append_stock_financial_by_stockcode(stockcode)#原巨潮信息数据添加，实限已不可用。
-                asffs.get_balancesheet(stockcode)
-                asffs.get_profitstatement(stockcode)
-                asffs.get_cashflow(stockcode)
+                #asffs.get_balancesheet(stockcode)
+                #asffs.get_profitstatement(stockcode)
+                #asffs.get_cashflow(stockcode)
+                get_financial_data.get_financial_data_from_sina(stockcode)
 
         
         
     else:
         print('添加全部数据')
         #asf.append_stock_financial_by_stockcode(stockcode)#原巨潮信息数据添加，实限已不可用。
-        asffs.get_balancesheet(stockcode)
-        asffs.get_profitstatement(stockcode)
-        asffs.get_cashflow(stockcode)
+        #asffs.get_balancesheet(stockcode)
+        #asffs.get_profitstatement(stockcode)
+        #asffs.get_cashflow(stockcode)
+        get_financial_data.get_financial_data_from_sina(stockcode)
 
 
 if __name__=='__main__':
