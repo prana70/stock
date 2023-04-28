@@ -1,0 +1,21 @@
+$def with (title,tip,button_value)
+<html>
+<head>
+<style>
+body {
+    background-color: lightblue;
+}
+</style>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>$title</title>
+</head>
+<body>
+<h1>$title</h1>
+<h3>$tip</h3>
+
+<form method="POST" target="_blank">
+<input type="text"  name="stockcode" >
+<input type="submit" value="$button_value">
+</form>
+</body>
+</html>

@@ -87,4 +87,5 @@ def update_financial_data(stockcode):
 
 
 if __name__=='__main__':
-    print('本程序仅用于函数调用，不提供直接运行！')
+    stock_code=input('请输入股票代码：')
+    update_financial_data(stock_code)

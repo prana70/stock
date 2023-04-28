@@ -3,6 +3,25 @@ $def with (stockcode,title,labels,data,legend,info0,info1,info2,info3,info4,info
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 <title>$title</title>
+<style>
+  body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #222222;
+    color: #c0c0c0;
+  }
+  a {
+    color: #c0c0c0;
+  }
+  a:hover {
+    color: #ff4b4b;
+  }
+  ul, ol {
+    font-size: 18px;
+  }
+  canvas {
+    border: 1px solid #c0c0c0;
+  }
+</style>
 </head>
 <body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
@@ -16,25 +35,30 @@ var myChart = new Chart(ctx, {
         datasets: [{
             label: '$legend',
             data:$data,
-            //data: [12, 19, 3, 5, 2, 3],
-            backgroundColor:'rgba(255, 99, 132, 0.2)',
-            borderColor:'rgba(255,99,132,1)',
+            backgroundColor:'rgba(75, 192, 192, 0.2)',
+            borderColor:'rgba(75,192,192,1)',
             borderWidth: 1,
-            pointBackgroundColor: 'rgba(255, 99, 132, 0.2)'
+            pointBackgroundColor: 'rgba(75, 192, 192, 0.2)'
             }]
     },
     options: {
         scale: {
+            gridLines: {
+                color: 'rgba(192, 192, 192, 0.5)'
+            },
             ticks: {
                 beginAtZero: true,
-                max: 5
-                },
+                max: 5,
+                fontColor: '#c0c0c0',
+                backdropColor: '#222222'
+            },
         },
         title: {
             display: true,
             text: '$title',
             fontSize: 30,
-            },
+            fontColor: '#c0c0c0',
+        },
         legend: {
             display: false,
         },
@@ -58,6 +82,7 @@ var myChart = new Chart(ctx, {
 <ol>
 <li><a href="/showassets/$stockcode" target="_blank">$menu1</a></li>
 <li><a href="/showassetsstructure/$stockcode" target="_blank">$menu2</a></li>
+
 <li><a href="/showassetssource/$stockcode" target="_blank">$menu3</a></li>
 <li><a href="/showposition/$stockcode" target="_blank">$menu4</a></li>
 <li><a href="/showreceivablesrate/$stockcode" target="_blank">$menu5</a></li>
@@ -70,9 +95,7 @@ var myChart = new Chart(ctx, {
 <li><a href="/showfundholding/$stockcode" target="_blank">$menu12</a></li>
 <li><a href="/showinstitutionalperspective/$stockcode" target="_blank">$menu13</a></li>
 <li><a href="/showfreecashflowsum/$stockcode" target="_blank">$menu14</a></li>
-
-
-<ol>
+</ol>
 </div>
 </body>
 </html>

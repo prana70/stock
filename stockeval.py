@@ -20,13 +20,14 @@ import DCF
 
 #获取股票价格
 def GetStockPrice(stockcode):
-    market_code={'600':'sh','601':'sh','603':'sh','000':'sz','001':'sz','002':'sz','300':'sz'}
+    market_code={'600':'sh','601':'sh','603':'sh','000':'sz','001':'sz','002':'sz','003':'sz','300':'sz'}
     if stockcode[0:3] in market_code:
         full_stock_code=market_code[stockcode[0:3]]+stockcode   
     else:
         print('该股票非沪深股票，请检查是否有误:',stockcode)
         return None
     url='https://hq.sinajs.cn/rn=1642938669673&list=%s,%s,bk_new_ljhy'%(full_stock_code,full_stock_code)
+    print('股价url:',url)
     headers_string='''
 Accept: */*
 Accept-Encoding: gzip, deflate, br
@@ -43,7 +44,8 @@ Sec-Fetch-Site: cross-site
 User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36
 '''
     headers=dict(line.split(': ') for line in headers_string.strip().split('\n'))
-    resp=rq.get(url,headers=headers)
+    proxies={'http':'127.0.0.1:7890','https':'127.0.0.1:7890'}
+    resp=rq.get(url,headers=headers,proxies=proxies,timeout=5.0)
     if resp.status_code==200:
         query_result=re.search('\"(.*)\"',resp.text).group(1)
         if not query_result=='':
@@ -60,7 +62,7 @@ User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/5
 #获取最新股本
 def GetShares(stockcode):
     #通过新浪网站获取总股本
-    market_code={'600':'sh','601':'sh','603':'sh','000':'sz','001':'sz','002':'sz','300':'sz'}
+    market_code={'600':'sh','601':'sh','603':'sh','000':'sz','001':'sz','002':'sz','003':'sz','300':'sz'}
     if stockcode[0:3] in market_code:
         full_stock_code=market_code[stockcode[0:3]]+stockcode
     else:
@@ -349,7 +351,8 @@ def GetBusiness(stockcode):
     MarketCode={'688':'SH','600':'SH','601':'SH','603':'SH','000':'SZ','002':'SZ','300':'SZ','003':'SZ'}
     url='https://xueqiu.com/S/'+MarketCode[stockcode[:3]]+stockcode
     headers={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'}
-    resp=rq.get(url,headers=headers)
+    proxies={'http':'127.0.0.1:7890','https':'127.0.0.1:7890'}
+    resp=rq.get(url,headers=headers,proxies=proxies)
     soup=bs(resp.text,'html.parser')
     return soup.find_all('div',attrs={'class':'widget-content'})[1].string
 
@@ -412,6 +415,8 @@ if __name__=='__main__':
     else:
         label0='股价：--'
     print(label0)
+
+    print(GetBusiness(stockcode))
     '''
     shares=GetShares(stockcode)
     if not shares==None:
